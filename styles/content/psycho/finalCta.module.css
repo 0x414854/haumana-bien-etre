@@ -1,0 +1,99 @@
+.finalCtaContainer {
+  width: 90%;
+  margin: 0 auto 5rem auto;
+  position: relative;
+}
+.finalCta {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem;
+  /* border: 1px solid var(--accent); */
+  border-radius: 20px;
+  background: var(--white);
+  gap: 1rem;
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+.title {
+  font-size: var(--fs-16);
+  text-align: center;
+  font-weight: bold;
+
+  background: linear-gradient(
+    45deg,
+    #000000,
+    var(--primary-bg),
+    var(--accent),
+    var(--primary-bg),
+    #000000
+  );
+
+  background-size: 400% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.description {
+  font-size: var(--fs-1);
+}
+
+.cta {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--green);
+  background: var(--green);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 12px;
+  text-align: center;
+  font-size: var(--fs-1);
+  margin: 0 auto;
+}
+
+@media (min-width: 590px) {
+  .finalCtaContainer {
+    width: 80%;
+  }
+  .cta {
+    width: 70%;
+  }
+}
+@media (min-width: 768px) {
+  .title {
+    font-size: var(--fs-2);
+  }
+
+  .description,
+  .cta {
+    font-size: var(--fs-11);
+  }
+}
+@media (min-width: 1024px) {
+  .title {
+    font-size: var(--fs-24);
+  }
+
+  .description,
+  .cta {
+    font-size: var(--fs-12);
+  }
+}
+@media (min-width: 1280px) {
+  .title {
+    font-size: var(--fs-28);
+  }
+  .description {
+    font-size: var(--fs-13);
+  }
+  .cta {
+    font-size: var(--fs-13);
+    width: 30%;
+    margin: 0 auto;
+  }
+}

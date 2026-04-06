@@ -1,0 +1,341 @@
+.packagesSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* gap: 20px; */
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 3rem 0;
+  background: var(--white);
+}
+.descriptionContainer h1 {
+  font-size: var(--fs-2);
+  color: var(--black);
+  /* font-weight: 400; */
+  /* font-family: "EB Garamond", serif; */
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.subtitle {
+  font-size: var(--fs-1);
+  text-align: center;
+
+  width: 90%;
+  margin: 0.5rem auto 0 auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+/*  */
+/*  */
+/* .stepsList {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  height: 1000px;
+} */
+
+/* .stepItem {
+  position: sticky;
+  top: calc(100px + (var(--i) * 50px));
+  width: 90%;
+  background: var(--white);
+  border-radius: 20px;
+  padding: 2rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: 0 0 10px var(--green);
+} */
+
+.stepsSection {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.stepsList {
+  display: flex;
+  gap: 4rem;
+  padding: 0 10vw;
+}
+.stepItem {
+  width: 300px;
+  list-style: none;
+}
+.stepHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.stepNumber {
+  width: 60px;
+  min-width: 60px;
+  height: 60px;
+  background: var(--green);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-weight: bold;
+  transform: rotate(45deg);
+}
+.stepNumber span {
+  transform: rotate(-45deg);
+  display: inline-block;
+}
+
+.stepContent {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+.stepContent li {
+  margin-bottom: 0.5rem;
+}
+/*  */
+/*  */
+
+.packages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 90%;
+  margin: 4rem auto;
+}
+.packageCard {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--white);
+  padding: 20px;
+  border-radius: 20px;
+  gap: 20px;
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
+}
+.packageCard:hover {
+  box-shadow: 0 12px 25px rgba(104, 104, 104, 0.3);
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+}
+.packageCard:last-child {
+  margin-bottom: 3rem;
+}
+.imageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.packageHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.packageHeader h2 {
+  font-size: var(--fs-2);
+  font-weight: 600;
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+.time {
+  color: var(--accent);
+  text-align: center;
+  font-size: var(--fs-1);
+}
+.age {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  color: var(--black);
+  font-weight: bold;
+}
+.packageContent {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 20px;
+}
+.intro {
+  font-weight: bold;
+  font-size: var(--fs-1);
+}
+.description {
+  font-size: var(--fs-1);
+}
+.discoverBtn {
+  text-decoration: none;
+  color: var(--accent);
+  font-size: var(--fs-1);
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+.discoverBtn:hover,
+.discoverBtn:focus {
+  color: var(--black);
+  transform: translateX(4px);
+  transition: all 0.3s ease;
+}
+@media (min-width: 360px) {
+  .stepsList {
+    height: 900px;
+  }
+}
+@media (min-width: 375px) {
+  .stepsList {
+    height: 860px;
+  }
+}
+@media (min-width: 590px) {
+  .stepsList {
+    height: 715px;
+  }
+  .stepItem {
+    flex-direction: row;
+  }
+  .stepHeader {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 50%;
+  }
+  .stepContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .stepHeader h3 {
+    text-align: center;
+  }
+  .imageWrapper {
+    flex-direction: row;
+  }
+  .packageHeader h2 {
+    text-align: center;
+  }
+  .packageHeader span {
+    font-size: var(--fs-12);
+  }
+  .intro,
+  .description,
+  .discoverBtn {
+    font-size: var(--fs-12);
+  }
+}
+@media (min-width: 768px) {
+  .descriptionContainer h1 {
+    font-size: var(--fs-24);
+    color: var(--black);
+    width: 80%;
+  }
+  .subtitle {
+    font-size: var(--fs-11);
+    width: 80%;
+  }
+  .container {
+    width: 80%;
+  }
+  .packages {
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .packageCard {
+    flex-direction: row;
+    width: 100%;
+  }
+  .imageWrapper {
+    flex-direction: column;
+  }
+  .packageHeader span {
+    font-size: var(--fs-14);
+  }
+  .intro,
+  .description,
+  .discoverBtn {
+    font-size: var(--fs-14);
+  }
+}
+@media (min-width: 1024px) {
+  .descriptionContainer h1 {
+    font-size: var(--fs-28);
+    color: var(--black);
+    width: 80%;
+  }
+  .subtitle {
+    font-size: var(--fs-12);
+  }
+  .packageHeader h2 {
+    font-size: var(--fs-25);
+  }
+
+  .packageHeader span {
+    font-size: var(--fs-16);
+  }
+  .intro,
+  .description,
+  .discoverBtn {
+    font-size: var(--fs-16);
+  }
+}
+
+@media (min-width: 1280px) {
+  .packagesSection h1 {
+    font-size: var(--fs-32);
+  }
+  .subtitle {
+    font-size: var(--fs-14);
+    width: 80%;
+  }
+  .descriptionContainer {
+    width: 100%;
+  }
+  .packages {
+    width: 96%;
+    margin-bottom: 4rem;
+    align-items: baseline;
+  }
+  .packageCard {
+    width: 31%;
+    flex-direction: column;
+  }
+  .packageCard:last-child {
+    margin-bottom: 0;
+  }
+  .packageHeader h2 {
+    font-size: var(--fs-3);
+  }
+}

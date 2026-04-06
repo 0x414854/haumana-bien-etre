@@ -1,0 +1,122 @@
+{
+  "Banner": {
+    "p": "✨ Caring massages for women, expectant mothers, babies, children and teenagers. A gentle space to take care of yourself at every stage of life. ✨"
+  },
+  "Navbar": {
+    "massage": "Massages",
+    "massageSub": {
+      "all": "All massages",
+      "package": "Packages",
+      "world": "World massage",
+      "pregnant": "Pregnancy massage",
+      "babyTeen": "Baby and teen massage",
+      "corporate": "Corporate massage"
+    },
+    "makeup": "Professional makeup",
+    "schedule": "Opening hours & contact",
+    "quote": "Request a quote"
+  },
+  "Hero": {
+    "h1": "Wellness massage for women, children and families in Présilly",
+    "cta": "Contact me",
+    "p_1": "At Haumana Bien-Être, I offer personalized wellness massages for women, children and families, through a psycho-corporal and energetic approach.",
+    "p_2": "Each relaxing massage session is designed to relieve muscle tension, reduce stress and promote deep relaxation of both body and mind. My professional massages are tailored to the needs of every woman, every child and every family, offering a true moment of relaxation, release and lasting well-being.",
+    "p_3": "Treat yourself to a stress-relief massage, a gentle massage for children, or a family wellness massage in a caring and safe environment.",
+    "span": "Through touch and words, I help everyone reconnect with their body, soothe their emotions and reveal their inner well-being."
+  },
+  "About": {
+    "p": "Practitioner in psycho-corporal harmonization",
+    "note": "I support women and children in restoring balance to what has been disrupted through the body and emotions, using the power of words combined with wellness massage.",
+    "owner": "Ambre Chiarinelli"
+  },
+  "Description": {
+    "h3_1": "A unique experience",
+    "p_1": "At Haumana Bien-Être, each session is a personalized pause where words and touch meet to restore balance between body and emotions. A moment to refocus, release and reconnect with your inner energy.",
+    "h3_2": "Attentive support",
+    "p_2": "Through caring listening and intuitive gestures, each treatment becomes a dialogue between body and mind. Everything is designed so you feel welcomed, understood and deeply soothed.",
+    "h3_3": "A cocoon of softness",
+    "p_3": "Inspired by nature and cultures around the world, the Haumana universe invites you on an inner journey. Soft lighting and delicate scents create a warm atmosphere, perfect for letting go."
+  },
+  "Benefits": {
+    "intro": "Discover our professional massage treatments and makeup services, dedicated to the well-being of women and babies. Whether you are looking for a moment of deep relaxation, maternity-adapted care, or natural makeup to enhance your beauty, we offer personalized services delivered with gentleness and expertise.",
+    "title_1": "Women’s Treatments",
+    "description_1": "Treat yourself to a moment of deep relaxation with our massages dedicated to women. Our treatments are designed to release tension, soothe stress and gently rebalance the body. Each massage is personalized to your needs for a complete and rejuvenating wellness experience.",
+    "cta_1": "Choose my women’s treatment",
+    "title_2": "Baby Treatment",
+    "description_2": "A gentle treatment dedicated to your baby’s well-being and comfort. Our baby massages promote relaxation, better sleep and strengthen the parent-child bond. A tender and safe moment, adapted to little ones and delivered with a respectful and caring approach.",
+    "cta_2": "Discover the baby treatment",
+    "title_3": "Wellness Packages",
+    "description_3": "Tailor-made packages to extend your relaxation experience. Enjoy a complete journey combining several treatments at a preferential rate. Perfect for a special moment or as an unforgettable wellness gift.",
+    "cta_3": "Choose my package",
+    "title_4": "Makeup",
+    "description_4": "Enhance your natural beauty with professional makeup tailored to every occasion. Natural makeup, event makeup or personalized beauty looks — we reveal your glow with elegance and refinement.",
+    "cta_4": "Book my makeup"
+  },
+  "Reviews": {
+    "h2": "What our clients say about us",
+    "h3": "Discover how our clients in Présilly experience Haumana Bien-Être and enjoy our treatments"
+  },
+  "Cta": {
+    "h2": "Transform your day into a moment of softness",
+    "p": "Relaxing massage or tailored makeup, I am here to help you feel beautiful and relaxed. Easily book your session and let me take care of you.",
+    "button": "Book now"
+  },
+  "Footer": {
+    "brand": {
+      "description": "Haumana Bien-Être – Personalized wellness massages for women, children and families, combining a psycho-corporal approach with deep relaxation.",
+      "lang_1": "FR",
+      "lang_2": "EN",
+      "lang_3": "IT"
+    },
+    "services": {
+      "h3": "Wellness Treatments",
+      "service_1": "Women’s Treatments",
+      "service_2": "Children’s Treatments",
+      "service_3": "Our Packages",
+      "service_4": "Professional makeup"
+    },
+    "links": {
+      "h3": "Legal Information",
+      "legal_notice": "Legal notice",
+      "privacy_policy": "Privacy policy",
+      "cgv": "Terms and conditions of sale"
+    },
+    "infos": {
+      "h3": "Contact & Information",
+      "phone": "+33 6 60 98 86 23",
+      "mail": "ambre.haumanabienetre@gmail.com",
+      "status": {
+        "open": "Open",
+        "closed": "Closed",
+        "closed_today": "Closed today",
+        "openingSoon": "Opening soon at {time}",
+        "closingSoon": "Closing in {minutes, plural, =1 {# minute} other {# minutes}}"
+      }
+    }
+  },
+  "BestCategory": {
+    "h2": "Featured Categories",
+    "cat_1": "Massages",
+    "cat_2": "Packages",
+    "cat_3": "Massages for Babies to Teens"
+  },
+  "MassagesPage": {
+    "h1": "Massages",
+    "filters": {
+      "all": "All",
+      "package": "Packages",
+      "world": "World Massages",
+      "prenatal": "Prenatal Massage",
+      "baby-to-teen": "Massage for Babies to Teens",
+      "corporate": "Corporate Massages"
+    }
+  },
+  "MassageID": {
+    "back": "Back to Massages",
+    "addToCart": "Add to Cart",
+    "addedToCart": "Item added to cart ✓"
+  },
+  "SimilarServices": {
+    "h2": "Similar Services"
+  }
+}

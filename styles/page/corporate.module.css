@@ -1,0 +1,156 @@
+.corporatePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 90%;
+  margin: 0 auto 50px auto;
+}
+.corporatePage h1 {
+  font-size: var(--fs-25);
+  color: var(--white);
+  font-weight: 400;
+  font-family: "EB Garamond", serif;
+  text-align: center;
+}
+.introSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+}
+.introSection img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+.introText {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  font-size: var(--fs-1);
+}
+.content {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.contentText {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: var(--white);
+}
+.content img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+.button {
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  color: var(--accent);
+  font-size: var(--fs-1);
+  background: var(--white);
+  border: 1px solid transparent;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20 auto;
+  transition: all 0.3s ease;
+  margin: 10px auto 0 auto;
+}
+.button:hover,
+.button:focus {
+  background: transparent;
+  border: 1px solid var(--white);
+  color: var(--white);
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+  /* box-shadow: 1px 1px 2px var(--white); */
+}
+@media (min-width: 574px) {
+  .introText {
+    font-size: var(--fs-12);
+  }
+  .contentText {
+    font-size: var(--fs-12);
+  }
+  .button {
+    width: 80%;
+    font-size: var(--fs-12);
+  }
+}
+@media (min-width: 768px) {
+  .introText {
+    font-size: var(--fs-14);
+  }
+  .contentText {
+    font-size: var(--fs-14);
+  }
+  .button {
+    width: 50%;
+    font-size: var(--fs-14);
+  }
+}
+@media (min-width: 1024px) {
+  .introText {
+    font-size: var(--fs-16);
+  }
+  .introSection img {
+    width: 90%;
+  }
+
+  .contentText {
+    font-size: var(--fs-16);
+  }
+  .content img {
+    width: 90%;
+  }
+  .button {
+    font-size: var(--fs-16);
+  }
+}
+@media (min-width: 1280px) {
+  .corporatePage {
+    gap: 30px;
+    width: 95%;
+  }
+  .corporatePage h1 {
+    font-size: var(--fs-3);
+  }
+  .introSection {
+    flex-direction: row;
+  }
+  .introSection img {
+    width: 48%;
+  }
+  .introText {
+    width: 50%;
+    margin-bottom: 0;
+    font-size: var(--fs-16);
+  }
+  .content {
+    flex-direction: row;
+  }
+  .contentText {
+    width: 50%;
+    font-size: var(--fs-16);
+  }
+  .content img {
+    width: 48%;
+  }
+  .button {
+    width: 30%;
+    font-size: var(--fs-16);
+  }
+}

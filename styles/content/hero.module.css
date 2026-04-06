@@ -1,0 +1,262 @@
+.heroContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  /* min-height: 100vh; */
+  color: white;
+  text-align: center;
+}
+/* .video {
+  display: none;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.backgroundVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.overlay {
+  display: none;
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+} */
+
+.heroContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: start;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 1rem;
+  z-index: 1;
+  overflow: hidden;
+}
+.imageWrapper {
+  background-image: url(../..//public//images//hero.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.imageWrapper::after {
+  content: "";
+  position: absolute;
+  inset: 0; /* top:0; right:0; bottom:0; left:0; */
+  background: linear-gradient(
+    180deg,
+    rgba(29, 29, 27, 0.5) 0,
+    rgba(29, 29, 27, 0.4) 40%,
+    rgba(148, 110, 85, 0.2)
+  );
+  z-index: 1; /* doit être derrière le texte mais devant l’image */
+}
+
+.imageWrapper h1 {
+  width: 90%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-size: var(--fs-18);
+  font-family: "EB Garamond", serif;
+  /* line-height: 20px; */
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin: 2rem auto 1rem auto;
+  /* position: absolute; */
+  z-index: 2;
+}
+.ctaContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50%;
+  border-radius: 16px;
+  /* Glass effect */
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  transition: all 0.3s ease;
+  z-index: 2;
+}
+.ctaContainer:hover {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow:
+    0 12px 40px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.6);
+
+  transform: translateY(-2px);
+}
+.cta {
+  display: flex;
+  border-radius: 16px;
+  width: 100%;
+  height: 100%;
+  /* padding: 14px 28px; */
+  color: var(--white);
+  font-size: var(--fs-11);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.scrollContainer {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.scrollText {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
+
+.scroll {
+  width: 2px;
+  height: 30px;
+  background: #fff;
+  border-radius: 2px;
+  animation: bounce 1.5s infinite;
+}
+
+/* Animation va-et-vient */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+}
+
+@media (min-width: 360px) {
+  .heroContainer {
+    height: 78vh;
+  }
+  .imageWrapper {
+    justify-content: center;
+  }
+  .imageWrapper h1 {
+    margin: 0 auto 3rem auto;
+  }
+}
+@media (min-width: 384px) {
+  .heroContainer {
+    height: 80vh;
+  }
+}
+@media (min-width: 414px) {
+  .heroContainer {
+    height: 82vh;
+  }
+}
+@media (min-width: 590px) {
+  .heroContainer {
+    height: 85vh;
+  }
+
+  /* .imageWrapper {
+    height: 80vh;
+  } */
+}
+
+@media (min-width: 768px) {
+  .heroContainer {
+    height: 88vh;
+  }
+  .imageWrapper h1 {
+    width: 80%;
+    font-size: var(--fs-22);
+  }
+  .ctaContainer {
+    width: 40%;
+  }
+  .cta {
+    font-size: var(--fs-12);
+  }
+}
+@media (min-width: 820px) {
+  .heroContainer {
+    height: 89vh;
+  }
+  .ctaContainer {
+    width: 35%;
+  }
+}
+@media (min-width: 912px) {
+  .heroContainer {
+    height: 80vh;
+  }
+  .ctaContainer {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .imageWrapper h1 {
+    text-align: center;
+    margin: 0 auto 4rem auto;
+    font-size: var(--fs-26);
+  }
+}
+@media (min-width: 1280px) {
+  .heroContainer {
+    height: 86vh;
+  }
+  .imageWrapper h1 {
+    text-align: center;
+    margin: 0 auto 3rem auto;
+
+    font-size: var(--fs-3);
+  }
+  .ctaContainer {
+    width: 25%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .heroContainer {
+    height: 88vh;
+  }
+}
+@media (min-width: 1920px) {
+  .heroContainer {
+    height: 90vh;
+  }
+}

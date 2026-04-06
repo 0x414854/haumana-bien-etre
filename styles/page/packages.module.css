@@ -1,0 +1,165 @@
+.packagesSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.packagesSection h1 {
+  font-size: var(--fs-25);
+  color: var(--white);
+  font-weight: 400;
+  font-family: "EB Garamond", serif;
+}
+.packages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 90%;
+  margin: 0 auto;
+}
+.packageCard {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--white);
+  padding: 20px;
+  border-radius: 20px;
+  gap: 20px;
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
+}
+.packageCard:hover {
+  box-shadow: 0 12px 25px rgba(104, 104, 104, 0.3);
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+}
+.packageCard:last-child {
+  margin-bottom: 50px;
+}
+.imageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.packageHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.packageHeader h2 {
+  font-size: var(--fs-2);
+  font-weight: 600;
+  font-family: "EB Garamond", serif;
+}
+.packageHeader span {
+  color: var(--accent);
+  text-align: center;
+  font-size: var(--fs-1);
+}
+.packageContent {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 20px;
+}
+.intro {
+  font-weight: bold;
+  font-size: var(--fs-1);
+}
+.description {
+  font-size: var(--fs-1);
+}
+.discoverBtn {
+  text-decoration: none;
+  color: var(--accent);
+  font-size: var(--fs-1);
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+.discoverBtn:hover,
+.discoverBtn:focus {
+  color: var(--black);
+  transform: translateX(4px);
+  transition: all 0.3s ease;
+}
+@media (min-width: 574px) {
+  .imageWrapper {
+    flex-direction: row;
+  }
+  .packageHeader h2 {
+    text-align: center;
+  }
+  .packageHeader span {
+    font-size: var(--fs-12);
+  }
+  .intro,
+  .description,
+  .discoverBtn {
+    font-size: var(--fs-12);
+  }
+}
+@media (min-width: 768px) {
+  .packages {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .packageCard {
+    flex-direction: row;
+    width: 100%;
+  }
+  .imageWrapper {
+    flex-direction: column;
+  }
+  .packageHeader span {
+    font-size: var(--fs-14);
+  }
+  .intro,
+  .description,
+  .discoverBtn {
+    font-size: var(--fs-14);
+  }
+}
+@media (min-width: 1024px) {
+  .packageHeader h2 {
+    font-size: var(--fs-25);
+  }
+
+  .packageHeader span {
+    font-size: var(--fs-16);
+  }
+  .intro,
+  .description,
+  .discoverBtn {
+    font-size: var(--fs-16);
+  }
+}
+@media (min-width: 1280px) {
+  .packagesSection h1 {
+    font-size: var(--fs-3);
+  }
+  .packages {
+    width: 95%;
+    margin-bottom: 50px;
+  }
+  .packageCard {
+    width: 32%;
+    flex-direction: column;
+  }
+  .packageCard:last-child {
+    margin-bottom: 0;
+  }
+  .packageHeader h2 {
+    font-size: var(--fs-3);
+  }
+}

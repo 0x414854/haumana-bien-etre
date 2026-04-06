@@ -1,0 +1,141 @@
+[
+  {
+    "id": "harmonie-durable",
+    "images": ["/images/massages/forfaits.png"],
+    "category": "forfaits",
+    "price": "295,00 €",
+    "priceStripe": "29500",
+    "similarProducts": [
+      "mahana-30",
+      "mahana-45",
+      "le-haumana",
+      "forfait-1-mois-30"
+    ]
+  },
+  {
+    "id": "parenthese-essentielle",
+    "images": ["/images/massages/forfaits.png"],
+    "category": "forfaits",
+    "price": "150,00 €",
+    "priceStripe": "15000",
+    "similarProducts": [
+      "mahana-30",
+      "mahana-45",
+      "le-haumana",
+      "forfait-1-mois-30"
+    ]
+  },
+  {
+    "id": "atelier-massage-bebe",
+    "images": ["/images/massages/forfaits.png"],
+    "category": "forfaits",
+    "price": "190,00 €",
+    "priceStripe": "19000",
+    "similarProducts": [
+      "mahana-30",
+      "mahana-45",
+      "le-haumana",
+      "forfait-1-mois-30"
+    ]
+  },
+  {
+    "id": "l-essentiel",
+    "images": ["/images/massages/femme.png"],
+    "category": "soins-femme",
+    "price": "45,00 €",
+    "priceStripe": "4500",
+    "similarProducts": [
+      "mahana-30",
+      "mahana-45",
+      "le-haumana",
+      "forfait-1-mois-30"
+    ]
+  },
+  {
+    "id": "haumana",
+    "images": ["/images/massages/femme.png"],
+    "category": "soins-femme",
+    "price": "85,00 €",
+    "priceStripe": "8500",
+    "similarProducts": [
+      "mahana-30",
+      "mahana-45",
+      "le-haumana",
+      "forfait-1-mois-30"
+    ]
+  },
+  {
+    "id": "future-maman",
+    "images": ["/images/massages/femme.png"],
+    "category": "soins-femme",
+    "price": "85,00 €",
+    "priceStripe": "8500",
+    "similarProducts": [
+      "mahana-30",
+      "mahana-45",
+      "le-haumana",
+      "forfait-1-mois-30"
+    ]
+  },
+  {
+    "id": "mahana",
+    "images": ["/images/massages/bebe.png"],
+    "category": "soins-bebe-et-enfants",
+    "price": "45,00 €",
+    "priceStripe": "4500",
+    "similarProducts": [
+      "mahana-30",
+      "mahana-45",
+      "le-haumana",
+      "forfait-1-mois-30"
+    ]
+  },
+  {
+    "id": "aroha",
+    "images": ["/images/massages/bebe.png"],
+    "category": "soins-bebe-et-enfants",
+    "price": "65,00 €",
+    "priceStripe": "6500",
+    "similarProducts": [
+      "mahana-30",
+      "mahana-45",
+      "le-haumana",
+      "forfait-1-mois-30"
+    ]
+  },
+  {
+    "id": "maquillage-de-jour-et-de-soiree",
+    "images": ["/images/makeup/makeup.png"],
+    "category": "maquillage-professionnel",
+    "price": "50,00 €",
+    "priceStripe": "5000"
+  },
+  {
+    "id": "maquillage-mariage",
+    "images": ["/images/makeup/makeup.png"],
+    "category": "maquillage-professionnel",
+    "price": "150,00 €",
+    "priceStripe": "15000"
+  },
+  {
+    "id": "maquillage-shooting-photo",
+    "images": ["/images/makeup/makeup.png"],
+    "category": "maquillage-professionnel",
+    "price": "65,00 €",
+    "priceStripe": "6500"
+  },
+  {
+    "id": "transformation",
+    "images": ["/images/psycho/psycho.png"],
+    "category": "psychopracticienne",
+    "price": "816,00 €",
+    "priceStripe": "81600"
+  },
+  {
+    "id": "eveil",
+    "images": ["/images/psycho/psycho.png"],
+    "category": "psychopracticienne",
+    "price": "272,00 €",
+    "priceStripe": "27200"
+  }
+]

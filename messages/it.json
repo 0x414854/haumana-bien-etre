@@ -1,0 +1,97 @@
+{
+  "Banner": {
+    "p": "✨ Massaggi dedicati a donne, future mamme, neonati, bambini e adolescenti. Uno spazio accogliente per prendersi cura di sé, in ogni fase della vita. ✨"
+  },
+  "Navbar": {
+    "massage": "Massaggi",
+    "massageSub": {
+      "all": "Tutti i massaggi",
+      "package": "Pacchetti",
+      "world": "Massaggi dal mondo",
+      "pregnant": "Massaggio per future mamme",
+      "babyTeen": "Massaggio per neonati e adolescenti",
+      "corporate": "Massaggio aziendale"
+    },
+    "makeup": "Trucco professionale",
+    "schedule": "Orari e contatti",
+    "quote": "Richiedi un preventivo"
+  },
+  "Hero": {
+    "h1": "Massaggi benessere per donne, bambini e famiglie a Présilly",
+    "cta": "Contattami",
+    "p_1": "Da Haumana Bien-Être propongo massaggi benessere personalizzati per donne, bambini e famiglie, attraverso un approccio psico-corporeo ed energetico.",
+    "p_2": "Ogni seduta di massaggio rilassante è pensata per alleviare le tensioni muscolari, ridurre lo stress e favorire un rilassamento profondo del corpo e della mente. I miei massaggi professionali si adattano alle esigenze di ogni donna, di ogni bambino e di ogni famiglia, offrendo un autentico momento di relax, di lasciar andare e di benessere duraturo.",
+    "p_3": "Concediti un massaggio antistress, un massaggio delicato per bambini o un massaggio benessere per tutta la famiglia, in un ambiente accogliente e sicuro.",
+    "span": "Attraverso il tocco e la parola, aiuto ciascuno a riconnettersi con il proprio corpo, a calmare le emozioni e a riscoprire il proprio benessere interiore."
+  },
+  "About": {
+    "p": "Operatrice in armonizzazione psico-corporea",
+    "note": "Accompagno donne e bambini a ristabilire l’equilibrio di ciò che si è alterato nel corpo e nelle emozioni, grazie alla forza delle parole unite al massaggio benessere.",
+    "owner": "Ambre Chiarinelli"
+  },
+  "Description": {
+    "h3_1": "Un esperienza unica",
+    "p_1": "Da Haumana Bien-Être ogni seduta è una pausa su misura, dove parola e tocco si incontrano per ristabilire l’equilibrio tra corpo ed emozioni. Un momento per ritrovarsi, rilassarsi e riscoprire la propria energia interiore.",
+    "h3_2": "Un accompagnamento attento",
+    "p_2": "Attraverso un ascolto empatico e gesti intuitivi, ogni trattamento diventa un dialogo tra corpo e mente. Tutto è pensato per farti sentire accolta, compresa e profondamente rasserenata.",
+    "h3_3": "Un rifugio di dolcezza",
+    "p_3": "Ispirato alla natura e alle culture del mondo, l’universo Haumana invita a un viaggio interiore. Luci soffuse e profumi delicati creano un’atmosfera calda e avvolgente, ideale per lasciarsi andare."
+  },
+  "Benefits": {
+    "intro": "Scopri i nostri trattamenti di massaggio e i servizi di trucco professionale, dedicati al benessere di donne e neonati. Che tu stia cercando un momento di profondo relax, un trattamento adatto alla maternità o un trucco naturale per valorizzare la tua bellezza, offriamo servizi personalizzati realizzati con delicatezza e competenza.",
+    "title_1": "Trattamenti Donna",
+    "description_1": "Concediti un momento di profondo relax con i nostri massaggi dedicati alle donne. I trattamenti sono pensati per sciogliere le tensioni, calmare lo stress e riequilibrare dolcemente il corpo. Ogni massaggio è personalizzato secondo le tue esigenze per un’esperienza completa e rigenerante.",
+    "cta_1": "Scegli il mio trattamento",
+    "title_2": "Trattamento Neonato",
+    "description_2": "Un trattamento delicato per il benessere e la serenità del tuo bambino. I nostri massaggi favoriscono il rilassamento, il sonno e rafforzano il legame genitore-figlio. Un momento tenero e sicuro, pensato per i più piccoli e realizzato con un approccio rispettoso e premuroso.",
+    "cta_2": "Scopri il trattamento neonato",
+    "title_3": "Pacchetti Benessere",
+    "description_3": "Pacchetti su misura per prolungare il tuo momento di relax. Vivi un’esperienza completa combinando più trattamenti a una tariffa vantaggiosa. Ideale per concederti un momento speciale o per regalare un’esperienza di benessere indimenticabile.",
+    "cta_3": "Scegli il mio pacchetto",
+    "title_4": "Trucco",
+    "description_4": "Valorizza la tua bellezza naturale con un trucco professionale adatto a ogni occasione. Trucco naturale, per eventi o personalizzato: esaltiamo la tua luminosità con eleganza e raffinatezza.",
+    "cta_4": "Prenota il mio trucco"
+  },
+  "Reviews": {
+    "h2": "Cosa dicono di noi i nostri clienti",
+    "h3": "Scopri come i nostri clienti a Présilly vivono l’esperienza Haumana Bien-Être e apprezzano i nostri trattamenti"
+  },
+  "Cta": {
+    "h2": "Trasforma la tua giornata in un momento di dolcezza",
+    "p": "Massaggio rilassante o trucco su misura, sono qui per farti sentire bella e rilassata. Prenota facilmente la tua seduta e lasciati coccolare.",
+    "button": "Prenota ora"
+  },
+  "Footer": {
+    "brand": {
+      "description": "Haumana Bien-Être – Massaggi benessere personalizzati per donne, bambini e famiglie, che uniscono approccio psico-corporeo e profondo rilassamento.",
+      "lang_1": "FR",
+      "lang_2": "EN",
+      "lang_3": "IT"
+    },
+    "services": {
+      "h3": "Trattamenti Benessere",
+      "service_1": "Trattamenti Donna",
+      "service_2": "Trattamenti Bambini",
+      "service_3": "I nostri Pacchetti",
+      "service_4": "Trucco professionale"
+    },
+    "links": {
+      "h3": "Informazioni legali",
+      "legal_notice": "Note legali",
+      "privacy_policy": "Informativa sulla privacy",
+      "cgv": "Condizioni generali di vendita"
+    },
+    "infos": {
+      "h3": "Contatti & Informazioni",
+      "phone": "+33 6 60 98 86 23",
+      "mail": "ambre.haumanabienetre@gmail.com",
+      "status": {
+        "open": "Aperto",
+        "closed": "Chiuso",
+        "closed_today": "Chiuso oggi",
+        "openingSoon": "Apre presto alle {time}",
+        "closingSoon": "Chiude tra {minutes, plural, =1 {# minuto} other {# minuti}}"
+      }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+.descriptonSection {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 0 0 0;
+  background: var(--primary-bg);
+  position: relative;
+}
+
+/* .titleSection {
+  font-size: var(--fs-16);
+  margin-bottom: 2rem;
+  color: var(--white);
+} */
+
+.list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+  height: 1200px;
+}
+
+.item {
+  margin-bottom: 2rem;
+  display: flex;
+  position: sticky;
+  top: calc(100px + (var(--i) * 30px));
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+  background: white;
+  border-radius: 20px;
+}
+
+.stepBox {
+  width: 60px;
+  height: 60px;
+  background: var(--green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  transform: rotate(45deg);
+  margin: 0 auto;
+}
+
+.stepBox span {
+  transform: rotate(-45deg);
+  font-size: var(--fs-12);
+}
+
+.stepText h3 {
+  font-size: var(--fs-14);
+  margin-bottom: 1rem;
+}
+
+.stepText p {
+  font-size: var(--fs-1);
+}
+@media (min-width: 590px) {
+  .list {
+    height: 950px;
+  }
+}
+@media (min-width: 768px) {
+  .descriptonSection {
+    width: 80%;
+  }
+  .list {
+    height: 650px;
+  }
+  .item {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .stepText {
+    width: 80%;
+  }
+}
+@media (min-width: 1024px) {
+  .list {
+    height: 80vh;
+  }
+  .item {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media (min-width: 1280px) {
+  .list {
+    height: 160vh;
+  }
+  .item {
+    top: calc(100px + (var(--i) * 60px));
+  }
+}
+@media (min-width: 1440px) {
+  .list {
+    height: 100vh;
+  }
+}

@@ -1,0 +1,223 @@
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* background: var(--white); */
+  /* padding: 1.5rem; */
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  /* border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05); */
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.field label {
+  font-weight: 500;
+  margin-bottom: 6px;
+  font-size: var(--fs-1);
+  color: var(--white);
+}
+
+/* Input / textarea / select */
+.field input,
+.field textarea,
+.field select {
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: var(--white);
+  font-size: var(--fs-1);
+  color: var(--black);
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+/* Bordure rouge si erreur */
+.errorInput {
+  border-color: #e53935;
+  box-shadow: 0 0 8px #e53935;
+  transition: all 0.3s ease;
+}
+
+/* Bordure normale au focus si pas d’erreur */
+.field input:focus:not(.errorInput),
+.field textarea:focus:not(.errorInput),
+.field select:focus:not(.errorInput) {
+  border-color: var(--accent);
+  box-shadow: 0 0 8px rgba(255, 215, 0, 0.3);
+}
+
+/* Message d’erreur sous le champ */
+.error {
+  color: #e53935;
+  font-size: var(--fs-1);
+  margin-top: 4px;
+  display: block;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.field select {
+  appearance: none;
+}
+
+.checkboxGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  font-size: var(--fs-1);
+  color: var(--jet);
+}
+.checkboxGroup label {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+.checkboxGroup input[type="checkbox"] {
+  appearance: none; /* retire le style natif */
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  background: var(--white); /* blanc */
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.checkboxGroup input[type="checkbox"]:checked {
+  background: var(--accent); /* couleur du check */
+  border-color: var(--accent);
+}
+
+.checkboxGroup input[type="checkbox"]:checked::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 6px;
+  width: 4px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+button.submit {
+  width: 90%;
+  padding: 12px 24px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 14px;
+  background: var(--accent);
+  color: white;
+  font-weight: 600;
+  font-size: var(--fs-1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button.submit:hover {
+  background: #e6b800;
+  transform: translateY(-2px);
+}
+
+.successMessage {
+  margin-top: 1rem;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: var(--white);
+  color: #1b8a5a;
+  font-weight: 500;
+  animation: fadeIn 0.3s ease;
+  font-size: var(--fs-1);
+}
+
+.errorMessage {
+  margin-top: 1rem;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: var(--white);
+  color: #c62828;
+  font-weight: 500;
+  animation: fadeIn 0.3s ease;
+  font-size: var(--fs-1);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (min-width: 590px) {
+  .row {
+    flex-direction: row;
+  }
+  button.submit {
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .field label,
+  .field input,
+  .field textarea,
+  .field select,
+  .error,
+  .checkboxGroup,
+  button.submit,
+  .successMessage,
+  .errorMessage {
+    font-size: var(--fs-11);
+  }
+}
+@media (min-width: 1024px) {
+  .field label,
+  .field input,
+  .field textarea,
+  .field select,
+  .error,
+  .checkboxGroup,
+  button.submit,
+  .successMessage,
+  .errorMessage {
+    font-size: var(--fs-12);
+  }
+}
+@media (min-width: 1280px) {
+  .row {
+    flex-direction: column;
+  }
+  .field input {
+    height: 50px;
+  }
+  .field label,
+  .field input,
+  .field textarea,
+  .field select,
+  .error,
+  .checkboxGroup,
+  button.submit,
+  .successMessage,
+  .errorMessage {
+    font-size: var(--fs-13);
+  }
+}

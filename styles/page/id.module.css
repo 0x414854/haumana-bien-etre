@@ -1,0 +1,454 @@
+.pageIdContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: var(--primary-bg);
+  /* min-height: 100vh; */
+}
+
+.backLink {
+  align-self: flex-start;
+  margin-bottom: 20px;
+  font-size: var(--fs-08);
+}
+
+.backLink a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--cta-color);
+  font-size: var(--fs-08);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.backLink:hover a,
+.backLink:focus a {
+  color: var(--black);
+}
+.backLink:hover a img,
+.backLink:focus a img {
+  animation: slideLeft 1s ease forwards;
+  transition: all 0.3s ease-in-out;
+}
+
+.massageCard {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.imageWrapper {
+  width: 100%;
+}
+
+.massageImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.massageContent {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.titleOffer {
+  font-size: var(--fs-14);
+}
+
+.massageTitle {
+  font-size: var(--fs-16);
+  font-weight: 600;
+  font-family: "EB Garamond", serif;
+  color: var(--black);
+  text-align: center;
+}
+.massageTime {
+  color: var(--accent);
+  text-align: center;
+  font-size: var(--fs-1);
+}
+.age {
+  font-size: var(--fs-11);
+  padding: 1.5rem 0 0 1.5rem;
+  font-weight: bold;
+}
+.massageDescription {
+  color: var(--black);
+  line-height: 1.6;
+  font-size: var(--fs-1);
+}
+.list {
+  list-style: none;
+  position: relative;
+  margin: 0 0 0 1rem;
+}
+.list li {
+  font-weight: 600;
+}
+
+.list li::before {
+  content: "•";
+  position: absolute;
+  left: -1rem;
+  color: var(--accent); /* 👉 couleur du bullet */
+  font-size: 1.2rem;
+}
+.massageRecommendation {
+  font-weight: bold;
+  font-size: var(--fs-1);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+.price {
+  font-size: var(--fs-14);
+  font-weight: 600;
+  color: var(--primary-bg);
+}
+
+.quantityControl {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.qtyBtn {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-color: #f0f0f0;
+  color: var(--black);
+  border-radius: 8px;
+  font-size: var(--fs-1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.qtyBtn:hover {
+  background-color: #e0e0e0;
+}
+.qtyInput::-webkit-outer-spin-button,
+.qtyInput::-webkit-inner-spin-button {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.qtyInput[type="number"] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+}
+.qtyInput {
+  width: 45px;
+  text-align: center;
+  background: transparent;
+  color: var(--black);
+  border: none;
+  border-radius: 8px;
+  font-size: var(--fs-1);
+  outline: none;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.addToCartBtn {
+  width: 100%;
+  background-color: var(--primary-bg);
+  color: var(--white);
+  border: none;
+  border-radius: 12px;
+  padding: 14px 0;
+  font-size: var(--fs-1);
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 20px;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.addToCartBtn:hover {
+  background-color: var(--accent);
+  transform: scale(1.02);
+}
+.buttonRes {
+  width: 100%;
+  background-color: var(--green);
+  color: var(--white);
+  border: none;
+  border-radius: 12px;
+  padding: 14px 0;
+  font-size: var(--fs-1);
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+.buttonRes:hover {
+  background-color: var(--accent);
+  transform: scale(1.02);
+}
+
+@media (min-width: 360px) {
+  .backLink {
+    font-size: var(--fs-1);
+  }
+  .backLink a {
+    font-size: var(--fs-1);
+  }
+  .backLink a img {
+    width: 25px;
+    height: 25px;
+  }
+}
+@media (min-width: 574px) {
+  .backLink {
+    font-size: var(--fs-12);
+  }
+  .backLink a {
+    font-size: var(--fs-12);
+  }
+  .backLink a img {
+    width: 28px;
+    height: 28px;
+  }
+  .imageWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .massageImage {
+    width: 50%;
+  }
+  .imageWrapper div {
+    width: 45%;
+  }
+  .massageContent {
+    padding: 1rem 2rem 1.5rem 2rem;
+  }
+  .massageTitle {
+    font-size: var(--fs-18);
+  }
+  .massageTime {
+    font-size: var(--fs-14);
+  }
+  .age {
+    font-size: var(--fs-14);
+    padding: 1.5rem 0 0 2rem;
+  }
+  .massageDescription {
+    font-size: var(--fs-12);
+  }
+  .massageRecommendation {
+    font-size: var(--fs-12);
+  }
+  .price {
+    font-size: var(--fs-14);
+  }
+  .qtyBtn,
+  .qtyInput,
+  .addToCartBtn,
+  .buttonRes {
+    font-size: var(--fs-12);
+  }
+}
+@media (min-width: 768px) {
+  .backLink a {
+    font-size: var(--fs-14);
+  }
+  .backLink a img {
+    width: 40px;
+    height: 30px;
+  }
+  .massageImage {
+    width: 55%;
+    height: auto;
+  }
+  .imageWrapper div {
+    width: 40%;
+  }
+  .massageTitle {
+    font-size: var(--fs-2);
+  }
+  .massageTime {
+    font-size: var(--fs-16);
+  }
+  .age {
+    font-size: var(--fs-16);
+  }
+  .massageDescription {
+    font-size: var(--fs-14);
+  }
+  .massageRecommendation {
+    font-size: var(--fs-14);
+  }
+  .footer {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+  }
+  .price,
+  .qtyBtn,
+  .qtyInput {
+    font-size: var(--fs-16);
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+  .addToCartBtn {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .massageCard {
+    align-items: center;
+    gap: 10px;
+    width: 95%;
+    /* max-width: 1200px; */
+  }
+
+  .imageWrapper {
+    flex: 1; /* L’image prend 1 part de l’espace */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+  }
+  .imageWrapper img {
+    width: 65%;
+  }
+  .imageWrapper div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: start;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .massageContent {
+    flex: 1.2;
+  }
+
+  .massageTitle,
+  .massageTime {
+    text-align: left; /* Texte aligné à gauche */
+  }
+  .age {
+    width: 100%;
+    text-align: left;
+  }
+  .footer {
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .addToCartBtn {
+    width: 40%;
+    padding: 14px 30px;
+    font-size: var(--fs-14);
+
+    /* margin: 25px auto 20px auto; */
+  }
+  .buttonRes {
+    width: 40%;
+    padding: 14px 30px;
+    font-size: var(--fs-14);
+
+    /* margin: 25px auto 20px auto; */
+  }
+}
+@media (min-width: 1280px) {
+  .massageCard {
+    position: relative;
+    flex-direction: row; /* 🧱 Image gauche / contenu droite */
+    align-items: center;
+    gap: 10px;
+    width: 95%;
+  }
+  .imageWrapper {
+    flex: 1; /* L’image prend 1 part de l’espace */
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 40px;
+  }
+  .imageWrapper img {
+    width: 100%;
+  }
+  .imageWrapper div {
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .massageContent {
+    flex: 1.2; /* Le contenu prend un peu plus d’espace */
+    /* padding: 20px; */
+    gap: 20px;
+  }
+
+  .massageTitle,
+  .massageTime {
+    text-align: left; /* Texte aligné à gauche */
+  }
+  .age {
+    position: absolute;
+    top: 0.2rem;
+    left: 0.2em;
+    width: fit-content;
+    text-align: left;
+  }
+  .footer {
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .addToCartBtn,
+  .buttonRes {
+    width: 50%;
+    font-size: var(--fs-14);
+  }
+}
+/* KEYFRAMES */
+@keyframes slideLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-4px);
+  }
+}

@@ -1,0 +1,188 @@
+.methodSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 2rem 0;
+}
+.title {
+  width: 90%;
+  margin: 0 auto;
+  color: var(--white);
+  font-size: var(--fs-18);
+  text-align: center;
+}
+.p {
+  width: 90%;
+  margin: 1em auto 0 auto;
+  color: var(--white);
+  font-size: var(--fs-12);
+  text-align: center;
+}
+
+.scene,
+.a3d {
+  display: grid;
+}
+.scene {
+  overflow: hidden; /* for 3D look; smaller = more extreme effect */
+  perspective: 35em;
+  width: 100%;
+
+  height: 300px;
+  mask: linear-gradient(90deg, #0000, red 20% 80%, #0000);
+}
+.a3d {
+  place-self: center /* middle align */; /* don't flatten 3D transformed children * of this parent having its own 3D transform */
+  transform-style: preserve-3d;
+  animation: ry 32s linear infinite;
+}
+
+.a3d:hover {
+  animation-play-state: paused;
+}
+
+@keyframes ry {
+  to {
+    rotate: y 1turn;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  /* base card width, you may change this */
+  --w: 17.5em; /* compute base angle corresponding to a card */
+  --ba: 1turn / var(--n); /* in the future: sibling-count() */
+  grid-area: 1/ 1 /* stack in same one grid cell */;
+  width: var(--w);
+  aspect-ratio: 7/ 10;
+  object-fit: cover;
+  border-radius: 1.5em; /* don't want to see back of cards in front of screen plane */
+  background: var(--accent);
+  color: var(--white);
+  backface-visibility: hidden; /* need to use a transform chain here, cannot use separate * rotate & translate properties because they'd be applied * in wrong order (translate, then rotate) for what we need */
+  transform: /* rotate around y axis; in the future: sibling-index() */ rotatey(
+      calc(var(--i) * var(--ba))
+    )
+    /* only after that translate along z axis with minus */
+    translatez(calc(-1 * (0.5 * var(--w) + 0.5em) / tan(0.5 * var(--ba))));
+}
+@media (prefers-reduced-motion: reduce) {
+  .a3d {
+    animation-duration: 128s;
+  }
+}
+
+/* titre */
+.cardTitle {
+  font-size: var(--fs-14);
+  font-weight: 700;
+  text-align: center;
+  width: 90%;
+}
+
+/* contenu */
+.text {
+  width: 90%;
+  font-size: var(--fs-1);
+  text-align: center;
+  opacity: 0.8;
+}
+
+@media (min-width: 414px) {
+  .scene {
+    height: 360px;
+  }
+}
+@media (min-width: 414px) {
+  .scene {
+    height: 380px;
+  }
+}
+@media (min-width: 768px) {
+  .title {
+    width: 80%;
+
+    font-size: var(--fs-22);
+  }
+  .p {
+    font-size: var(--fs-13);
+  }
+  .card {
+    gap: 1rem;
+  }
+  .cardTitle {
+    font-size: var(--fs-18);
+    font-weight: 700;
+    text-align: center;
+    width: 90%;
+  }
+
+  /* contenu */
+  .text {
+    font-size: var(--fs-11);
+  }
+
+  .p {
+    width: 80%;
+    font-size: var(--fs-14);
+  }
+}
+@media (min-width: 820px) {
+  .scene {
+    height: fit-content;
+  }
+}
+@media (min-width: 1024px) {
+  .title {
+    font-size: var(--fs-26);
+  }
+  .card {
+    --w: 20.5em;
+    gap: 1rem;
+  }
+  .cardTitle {
+    font-size: var(--fs-22);
+  }
+
+  /* contenu */
+  .text {
+    font-size: var(--fs-12);
+  }
+}
+@media (min-width: 1280px) {
+  /* .scene {
+    perspective: 55em;
+  } */
+  .title {
+    font-size: var(--fs-3);
+  }
+  .card {
+    --w: 24.5em;
+    gap: 2rem;
+  }
+  .cardTitle {
+    font-size: var(--fs-26);
+  }
+
+  /* contenu */
+  .text {
+    font-size: var(--fs-13);
+  }
+
+  .p {
+    font-size: var(--fs-13);
+    text-align: center;
+  }
+}
+
+@media (min-width: 1440px) {
+  .scene {
+    /* perspective: 80em; */
+    height: 600px;
+  }
+}

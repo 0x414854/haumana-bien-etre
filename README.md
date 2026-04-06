@@ -1,0 +1,2 @@
+- Ajouter animation sur 'PROGRESS ROUND (Reviews)'
+- Traduire tout une fois que le fr.json est bon

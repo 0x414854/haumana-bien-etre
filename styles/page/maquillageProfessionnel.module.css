@@ -1,0 +1,278 @@
+.makeUpPage {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0 auto 4rem auto;
+}
+.titleSection {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0;
+  gap: 1rem;
+  background: var(--white);
+}
+.title {
+  font-size: var(--fs-18);
+  color: var(--black);
+  /* font-weight: 400; */
+  /* font-family: "EB Garamond", serif; */
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.subtitle {
+  text-align: center;
+  font-size: var(--fs-1);
+  width: 90%;
+  margin: 0 auto;
+}
+
+.makeups {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 90%;
+  margin: 0 auto;
+}
+.makeup {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  /* height: 450px; */
+  height: 580px;
+  background: var(--white);
+
+  /* min-height: 320px; */
+}
+
+.image {
+  object-fit: contain;
+  transition: all 0.3s ease;
+}
+.makeup:hover .image {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+.makeup:hover .overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  transition: all 0.3s ease;
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding: 2rem 1rem;
+}
+
+.tag {
+  background: var(--white);
+  color: var(--black);
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  width: fit-content;
+  margin-bottom: 10px;
+  font-size: var(--fs-1);
+}
+.name {
+  font-size: var(--fs-14);
+}
+.time {
+  font-size: var(--fs-11);
+  color: var(--green);
+}
+.description {
+  font-size: var(--fs-1);
+}
+
+.footer {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  gap: 2rem;
+}
+.price {
+  color: var(--primary-bg);
+  font-size: var(--fs-12);
+  /* padding: 0.4rem 1rem; */
+}
+.cta {
+  text-decoration: none;
+  font-size: var(--fs-12);
+  padding: 0.6rem 1rem;
+  color: var(--white);
+  background: var(--green);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.note {
+  position: relative;
+  height: 580px;
+  /* background: var(--accent); */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9));
+  border-radius: 20px;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+.logoImage {
+  width: 80%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+.note:hover .logoImage {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+.noteText {
+  font-size: var(--fs-1);
+  color: var(--white);
+}
+.noteLink {
+  color: var(--green);
+  overflow-wrap: anywhere;
+  font-size: var(--fs-1);
+}
+@media (min-width: 590px) {
+  .logoImage {
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+  }
+}
+@media (min-width: 768px) {
+  .title {
+    font-size: var(--fs-22);
+  }
+  .makeups {
+    width: 80%;
+  }
+  .overlay {
+    padding: 2rem 3rem 2rem 3rem;
+  }
+  .name {
+    font-size: var(--fs-16);
+  }
+  .time,
+  .price,
+  .cta {
+    font-size: var(--fs-12);
+  }
+
+  .subtitle,
+  .tag,
+  .description,
+  .noteText,
+  .noteLink {
+    font-size: var(--fs-11);
+  }
+}
+@media (min-width: 912px) {
+  .note,
+  .makeup {
+    height: 650px;
+  }
+  .logoImage {
+    height: 350px;
+  }
+}
+@media (min-width: 1024px) {
+  .makeups {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .makeup {
+    height: 760px;
+    width: 66%;
+  }
+  .makeup:nth-child(1) {
+    width: 30%;
+  }
+  .makeup:nth-child(1) .footer {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .makeup:nth-child(1) .footer {
+    align-items: baseline;
+  }
+  .overlay {
+    padding: 2rem;
+  }
+  .note {
+    height: 760px;
+    width: 30%;
+    padding: 2rem;
+  }
+  .title {
+    font-size: var(--fs-26);
+  }
+
+  .name {
+    font-size: var(--fs-18);
+  }
+  .time,
+  .price,
+  .cta {
+    font-size: var(--fs-13);
+  }
+
+  .subtitle,
+  .tag,
+  .description,
+  .noteText,
+  .noteLink {
+    font-size: var(--fs-12);
+  }
+}
+@media (min-width: 1280px) {
+  .makeup {
+    height: 760px;
+  }
+
+  .note {
+    height: 760px;
+  }
+  .title {
+    font-size: var(--fs-3);
+  }
+
+  .name {
+    font-size: var(--fs-22);
+  }
+  .time,
+  .price,
+  .cta {
+    font-size: var(--fs-14);
+  }
+
+  .subtitle,
+  .tag,
+  .description,
+  .noteText,
+  .noteLink {
+    font-size: var(--fs-13);
+  }
+}
+@media (min-width: 1440px) {
+  .makeup {
+    height: 760px;
+  }
+  .note {
+    height: 760px;
+  }
+}

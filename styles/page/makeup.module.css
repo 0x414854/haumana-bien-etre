@@ -1,0 +1,93 @@
+.makeupPage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.introSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 20px;
+}
+.introSection h1 {
+  width: 95%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: var(--fs-22);
+  gap: 20px;
+}
+.introText {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  gap: 10px;
+  margin: 0 auto;
+}
+.MakeUpsSection {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+.DailyMakeUpSection,
+.PhotoshootSection,
+.WeedingSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background: var(--white);
+  border-radius: 20px;
+  padding: 20px;
+  gap: 10px;
+}
+.DailyMakeUpSection img,
+.PhotoshootSection img,
+.WeedingSection img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container h2 {
+  text-align: center;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: var(--fs-1);
+}
+.description a {
+  padding: 0 0 0 20px;
+  background: none;
+  border: none;
+  text-decoration: none;
+  width: 80%;
+  font-size: var(--fs-1);
+  color: var(--accent);
+  text-align: start;
+  transition: all 0.4s ease;
+}
+.description a:hover,
+.description a:focus {
+  color: var(--black);
+  transition: all 0.4s ease;
+}

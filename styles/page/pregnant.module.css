@@ -1,0 +1,266 @@
+.pregnantPageContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--accent);
+  /* border-radius: 0 0 20px 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08); */
+}
+.massageCard {
+  width: 90%;
+  background: var(--white);
+  margin: 20px auto;
+  border-radius: 20px;
+}
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.leftColumn h1 {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  font-size: var(--fs-16);
+  color: var(--black);
+}
+.imageWrapper {
+  width: 100%;
+  margin-bottom: 20px;
+  /* height: 280px; */
+}
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.rightColumn {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.textDescription {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--fs-1);
+  color: var(--black);
+  gap: 20px;
+  padding: 20px;
+}
+.discoverLink {
+  padding: 0 0 0 20px;
+  background: none;
+  border: none;
+  text-decoration: none;
+  width: 80%;
+  font-size: var(--fs-1);
+  color: var(--accent);
+  text-align: start;
+  transition: all 0.4s ease;
+}
+.discoverLink:hover,
+.discoverLink:focus {
+  color: var(--black);
+  transition: all 0.4s ease;
+}
+.pmaContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 20px auto 40px auto;
+  gap: 20px;
+}
+.container img {
+  width: 100%;
+  border-radius: 20px;
+  height: auto;
+  box-shadow: 0 10px 20px white;
+}
+.container h2 {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+
+  font-size: var(--fs-16);
+  color: var(--white);
+}
+.pmaDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--white);
+}
+.quoteLink {
+  width: fit-content;
+  background: none;
+  border: none;
+  text-decoration: none;
+  font-size: var(--fs-1);
+  color: var(--black);
+  text-align: start;
+  transition: all 0.4s ease;
+}
+.quoteLink:hover,
+.quoteLink:focus {
+  color: var(--white);
+  transition: all 0.4s ease;
+}
+
+@media (min-width: 574px) {
+  .leftColumn h1 {
+    font-size: var(--fs-18);
+  }
+  .textDescription,
+  .discoverLink {
+    font-size: var(--fs-12);
+  }
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 20px;
+  }
+  .container h2 {
+    font-size: var(--fs-18);
+    text-align: start;
+  }
+  .pmaDescription,
+  .quoteLink {
+    font-size: var(--fs-12);
+  }
+}
+@media (min-width: 768px) {
+  .leftColumn {
+    align-items: center;
+    justify-content: center;
+  }
+  .leftColumn h1 {
+    text-align: center;
+  }
+  .imageWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .imageWrapper img {
+    margin-bottom: 0;
+    width: 60%;
+  }
+  .leftColumn h1 {
+    font-size: var(--fs-2);
+    text-align: start;
+  }
+  .textDescription,
+  .discoverLink {
+    font-size: var(--fs-14);
+  }
+  .container {
+    margin-bottom: 20px;
+  }
+  .container h2 {
+    font-size: var(--fs-2);
+    text-align: start;
+  }
+  .pmaDescription,
+  .quoteLink {
+    font-size: var(--fs-14);
+  }
+}
+
+@media (min-width: 1280px) {
+  .leftColumn {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .leftColumn h1 {
+    width: 48%;
+    text-align: center;
+    font-size: var(--fs-35);
+  }
+  .imageWrapper {
+    display: flex;
+    width: 48%;
+    justify-content: center;
+  }
+  .imageWrapper img {
+    width: 100%;
+    border-radius: 20px;
+    height: auto;
+    box-shadow: 0 10px 20px white;
+  }
+  .textDescription,
+  .pmaDescription {
+    font-size: var(--fs-16);
+  }
+  .discoverLink {
+    font-size: var(--fs-16);
+    margin-bottom: 20px;
+  }
+  .quoteLink {
+    font-size: var(--fs-16);
+  }
+  .container {
+    gap: 40px;
+    flex-direction: row;
+  }
+  .container img {
+    width: 48%;
+  }
+  .container h2 {
+    width: 48%;
+    font-size: var(--fs-35);
+  }
+}
+@media (min-width: 1440px) {
+  .massageCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .leftColumn {
+    flex-direction: column;
+    width: 48%;
+    justify-content: space-evenly;
+  }
+  .leftColumn h1 {
+    width: 100%;
+    text-align: center;
+    font-size: var(--fs-35);
+  }
+  .imageWrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .imageWrapper img {
+    width: 100%;
+    height: auto;
+  }
+  .discoverLink {
+    margin-bottom: 0;
+  }
+  .rightColumn {
+    width: 52%;
+    padding: 20px 0;
+  }
+  .container {
+    gap: 40px;
+    flex-direction: row-reverse;
+  }
+  .container img {
+    width: 48%;
+  }
+  .container h2 {
+    width: 48%;
+    font-size: var(--fs-35);
+  }
+}

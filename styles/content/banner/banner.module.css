@@ -1,0 +1,33 @@
+.bannerContainer {
+  display: flex;
+  width: 100%;
+  background: var(--secondary-bg);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 0;
+  color: var(--white);
+}
+.bannerContainer p {
+  width: 90%;
+  font-size: var(--fs-1);
+}
+/* @media (min-width: 768px) {
+  .bannerContainer {
+    height: 70px;
+  }
+}
+@media (min-width: 1200px) {
+  .bannerContainer {
+    height: 50px;
+  }
+} */
+
+@media (min-width: 2500px) {
+  .bannerContainer {
+    padding: 20px auto;
+  }
+  .bannerContainer p {
+    font-size: var(--fs-15);
+  }
+}

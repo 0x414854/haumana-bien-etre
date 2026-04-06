@@ -1,0 +1,141 @@
+.introSection {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem auto 4rem auto;
+  padding: 2rem 0;
+  width: 90%;
+}
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: var(--white);
+}
+.title {
+  font-size: var(--fs-18);
+  text-align: center;
+  background: linear-gradient(45deg, var(--white), var(--accent), var(--white));
+  background-size: 600% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.subtitle {
+  font-size: var(--fs-12);
+  text-align: center;
+}
+.introContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.block,
+.blockHighlight {
+  width: 100%;
+  color: var(--white);
+  font-size: var(--fs-1);
+}
+
+.blockHighlight {
+  background: var(--white);
+  color: var(--black);
+  padding: 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.benefits {
+  list-style-type: disc;
+  padding: 0 10px;
+  margin: 1rem 0;
+}
+
+.benefits li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.cta {
+  display: flex;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 12px 20px;
+  border-radius: 10px;
+  background: var(--primary-bg);
+  color: var(--white);
+  text-align: center;
+  text-decoration: none;
+  font-size: var(--fs-1);
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.cta:hover {
+  background: var(--accent);
+  transition: all 0.3s ease;
+}
+@media (min-width: 590px) {
+  .introSection {
+    width: 80%;
+  }
+  .cta {
+    width: 80%;
+    margin: 1rem auto 0 auto;
+  }
+}
+@media (min-width: 768px) {
+  .title {
+    font-size: var(--fs-22);
+    text-align: center;
+  }
+  .subtitle {
+    font-size: var(--fs-13);
+    text-align: center;
+    opacity: 0.85;
+  }
+  .block,
+  .blockHighlight {
+    font-size: var(--fs-11);
+  }
+  .cta {
+    width: 70%;
+    font-size: var(--fs-11);
+  }
+}
+@media (min-width: 1024px) {
+  .title {
+    font-size: var(--fs-26);
+    text-align: center;
+  }
+
+  .block,
+  .blockHighlight {
+    font-size: var(--fs-12);
+  }
+  .cta {
+    width: 60%;
+    font-size: var(--fs-12);
+  }
+}
+@media (min-width: 1280px) {
+  .title {
+    font-size: var(--fs-3);
+    text-align: center;
+  }
+  .subtitle {
+    font-size: var(--fs-14);
+    text-align: center;
+    opacity: 0.85;
+  }
+  .block,
+  .blockHighlight {
+    font-size: var(--fs-13);
+  }
+  .cta {
+    width: 50%;
+    font-size: var(--fs-13);
+  }
+}

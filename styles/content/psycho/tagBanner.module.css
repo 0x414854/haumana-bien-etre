@@ -1,0 +1,96 @@
+.bannerSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+  margin: 2rem auto;
+  padding: 2rem 0;
+  background: var(--white);
+  justify-content: center;
+}
+.title {
+  width: 90%;
+  margin: 2rem auto 0 auto;
+  text-align: center;
+  font-size: var(--fs-16);
+  background: linear-gradient(
+    45deg,
+    #000000,
+    var(--primary-bg),
+    var(--accent),
+    var(--primary-bg),
+    #000000
+  );
+  background-size: 400% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tags {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+  width: 90%;
+  margin: 1rem auto 2rem auto;
+}
+.tag {
+  display: flex;
+  font-size: var(--fs-1);
+  color: var(--white);
+  text-decoration: none;
+  height: 50px;
+  padding: 0.5rem 1rem;
+  margin: 0 auto;
+  background: var(--primary-bg);
+  border-radius: 8px;
+  width: 90%;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.tag:hover,
+.tag:focus {
+  background: var(--accent);
+  transition: all 0.3s ease;
+}
+@media (min-width: 590px) {
+  .tags {
+    width: 80%;
+    flex-direction: row;
+  }
+  .tag {
+    flex-wrap: wrap;
+    width: 46%;
+  }
+}
+@media (min-width: 768px) {
+  .title {
+    font-size: var(--fs-2);
+  }
+  .tag {
+    font-size: var(--fs-11);
+  }
+}
+@media (min-width: 1024px) {
+  .title {
+    font-size: var(--fs-24);
+  }
+  .tag {
+    height: 60px;
+    width: 23%;
+    font-size: var(--fs-12);
+  }
+}
+@media (min-width: 1024px) {
+  .title {
+    font-size: var(--fs-28);
+  }
+  .tag {
+    font-size: var(--fs-13);
+  }
+}
