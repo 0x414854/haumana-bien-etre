@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 
-import Who from "@/public/images/founder/about.png";
+import Who from "@/public/images/founder/test1.jpg";
 import QuoteImg from "@/public/icons/quote.png";
 import Logo from "@/public/logo/logo.png";
 
