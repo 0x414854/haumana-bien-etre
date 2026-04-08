@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 
-import Who from "@/public/images/about.png";
+import Who from "@/public/images/founder/about.png";
 import QuoteImg from "@/public/icons/quote.png";
 import Logo from "@/public/logo/logo.png";
 
@@ -89,7 +89,7 @@ export default function About() {
               // width={320}
               // height={280}
               fill
-              alt="Ambre, fondatrice de Haumana Bien-être"
+              alt="Ambre, fondatrice, masseuse et psychopracticienne de Haumana Bien-être - Présilly"
               sizes="(min-width: 768px) 350px, 500px"
               loading="lazy"
               className={styles.img}

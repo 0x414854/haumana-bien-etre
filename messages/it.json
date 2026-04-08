@@ -1,60 +1,71 @@
 {
   "Banner": {
-    "p": "✨ Massaggi dedicati a donne, future mamme, neonati, bambini e adolescenti. Uno spazio accogliente per prendersi cura di sé, in ogni fase della vita. ✨"
+    "p": "✨ Massaggi rilassanti per donne, future mamme, neonati, bambini e adolescenti. Uno spazio dolce per prendersi cura di sé, in ogni fase della vita. ✨"
   },
   "Navbar": {
     "massage": "Massaggi",
     "massageSub": {
       "all": "Tutti i massaggi",
       "package": "Pacchetti",
-      "world": "Massaggi dal mondo",
-      "pregnant": "Massaggio per future mamme",
-      "babyTeen": "Massaggio per neonati e adolescenti",
-      "corporate": "Massaggio aziendale"
+      "women": "Trattamenti donna",
+      "children": "Trattamenti neonati e bambini",
+      "corporate": "Massaggi aziendali"
     },
     "makeup": "Trucco professionale",
+    "psycho": "Psicopraticante",
     "schedule": "Orari e contatti",
-    "quote": "Richiedi un preventivo"
+    "langs": {
+      "fr": "Francese",
+      "en": "Inglese",
+      "it": "Italiano"
+    }
   },
   "Hero": {
     "h1": "Massaggi benessere per donne, bambini e famiglie a Présilly",
     "cta": "Contattami",
-    "p_1": "Da Haumana Bien-Être propongo massaggi benessere personalizzati per donne, bambini e famiglie, attraverso un approccio psico-corporeo ed energetico.",
-    "p_2": "Ogni seduta di massaggio rilassante è pensata per alleviare le tensioni muscolari, ridurre lo stress e favorire un rilassamento profondo del corpo e della mente. I miei massaggi professionali si adattano alle esigenze di ogni donna, di ogni bambino e di ogni famiglia, offrendo un autentico momento di relax, di lasciar andare e di benessere duraturo.",
-    "p_3": "Concediti un massaggio antistress, un massaggio delicato per bambini o un massaggio benessere per tutta la famiglia, in un ambiente accogliente e sicuro.",
-    "span": "Attraverso il tocco e la parola, aiuto ciascuno a riconnettersi con il proprio corpo, a calmare le emozioni e a riscoprire il proprio benessere interiore."
+    "p_1": "Da Haumana Benessere accompagno donne, bambini e famiglie a ritrovare equilibrio, serenità e fiducia grazie a un approccio globale che unisce corpo ed emozioni.",
+    "p_2": "Come psicopraticante e operatrice di massaggi benessere, propongo percorsi che combinano la parola terapeutica e il tocco per liberare le tensioni fisiche legate alle emozioni, calmare la mente e riequilibrare il corpo.",
+    "p_3": "I miei massaggi per donne, donne in gravidanza, neonati, bambini e adolescenti sono pensati come veri spazi di rilassamento e riconnessione con sé stessi.",
+    "p_4": "Ogni seduta permette di ascoltare ciò che il corpo esprime, lasciare andare ciò che pesa e ritrovare più dolcezza, leggerezza e serenità nella vita quotidiana.",
+    "p_5": "Poiché corpo e mente sono profondamente connessi, accompagno ogni persona con ascolto, sensibilità e intuizione per offrire il trattamento più adatto al momento presente.",
+    "p_6": "Un momento per fermarsi, riconnettersi e ritrovare il proprio equilibrio interiore.",
+    "p_7": "Le parole leniscono… il tocco riequilibra.",
+    "span": "Attraverso il tocco e la parola, aiuto ognuno a riconnettersi al proprio corpo, calmare le emozioni e rivelare il proprio benessere interiore"
   },
   "About": {
-    "p": "Operatrice in armonizzazione psico-corporea",
-    "note": "Accompagno donne e bambini a ristabilire l’equilibrio di ciò che si è alterato nel corpo e nelle emozioni, grazie alla forza delle parole unite al massaggio benessere.",
+    "p": "Terapeuta psico-corporea",
+    "note": "Accompagno donne e bambini a riequilibrare ciò che si è alterato attraverso il corpo e le emozioni, grazie alla potenza delle parole unite al massaggio benessere.",
     "owner": "Ambre Chiarinelli"
   },
   "Description": {
-    "h3_1": "Un esperienza unica",
-    "p_1": "Da Haumana Bien-Être ogni seduta è una pausa su misura, dove parola e tocco si incontrano per ristabilire l’equilibrio tra corpo ed emozioni. Un momento per ritrovarsi, rilassarsi e riscoprire la propria energia interiore.",
+    "h3_1": "Un’esperienza unica",
+    "p_1": "Da Haumana Benessere, ogni seduta è una parentesi su misura, dove parola e tocco si incontrano per ristabilire l’equilibrio tra corpo ed emozioni. Un momento per ritrovarsi, lasciarsi andare e recuperare la propria energia.",
     "h3_2": "Un accompagnamento attento",
-    "p_2": "Attraverso un ascolto empatico e gesti intuitivi, ogni trattamento diventa un dialogo tra corpo e mente. Tutto è pensato per farti sentire accolta, compresa e profondamente rasserenata.",
-    "h3_3": "Un rifugio di dolcezza",
-    "p_3": "Ispirato alla natura e alle culture del mondo, l’universo Haumana invita a un viaggio interiore. Luci soffuse e profumi delicati creano un’atmosfera calda e avvolgente, ideale per lasciarsi andare."
+    "p_2": "Attraverso un ascolto empatico e gesti intuitivi, ogni trattamento diventa un dialogo tra corpo e mente. Tutto è pensato per farti sentire accolto, compreso e profondamente rilassato.",
+    "h3_3": "Un nido di dolcezza",
+    "p_3": "Ispirato alla natura e alle culture del mondo, l’universo Haumana invita a un viaggio interiore. Luci soffuse e profumi delicati creano un’atmosfera calda, ideale per lasciarsi andare."
   },
   "Benefits": {
-    "intro": "Scopri i nostri trattamenti di massaggio e i servizi di trucco professionale, dedicati al benessere di donne e neonati. Che tu stia cercando un momento di profondo relax, un trattamento adatto alla maternità o un trucco naturale per valorizzare la tua bellezza, offriamo servizi personalizzati realizzati con delicatezza e competenza.",
-    "title_1": "Trattamenti Donna",
-    "description_1": "Concediti un momento di profondo relax con i nostri massaggi dedicati alle donne. I trattamenti sono pensati per sciogliere le tensioni, calmare lo stress e riequilibrare dolcemente il corpo. Ogni massaggio è personalizzato secondo le tue esigenze per un’esperienza completa e rigenerante.",
+    "intro": "Scopri i nostri massaggi e servizi di trucco professionale, dedicati al benessere di donne e neonati. Che tu cerchi un momento di profondo relax, un trattamento adatto alla maternità o un trucco naturale per valorizzare la tua bellezza, offriamo servizi personalizzati realizzati con cura ed esperienza.",
+    "title_1": "Psicopraticante",
+    "description_1": "E se la tua stanchezza, le tensioni o le emozioni non fossero un problema… ma un messaggio del tuo corpo? I percorsi Renaissance ti aiutano a comprendere ciò che il corpo esprime, ridurre lo stress e ritrovare equilibrio interiore.",
     "cta_1": "Scegli il mio trattamento",
-    "title_2": "Trattamento Neonato",
-    "description_2": "Un trattamento delicato per il benessere e la serenità del tuo bambino. I nostri massaggi favoriscono il rilassamento, il sonno e rafforzano il legame genitore-figlio. Un momento tenero e sicuro, pensato per i più piccoli e realizzato con un approccio rispettoso e premuroso.",
-    "cta_2": "Scopri il trattamento neonato",
-    "title_3": "Pacchetti Benessere",
-    "description_3": "Pacchetti su misura per prolungare il tuo momento di relax. Vivi un’esperienza completa combinando più trattamenti a una tariffa vantaggiosa. Ideale per concederti un momento speciale o per regalare un’esperienza di benessere indimenticabile.",
-    "cta_3": "Scegli il mio pacchetto",
-    "title_4": "Trucco",
-    "description_4": "Valorizza la tua bellezza naturale con un trucco professionale adatto a ogni occasione. Trucco naturale, per eventi o personalizzato: esaltiamo la tua luminosità con eleganza e raffinatezza.",
-    "cta_4": "Prenota il mio trucco"
+    "title_2": "Trattamenti Donna",
+    "description_2": "Regalati un momento di profondo relax con i nostri massaggi dedicati alle donne. I trattamenti sono studiati per sciogliere le tensioni, calmare lo stress e riequilibrare il corpo in modo dolce. Ogni massaggio è personalizzato per un’esperienza completa e rigenerante.",
+    "cta_2": "Scegli il trattamento donna",
+    "title_3": "Trattamento Neonato",
+    "description_3": "Un trattamento delicato per il benessere e la serenità del tuo bambino. I massaggi favoriscono il rilassamento, il sonno e rafforzano il legame genitore-bambino. Un momento tenero e sicuro, pensato per i più piccoli.",
+    "cta_3": "Scopri il trattamento neonato",
+    "title_4": "Pacchetti Benessere",
+    "description_4": "Pacchetti su misura per prolungare il tuo momento di relax. Vivi un’esperienza completa combinando più trattamenti a un prezzo vantaggioso. Ideale per un momento speciale o come regalo benessere.",
+    "cta_4": "Scegli il pacchetto",
+    "title_5": "Trucco",
+    "description_5": "Valorizza la tua bellezza naturale con un trucco professionale per ogni occasione. Trucco naturale, per eventi o personalizzato: esaltiamo la tua luminosità con eleganza.",
+    "cta_5": "Prenota il mio trucco"
   },
   "Reviews": {
-    "h2": "Cosa dicono di noi i nostri clienti",
-    "h3": "Scopri come i nostri clienti a Présilly vivono l’esperienza Haumana Bien-Être e apprezzano i nostri trattamenti"
+    "h2": "Cosa dicono i nostri clienti",
+    "h3": "Scopri come i nostri clienti a Présilly vivono l’esperienza Haumana Benessere"
   },
   "Cta": {
     "h2": "Trasforma la tua giornata in un momento di dolcezza",
@@ -63,17 +74,19 @@
   },
   "Footer": {
     "brand": {
-      "description": "Haumana Bien-Être – Massaggi benessere personalizzati per donne, bambini e famiglie, che uniscono approccio psico-corporeo e profondo rilassamento.",
+      "description": "Haumana Benessere – Massaggi personalizzati per donne, bambini e famiglie, unendo approccio psico-corporeo e relax profondo.",
       "lang_1": "FR",
       "lang_2": "EN",
       "lang_3": "IT"
     },
     "services": {
       "h3": "Trattamenti Benessere",
-      "service_1": "Trattamenti Donna",
-      "service_2": "Trattamenti Bambini",
-      "service_3": "I nostri Pacchetti",
-      "service_4": "Trucco professionale"
+      "service_1": "Psicopraticante",
+      "service_2": "Trattamenti Donna",
+      "service_3": "Trattamenti Bambini",
+      "service_4": "I nostri pacchetti",
+      "service_5": "Trucco professionale",
+      "service_6": "Massaggi aziendali"
     },
     "links": {
       "h3": "Informazioni legali",
@@ -82,15 +95,1138 @@
       "cgv": "Condizioni generali di vendita"
     },
     "infos": {
-      "h3": "Contatti & Informazioni",
-      "phone": "+33 6 60 98 86 23",
-      "mail": "ambre.haumanabienetre@gmail.com",
+      "h3": "Contatti e informazioni",
+      "phone": "+33 6 52 69 32 87",
+      "mail": "contact@haumana-bien-etre.com",
       "status": {
         "open": "Aperto",
         "closed": "Chiuso",
         "closed_today": "Chiuso oggi",
-        "openingSoon": "Apre presto alle {time}",
+        "openingSoon": "Apre alle {time}",
         "closingSoon": "Chiude tra {minutes, plural, =1 {# minuto} other {# minuti}}"
+      }
+    }
+  },
+  "ContactPage": {
+    "title": "Contatta Haumana Benessere oggi stesso",
+    "subtitle": "Contattaci facilmente via telefono, email o tramite il modulo. Trovaci sulla mappa e seguici sui social.",
+    "infos": {
+      "title": "Informazioni di contatto",
+      "list": {
+        "phone": "Telefono",
+        "mail": "Email",
+        "opening_hours": "Disponibilità",
+        "hours": {
+          "monday": "Lunedì",
+          "monday_hours": "9:00 - 16:00",
+          "tuesday": "Martedì",
+          "tuesday_hours": "9:00 - 16:00",
+          "wednesday": "Mercoledì",
+          "wednesday_hours": "9:00 - 13:00",
+          "thursday": "Giovedì",
+          "thursday_hours": "9:00 - 16:00",
+          "friday": "Venerdì",
+          "friday_hours": "9:00 - 16:00",
+          "saturday": "Sabato",
+          "saturday_hours": "Chiuso",
+          "sunday": "Domenica",
+          "sunday_hours": "Chiuso"
+        }
+      },
+      "socials_title": "Social network"
+    },
+    "form": {
+      "title": "Il tuo momento di benessere inizia qui",
+      "subtitle": "Contattami per prenotare un massaggio rilassante o un servizio trucco."
+    }
+  },
+  "ContactForm": {
+    "firstName": "Nome*",
+    "lastName": "Cognome*",
+    "phone": "Telefono*",
+    "email": "Email*",
+    "service": "Servizio richiesto*",
+    "selectService": "Seleziona un servizio",
+    "message": "Il tuo messaggio",
+    "acceptPolicy": "Accetto l’informativa sulla privacy*",
+    "recontact": "Accetto che i miei dati vengano utilizzati per essere ricontattato/a*",
+    "send": "Invia",
+    "sending": "Invio in corso...",
+    "errors": {
+      "required": "Questo campo è obbligatorio",
+      "email": "Email non valida",
+      "phone": "Numero di telefono non valido",
+      "acceptPolicy": "Devi accettare l’informativa sulla privacy",
+      "recontact": "Devi accettare l’utilizzo dei tuoi dati per essere ricontattato/a.",
+      "fixErrors": "Correggi gli errori prima dell’invio"
+    },
+    "messages": {
+      "success_form_sent": "Il tuo modulo è stato inviato con successo!",
+      "error_rate_limit": "Troppe richieste. Riprova più tardi.",
+      "error_bot_detected": "Bot rilevato. Modulo bloccato.",
+      "error_db": "Si è verificato un errore. Riprova più tardi.",
+      "error_length": "Contenuto troppo lungo"
+    }
+  },
+  "MassagesPage": {
+    "title": "Scopri i nostri massaggi",
+    "subtitle": "Scegli il tuo momento di relax",
+    "time": {
+      "30min": "30 minuti",
+      "45min": "45 minuti",
+      "1h": "1 ora",
+      "package_4_30": "3 x 30 minuti",
+      "package_3_45": "3 x 45 minuti",
+      "package_3_1h": "3 x 1 ora",
+      "package_4_1h": "4 x 1 ora"
+    },
+    "filters": {
+      "all": "Tutti",
+      "package": "Pacchetti",
+      "world": "Massaggi dal mondo",
+      "prenatal": "Massaggio futura mamma",
+      "baby-to-teen": "Massaggi da neonati ad adolescenti",
+      "corporate": "Massaggi aziendali"
+    }
+  },
+  "PackagesPage": {
+    "title": "I nostri pacchetti",
+    "description": {
+      "title": "Protocollo di un mese",
+      "subtitle": "Regalati un mese di relax con 1 massaggio a settimana, da 1 ora o 30 minuti, pensato per sciogliere tensioni e stress e rivitalizzare corpo e mente.",
+      "steps": {
+        "1": "Definizione del tuo protocollo personalizzato",
+        "2": "Goditi ogni seduta",
+        "3": "Senti gli effetti duraturi",
+        "list": {
+          "item_1_1": "Un momento di scambio per definire i tuoi bisogni e obiettivi.",
+          "item_1_2": "Scegliere insieme il protocollo più adatto a te.",
+          "item_2_1": "Relax totale: lascia andare tensioni e stanchezza",
+          "item_2_2": "Energia rinnovata: ritrova vitalità e serenità",
+          "item_2_3": "Massaggio personalizzato: adattato alle tue esigenze del momento",
+          "item_3_1": "Equilibrio corpo-mente: un rituale regolare per benefici duraturi",
+          "item_3_2": "Benessere globale: corpo rilassato, mente serena, energia ritrovata"
+        }
+      }
+    },
+    "package_name_1": "Pausa Essenziale",
+    "package_time_1": "4 x 30 minuti",
+    "package_description_1": "Un mese per respirare e sciogliere le tensioni",
+    "package_description_1_2": "Con i nostri 4 massaggi da 30 minuti, concediti un momento regolare per rilassare le zone chiave del corpo e ritrovare leggerezza ed equilibrio ogni giorno.",
+    "discover": "Scopri il pacchetto",
+    "package_name_2": "Armonia Duratura",
+    "package_time_2": "4 x 1 ora",
+    "package_description_2": "Un mese per prenderti cura di te.",
+    "package_description_2_2": "Con 4 massaggi personalizzati da un’ora, dona al tuo corpo la continuità che merita e percepisci settimana dopo settimana un benessere profondo e duraturo.",
+    "package_name_3": "Workshop massaggio neonato",
+    "package_time_3": "3 x 45 minuti",
+    "package_description_3": "Un mese per rafforzare il legame e calmare il tuo bambino.",
+    "package_description_3_2": "Con 3 sedute dedicate alla dolcezza e al relax, accompagna il tuo bambino nei suoi primi momenti di benessere e condividi un’esperienza unica di connessione."
+  },
+  "WomenPage": {
+    "title": "I nostri trattamenti per donne",
+    "description": {
+      "title": "Protocollo di un mese",
+      "subtitle": "Ogni incontro è un momento unico, pensato per offrirti uno spazio di relax, ascolto e riconnessione con te stessa, che tu sia in gravidanza, giovane mamma o semplicemente una donna alla ricerca di benessere nel tempo.",
+      "steps": {
+        "1": "Un momento di ascolto e accoglienza",
+        "2": "Il trattamento",
+        "3": "Ritorno graduale",
+        "list": {
+          "item_1_1": "Un momento per conoscerci, comprendere i tuoi bisogni e definire le intenzioni del trattamento.",
+          "item_2_1": "Massaggio rilassante ed energetico, adattato al tuo corpo e alla tua energia del momento, e/o seduta psicologica per un accompagnamento più profondo.",
+          "item_3_1": "Un confronto sulle tue sensazioni e consapevolezze. Riparti con la tua scheda personalizzata con strumenti concreti da integrare.",
+          "item_3_2": "Dal sottile al concreto."
+        }
+      }
+    },
+    "package_name_1": "L’Essenziale",
+    "package_time_1": "30 minuti",
+    "package_description_1": "Concediti un momento di dolcezza e benessere.",
+    "package_description_1_2": "Ogni gesto, preciso e avvolgente, ti guida verso un rilassamento profondo. Lascia andare le tensioni e goditi una serenità che si diffonde in tutto il corpo.",
+    "discover": "Scopri il massaggio",
+    "package_name_2": "Haumana",
+    "package_time_2": "1 ora",
+    "package_description_2": "Un massaggio su misura dove tocco e parola si incontrano.",
+    "package_description_2_2": "Ogni gesto e ogni parola ti accompagnano verso un rilassamento profondo, per un’esperienza unica e avvolgente.",
+    "package_name_3": "Futura mamma",
+    "package_time_3": "1 ora",
+    "package_description_3": "Un momento di dolcezza per te e il tuo bambino.",
+    "package_description_3_2": "L’Abhyanga per future mamme è un massaggio dolce e avvolgente che calma il corpo, allevia le tensioni e nutre il legame con il tuo bambino. Dalla testa ai piedi, ogni gesto è pensato per offrirti calma, comfort e benessere, con olio caldo di Monoï adatto alla tua pelle delicata."
+  },
+  "BabyTeenPage": {
+    "title": "I nostri trattamenti per neonati e bambini",
+    "description": {
+      "title": "Svolgimento dei trattamenti per neonati e bambini",
+      "subtitle": "Ogni trattamento è un momento unico, ricco di dolcezza e attenzione, pensato per accompagnare il bambino nel suo sviluppo, nelle sue emozioni e nel suo benessere globale.",
+      "steps": {
+        "1": "Il momento di ascolto",
+        "2": "Goditi ogni seduta",
+        "3": "Percepisci i benefici duraturi",
+        "list": {
+          "item_1_1": "La seduta inizia sempre con un momento di dialogo, per conoscere meglio il bambino, il suo mondo, i suoi bisogni del momento, le sue emozioni o eventuali sensibilità.",
+          "item_1_2": "Questo momento di ascolto crea un clima di fiducia e permette di adattare il trattamento nel modo più preciso possibile.",
+          "item_2_1": "Il cuore della seduta: un massaggio dolce e personalizzato, con un lavoro energetico adattato.",
+          "item_2_2": "A seconda dell’età e dei bisogni, può essere proposto anche un momento di dialogo per aiutare il bambino a esprimere le sue emozioni e sentirsi rassicurato.",
+          "item_3_1": "Dopo il trattamento, un momento dolce per tornare con calma: una tisana per i più grandi, e per i neonati un abbraccio o un momento tranquillo con il genitore, accompagnato da un piccolo gesto di conforto (come un cioccolatino o un dolcetto per i più grandi)."
+        }
+      }
+    },
+    "package_name_1": "Mahana",
+    "package_time_1": "30 minuti",
+    "age_mahana": "3 a 8 anni",
+    "package_description_1": "Un momento di dolcezza per i più piccoli",
+    "package_description_1_2": "Il Mahana è un massaggio su misura per bambini, in cui il tuo bambino sceglie le zone da massaggiare: gambe, schiena, braccia, testa, mani...",
+    "package_description_1_3": "Ogni gesto è pensato per portare calma, serenità e relax. Gli oli naturali delicatamente profumati e le melodie rilassanti risvegliano i sensi e creano un’esperienza sensoriale dolce e avvolgente. Un vero momento per riconnettersi con sé stessi e assaporare la tranquillità.",
+    "discover": "Scopri il massaggio",
+    "package_name_2": "Aroha",
+    "age_aroha": "9 a 14 anni",
+    "package_time_2": "45 minuti",
+    "package_description_2": "Un viaggio rilassante per i bambini più grandi.",
+    "package_description_2_2": "L’Aroha è un massaggio profondo e su misura, pensato per bambini dai 9 ai 14 anni. Qui si va oltre il semplice relax: ogni gesto favorisce il rilascio delle tensioni, la serenità e l’equilibrio emotivo.",
+    "package_description_2_3": "Il tuo bambino sceglie le zone da massaggiare e si lascia avvolgere da oli naturali e melodie rilassanti, per un’esperienza sensoriale immersiva.",
+    "package_description_2_4": "È una parentesi per ritrovarsi, respirare e godere del benessere, lontano dallo stress e dal ritmo frenetico della quotidianità.",
+    "package_name_3": "Laboratorio massaggio neonati",
+    "package_time_3": "3 x 45 minuti",
+    "package_description_3": "Un mese per rafforzare il legame e calmare il tuo bambino.",
+    "package_description_3_2": "Grazie a 3 sedute di un’ora dedicate al relax e alla dolcezza, accompagna il tuo bambino nei suoi primi momenti di benessere e condividi un momento unico di complicità."
+  },
+  "ID": {
+    "back": "Torna ai massaggi",
+    "backPsycho": "Torna ai percorsi",
+    "addToCart": "Offri come buono regalo",
+    "addedToCart": "Aggiunto al carrello ✓",
+    "reservation": "Prenota il trattamento",
+
+    "harmonie-durable": {
+      "name": "Armonia duratura",
+      "description": [
+        "Regalati una vera parentesi di benessere duraturo con il nostro pacchetto di 4 massaggi da un’ora, uno a settimana per un mese. Ideale per sciogliere le tensioni, calmare la mente e ritrovare un’armonia profonda tra corpo e anima.",
+        "Ogni seduta è completamente personalizzata secondo le tue esigenze del momento: schiena, gambe, testa, piedi, mani o addome. Settimana dopo settimana percepirai un rilassamento progressivo, un sonno più profondo e una nuova energia.",
+        "Questo pacchetto mensile è una vera cura di benessere ed equilibrio, pensata per offrirti continuità e risultati duraturi. Prenditi un appuntamento con la tua serenità."
+      ],
+      "time": "4 x 1 ora",
+      "price": "295"
+    },
+
+    "parenthese-essentielle": {
+      "name": "Parentesi essenziale",
+      "description": [
+        "Concediti una pausa di benessere ogni settimana con il nostro pacchetto di 4 massaggi da 30 minuti. Ideale per sciogliere le tensioni e ritrovare equilibrio.",
+        "Ogni seduta è personalizzabile: scegli la zona da trattare secondo le tue esigenze.",
+        "Un rituale settimanale per ritrovare energia, equilibrio e serenità."
+      ],
+      "time": "4 x 30 minuti",
+      "price": "150"
+    },
+
+    "atelier-massage-bebe": {
+      "name": "Laboratorio massaggio neonati",
+      "description": [
+        "Concediti insieme al tuo bambino tre sedute di un’ora dedicate al relax, alla scoperta e alla connessione.",
+        "Ispirato alle tradizioni indiane e allo yoga, questo percorso favorisce lo sviluppo armonioso del bambino e rafforza il legame genitore-figlio.",
+        "Imparerai a riconoscere i segnali del tuo bambino e a rispondere con dolcezza.",
+        "Un percorso pensato per creare un rituale di benessere e complicità."
+      ],
+      "time": "3 x 45 minuti",
+      "price": "190"
+    },
+
+    "l-essentiel": {
+      "name": "L'Essenziale",
+      "description": [
+        "Lasciati avvolgere da un profondo benessere grazie a movimenti precisi e rilassanti. Ogni gesto libera le tensioni e ti guida verso uno stato di serenità totale."
+      ],
+      "time": "30 minuti",
+      "price": "45"
+    },
+
+    "haumana": {
+      "name": "Haumana",
+      "description": [
+        "Un massaggio personalizzato creato per offrirti un’esperienza unica di relax e benessere. Ogni movimento è adattato alle tue esigenze per un’esperienza sensoriale completa."
+      ],
+      "time": "1 ora",
+      "price": "85"
+    },
+
+    "future-maman": {
+      "name": "Futura mamma",
+      "description": [
+        "L’Abhyanga per futura mamma è un massaggio dolce e avvolgente che favorisce relax e benessere in armonia con il tuo bambino."
+      ],
+      "time": "1 ora",
+      "price": "85"
+    },
+    "mahana": {
+      "name": "Mahana",
+      "description": [
+        "Offri al tuo bambino un momento di dolcezza e relax, in cui potrà scoprire i benefici del tocco in totale libertà.",
+        "Per rispettare i suoi desideri e bisogni, sarà lui a scegliere le zone da massaggiare: gambe, schiena, braccia, testa o mani.",
+        "Ogni gesto è pensato per portare calma e serenità, creando una vera bolla di relax.",
+        "Gli oli utilizzati, naturali e delicatamente profumati, risvegliano i sensi nutrendo la pelle.",
+        "Durante la seduta, dolci melodie rilassanti accompagnano il momento, creando un’atmosfera ideale per il benessere e la fantasia.",
+        "Un momento speciale in cui il tuo bambino può riconnettersi con sé stesso, lontano dallo stress quotidiano."
+      ],
+      "time": "30 minuti",
+      "price": "45",
+      "age": "3 a 8 anni"
+    },
+
+    "aroha": {
+      "name": "Aroha",
+      "description": [
+        "Offri al tuo bambino un momento di dolcezza e relax, in cui potrà scoprire i benefici del tocco in totale libertà.",
+        "Per rispettare i suoi desideri e bisogni, sarà lui a scegliere le zone da massaggiare: gambe, schiena, braccia, testa o mani.",
+        "Ogni gesto è pensato per portare calma e serenità, creando una vera bolla di relax.",
+        "Gli oli utilizzati, naturali e delicatamente profumati, risvegliano i sensi nutrendo la pelle.",
+        "Durante la seduta, dolci melodie rilassanti accompagnano il momento, creando un’atmosfera ideale per il benessere e la fantasia.",
+        "Un momento speciale in cui il tuo bambino può riconnettersi con sé stesso, lontano dallo stress quotidiano."
+      ],
+      "time": "45 minuti",
+      "price": "65",
+      "age": "9 a 14 anni"
+    },
+
+    "maquillage-de-jour-et-de-soiree": {
+      "name": "Trucco giorno e sera",
+      "description": [
+        "Due approcci, un’unica intenzione: esaltare la tua bellezza con eleganza.",
+        "Il trucco è un’arte che valorizza la tua bellezza rispettando la tua personalità e l’occasione.",
+        "Che sia fresco e luminoso per il giorno o più intenso e sofisticato per la sera, ogni trucco è pensato per valorizzare il tuo viso con armonia ed eleganza.",
+        "Grazie a tecniche professionali e prodotti adatti alla tua pelle, il trucco illumina l’incarnato, valorizza lo sguardo e armonizza i tratti per un risultato naturale e duraturo.",
+        "✨ Ogni trucco è completamente personalizzato per adattarsi al tuo viso, al tuo stile e all’occasione, affinché tu possa sentirti bella, sicura e pienamente te stessa."
+      ],
+      "time": "45 minuti",
+      "price": "50"
+    },
+
+    "maquillage-mariage": {
+      "name": "Trucco sposa",
+      "description": [
+        "Nel giorno più bello della tua vita, il trucco deve essere naturale, luminoso e perfettamente in linea con i tuoi desideri.",
+        "Ogni dettaglio conta per farti sentire bella, sicura e serena per tutta la giornata.",
+        "La prestazione si svolge in due fasi:",
+        "1. Prova trucco – Un momento privilegiato per definire il tuo stile, testare le tonalità e validare il risultato perfetto.",
+        "2. Giorno del matrimonio – Mi sposto per valorizzarti in un’atmosfera dolce e serena, con un trucco resistente per tutta la giornata e perfetto nelle foto.",
+        "✨ Per vivere un’esperienza completa e garantire un risultato impeccabile, contattami per preparare il tuo trucco su misura."
+      ],
+      "time": "2 ore",
+      "price": "150"
+    },
+
+    "maquillage-shooting-photo": {
+      "name": "Trucco shooting fotografico",
+      "description": [
+        "Durante uno shooting fotografico, ogni dettaglio conta.",
+        "Il trucco deve essere perfettamente adattato alle luci, all’obiettivo e allo stile delle immagini per valorizzare il viso e garantire un risultato fotogenico.",
+        "Grazie a tecniche professionali e prodotti specifici per lo studio, il trucco struttura i tratti, illumina l’incarnato e valorizza lo sguardo.",
+        "In collaborazione con una fotografa professionista, offriamo un’esperienza completa che unisce bellezza e fotografia.",
+        "✨ Contattami per organizzare la tua sessione personalizzata e ottenere un risultato perfetto."
+      ],
+      "time": "1 ora",
+      "price": "65"
+    },
+
+    "transformation": {
+      "name": "Trasformazione",
+      "title": "Un accompagnamento profondo per un cambiamento duraturo.",
+      "description": [
+        "Un percorso completo per trasformare in modo duraturo il tuo equilibrio emotivo e corporeo.",
+        "Qui si va oltre: si libera in profondità, si calma e si trasforma.",
+        "Per te che ti senti stanca, sopraffatta o sotto pressione, con tensioni nel corpo e il bisogno di respirare.",
+        "Questo percorso permette di liberare le tensioni accumulate e sostenere una vera trasformazione interiore."
+      ],
+      "list": {
+        "1": "8 sessioni personalizzate in base ai tuoi bisogni",
+        "2": "Un lavoro approfondito su corpo ed emozioni",
+        "3": "Un accompagnamento su più settimane",
+        "4": "Un supporto personalizzato tra una seduta e l’altra",
+        "5": "Un rituale simbolico di chiusura"
+      }
+    },
+
+    "eveil": {
+      "name": "Risveglio",
+      "title": "Un primo passo per riconnetterti a te stessa",
+      "description": [
+        "Un percorso breve per rilassare le prime tensioni, calmare le emozioni e iniziare ad ascoltare il tuo corpo.",
+        "Ti aiuta a comprendere il legame tra emozioni e corpo per avviare un riequilibrio dolce.",
+        "Per te che senti il bisogno di ritrovarti e ritrovare serenità."
+      ],
+      "list": {
+        "1": "8 sessioni personalizzate",
+        "2": "Un lavoro su corpo ed emozioni",
+        "3": "Un percorso su più settimane"
+      }
+    }
+  },
+  "CartPage": {
+    "h1": "Il tuo carrello",
+    "empty_p": "Il tuo carrello è vuoto..."
+  },
+
+  "StepsComponents": {
+    "descriptionPackages": {
+      "title": "Protocollo di un mese",
+      "subtitle": "Concediti un mese di relax con 1 massaggio a settimana, da 1 ora o 30 minuti, pensato per liberare tensioni e stress e rigenerare corpo e mente.",
+      "steps": {
+        "1": "Definizione del tuo protocollo personalizzato",
+        "2": "Goditi ogni seduta",
+        "3": "Percepisci i benefici duraturi",
+        "list": {
+          "item_1_1": "Un momento di confronto per definire i tuoi bisogni e i tuoi obiettivi.",
+          "item_1_2": "Scegliamo insieme il protocollo di trattamento più adatto a te.",
+          "item_2_1": "Relax totale: libera tensioni e stanchezza",
+          "item_2_2": "Energia rinnovata: ritrova vitalità e serenità",
+          "item_2_3": "Massaggio personalizzato: adattato ai tuoi bisogni del momento",
+          "item_3_1": "Equilibrio corpo-mente: un rituale regolare per benefici a lungo termine",
+          "item_3_2": "Benessere globale: corpo rilassato, mente serena, energia ritrovata"
+        }
+      }
+    },
+
+    "descriptionWomen": {
+      "title": "Svolgimento di un trattamento donna",
+      "subtitle": "Ogni incontro è un momento unico, pensato per offrirti uno spazio di relax, ascolto e riconnessione a te stessa, che tu sia in gravidanza, una giovane mamma o semplicemente una donna in cerca di benessere duraturo.",
+      "steps": {
+        "1": "Un momento di ascolto e accoglienza",
+        "2": "Il trattamento",
+        "3": "Ritorno graduale",
+        "list": {
+          "item_1_1": "Un momento per conoscerti, comprendere i tuoi bisogni e definire le intenzioni del trattamento.",
+          "item_2_1": "Massaggio rilassante ed energetico, adattato al tuo corpo e alla tua energia del momento, e/o una sessione di supporto psicologico per un lavoro più interiore.",
+          "item_3_1": "Un confronto sui tuoi vissuti e le tue consapevolezze, e riparti con una scheda personalizzata con le tue chiavi di integrazione.",
+          "item_3_2": "Dal sottile al concreto."
+        }
+      }
+    },
+
+    "descriptionBaby": {
+      "title": "Svolgimento dei trattamenti per neonati e bambini",
+      "subtitle": "Ogni trattamento è un momento unico, pieno di dolcezza e attenzione, pensato per accompagnare il bambino nel suo sviluppo, nelle sue emozioni e nel suo benessere globale.",
+      "steps": {
+        "1": "Il momento di ascolto",
+        "2": "Goditi ogni seduta",
+        "3": "Percepisci i benefici duraturi",
+        "list": {
+          "item_1_1": "La seduta inizia sempre con un momento di dialogo per conoscere meglio il bambino, il suo mondo e i suoi bisogni.",
+          "item_1_2": "Questo momento crea fiducia e permette di adattare il trattamento in modo preciso.",
+          "item_2_1": "Il cuore della seduta: un massaggio dolce e personalizzato con un lavoro energetico adattato.",
+          "item_2_2": "In base all’età, può essere proposto anche un momento di espressione per aiutare il bambino a liberare le emozioni.",
+          "item_3_1": "Dopo il trattamento, un ritorno dolce: tisana per i più grandi, o un momento di calma con il genitore per i più piccoli.",
+          "item_3_2": "Un piccolo gesto di conforto accompagna la fine della seduta."
+        }
+      }
+    },
+
+    "makeup": {
+      "title": "Svolgimento di un trucco su misura",
+      "steps": {
+        "1": "Trova il tuo stile",
+        "2": "Il trucco perfetto",
+        "3": "Risplendi con sicurezza",
+        "list": {
+          "item_1_1": "Si inizia definendo ciò che ti rappresenta davvero: i tuoi desideri, la tua personalità e l’occasione.",
+          "item_2_1": "Gesti precisi e colori scelti per valorizzare il tuo viso, in modo naturale o sofisticato.",
+          "item_3_1": "Il risultato finale rivela la versione migliore di te: un trucco che esalta i tuoi tratti e ti dona sicurezza ed eleganza."
+        }
+      }
+    }
+  },
+  "MakeUpPage": {
+    "title": "Trucco professionale – L’arte di esaltare la tua bellezza",
+    "subtitle": "Rivela la tua bellezza con un trucco su misura: ogni gesto, ogni colore è scelto per valorizzare i tuoi tratti e riflettere il tuo stile e la tua personalità.",
+    "tag": {
+      "1": "Trucco giorno e sera",
+      "2": "Trucco shooting fotografico",
+      "3": "Trucco sposa"
+    },
+    "wedding": {
+      "name": "Trucco sposa",
+      "tag": "2 fasi",
+      "time": "2 ore",
+      "price": "150,00 €",
+      "description": "Un trucco sposa elegante e a lunga tenuta, pensato per esaltare la tua bellezza naturale nel giorno del tuo matrimonio. Realizzato con prodotti professionali ad alta definizione, garantisce un incarnato luminoso e un risultato impeccabile per tutta la giornata e nelle fotografie."
+    },
+    "daily": {
+      "name": "Trucco giorno e sera",
+      "time": "45 minuti",
+      "price": "50,00 €",
+      "description": "Il trucco è un’arte che si adatta ai tuoi bisogni, alla tua personalità e all’occasione. Mentre il trucco da giorno privilegia freschezza e naturalezza, quello da sera punta su intensità e glamour."
+    },
+    "shooting": {
+      "name": "Trucco shooting fotografico",
+      "time": "1 ora",
+      "price": "65,00 €",
+      "description": "Durante uno shooting fotografico, ogni dettaglio conta. Il trucco e l’acconciatura devono valorizzare il tuo viso armonizzandosi con lo stile e il tema delle immagini. Affidarsi a professionisti garantisce un risultato impeccabile, naturale o sofisticato, capace di resistere alle luci dello studio e agli obiettivi della macchina fotografica."
+    },
+    "photoNote": {
+      "note": "Collaboro con una fotografa di talento per offrirti un’esperienza completa e memorabile. Insieme uniamo l’arte della bellezza e quella della fotografia per creare immagini che catturano la tua essenza e il tuo stile."
+    },
+    "discover": "Scopri"
+  },
+  "PsychoPage": {
+    "intro": {
+      "title": "Accompagnamento di riequilibrio emotivo e corporeo",
+      "subtitle": "Per donne e/o mamme esauste che desiderano ritrovarsi, ritrovare calma nella loro vita e nella loro famiglia.",
+
+      "block1": {
+        "p1": "Arriva un momento nella vita di una donna in cui il corpo rallenta, le emozioni diventano più intense e si sente un bisogno profondo di ritrovarsi.",
+        "p2": "Stress, carico mentale, stanchezza emotiva, tensioni nel corpo, perdita di punti di riferimento… Queste sensazioni non arrivano per caso. Sono spesso messaggi di uno squilibrio interiore o di un bisogno di ascolto troppo a lungo ignorato."
+      },
+
+      "block2": {
+        "p1": "Dietro questi segnali si nasconde un invito: rallentare, tornare a sé e riconnettersi al proprio corpo.",
+        "p2": "È per accompagnare questi momenti di transizione che ho creato i percorsi Rinascita."
+      },
+
+      "block3": {
+        "p1": "Basati sul metodo RISONANZA, questi percorsi offrono un approccio dolce e globale che unisce parola, corpo ed emozioni.",
+        "p2": "Permettono di:"
+      },
+
+      "benefits": {
+        "1": "Calmare lo stress e le emozioni",
+        "2": "Alleggerire il carico mentale",
+        "3": "Rilasciare le tensioni del corpo",
+        "4": "Ritrovare un equilibrio interiore"
+      },
+
+      "conclusion": "Uno spazio per lasciare andare, sentire, comprendere… e ritrovarsi con dolcezza.",
+      "cta": "Scopri le offerte"
+    },
+
+    "tagBanner": {
+      "title": "Scopri i nostri percorsi",
+      "tag": {
+        "women": "Rinascita Donna",
+        "mom": "Rinascita Mamma",
+        "pma": "Rinascita PMA",
+        "born": "Rinascita Post-Natale"
+      }
+    },
+
+    "method": {
+      "title": "Un approccio basato sul mio Metodo RISONANZA",
+      "intro": "Ogni percorso Rinascita si basa su un approccio comune:",
+      "final_p": "Questo approccio permette di agire in profondità su corpo, emozioni e relazione con sé stessi.",
+
+      "1": {
+        "title": "Ascoltare i messaggi del corpo",
+        "content": "Comprendere le emozioni che si manifestano nel corpo per identificare ciò che tensioni, stanchezza o blocchi rivelano della tua esperienza emotiva."
+      },
+      "2": {
+        "title": "Comprendere ciò che il corpo esprime",
+        "content": "Accogliere tensioni e dolori come messaggi, per dare senso alle sensazioni e sciogliere progressivamente ciò che si è accumulato."
+      },
+      "3": {
+        "title": "Calmare il sistema nervoso",
+        "content": "Regolare il sistema nervoso per ridurre stress e sovraccarico emotivo, permettendo al corpo di ritrovare sicurezza e rilassamento."
+      },
+      "4": {
+        "title": "Liberare le tensioni attraverso il tocco",
+        "content": "Riequilibrare il corpo attraverso il tocco per liberare tensioni fisiche ed emotive e favorire un rilassamento profondo."
+      },
+      "5": {
+        "title": "Ritrovare un equilibrio interiore",
+        "content": "Riconnettersi a sé stessi, ritrovare stabilità emotiva e vivere il quotidiano con più dolcezza e leggerezza."
+      }
+    },
+
+    "offer": {
+      "title": "Le nostre offerte",
+      "discover": "Scopri",
+      "buy": "Prenota ora",
+
+      "1": {
+        "name": "Trasformazione",
+        "price": "816€",
+        "description": "Un percorso profondo per trasformare in modo duraturo il tuo equilibrio emotivo e corporeo. Questo accompagnamento permette di liberare le tensioni accumulate, calmare le emozioni e sostenere un vero processo di trasformazione interiore. Le sedute si sviluppano nel tempo per permettere al corpo e alle emozioni di integrare i cambiamenti con dolcezza.",
+        "tag": "Più richiesto",
+        "list": {
+          "1": "8 sessioni personalizzate in base ai tuoi bisogni",
+          "2": "Un lavoro approfondito su corpo ed emozioni",
+          "3": "Un percorso su più settimane",
+          "4": "Un supporto personalizzato tra le sedute",
+          "5": "Un rituale simbolico di chiusura per segnare il percorso compiuto"
+        }
+      },
+
+      "2": {
+        "name": "Risveglio",
+        "price": "272€",
+        "description": "Un primo passo per ascoltare ciò che il tuo corpo esprime e iniziare a rilasciare le tensioni fisiche ed emotive. Questo percorso aiuta a comprendere meglio il legame tra emozioni e corpo, avviando un riequilibrio dolce e progressivo.",
+        "list": {
+          "1": "3 sessioni personalizzate",
+          "2": "Valutazione psico-corporea",
+          "3": "Lavoro su parola e tocco"
+        }
+      }
+    },
+
+    "clients": {
+      "title": "I nostri percorsi",
+
+      "women": {
+        "name": "Rinascita Donna",
+        "title": "Riconnettersi a sé e ritrovare il proprio equilibrio",
+        "intro": "Questo percorso è pensato per donne che sentono:",
+        "points": [
+          "una stanchezza emotiva persistente",
+          "tensioni o dolori legati allo stress",
+          "una perdita di energia o punti di riferimento",
+          "la sensazione di non essere più davvero connesse a sé stesse"
+        ],
+        "text": "Rinascita Donna è uno spazio per rallentare, lasciare andare ciò che pesa e riequilibrare corpo ed emozioni.",
+        "result": "Ritrovare energia, chiarezza e stabilità interiore grazie a un percorso che unisce ascolto, corpo e tocco.",
+        "cta": "Voglio ritrovarmi"
+      },
+
+      "mom": {
+        "name": "Rinascita Mamma",
+        "title": "Calmare la madre per trasformare il legame",
+        "intro": "Questo percorso è pensato per donne che sentono:",
+        "points": [
+          "una stanchezza emotiva persistente",
+          "tensioni o dolori legati allo stress",
+          "una perdita di energia o punti di riferimento",
+          "la sensazione di non essere più davvero connesse a sé stesse"
+        ],
+        "text": "Rinascita Mamma è uno spazio per rallentare, lasciare andare ciò che pesa e riequilibrare corpo ed emozioni.",
+        "result": "Ritrovare energia, chiarezza e stabilità interiore per vivere il quotidiano con più serenità.",
+        "cta": "Calmare la mia quotidianità"
+      },
+
+      "pma": {
+        "name": "Rinascita PMA",
+        "title": "Ritrovare fiducia nel proprio corpo",
+        "intro": "Questo percorso è pensato per donne che sentono:",
+        "points": [
+          "una stanchezza emotiva persistente",
+          "tensioni o dolori legati allo stress",
+          "una perdita di energia o punti di riferimento",
+          "la sensazione di non essere più davvero connesse a sé stesse"
+        ],
+        "text": "Rinascita PMA è uno spazio per rallentare, lasciare andare ciò che pesa e riequilibrare corpo ed emozioni.",
+        "result": "Ritrovare fiducia, stabilità e connessione profonda con il proprio corpo.",
+        "cta": "Ritrovare fiducia nel mio corpo"
+      },
+
+      "postNatal": {
+        "name": "Rinascita Post-Natale",
+        "title": "Riconnettersi a sé dopo la nascita",
+        "intro": "Questo percorso è pensato per donne che sentono:",
+        "points": [
+          "una stanchezza emotiva persistente",
+          "tensioni o dolori legati allo stress",
+          "una perdita di energia o punti di riferimento",
+          "la sensazione di non essere più davvero connesse a sé stesse"
+        ],
+        "text": "Rinascita Post-Natale è uno spazio per rallentare, lasciare andare ciò che pesa e riequilibrare corpo ed emozioni.",
+        "result": "Ritrovare energia, equilibrio e connessione dopo la nascita.",
+        "cta": "Riconnettermi dopo la nascita"
+      }
+    },
+
+    "finalCta": {
+      "title": "Prenderti cura di te non è un lusso",
+      "description": "Se senti il richiamo di questo percorso ma non sai quale sia quello più adatto a te, scrivimi: insieme troveremo ciò che risponde meglio ai tuoi bisogni.",
+      "cta": "Scrivimi qui per parlarne"
+    }
+  },
+  "SimilarServices": {
+    "h2": "Servizi simili"
+  },
+
+  "LegalNotices": {
+    "title": "Note legali",
+    "update": "Ultimo aggiornamento: Marzo 2026",
+
+    "section1": {
+      "title": "1 - Editore del sito",
+      "p1": "Ai sensi dell’<law>articolo 6 della legge n. 2004-575 del 21 giugno 2004</law> per la fiducia nell’economia digitale, si informano gli utenti del sito <site>https://haumana-bien-etre.com/</site> sull’identità dei diversi soggetti coinvolti nella sua realizzazione e gestione:",
+      "p2": "<strong>HAUMANA BIEN-ÊTRE</strong> – IMPRENDITRICE INDIVIDUALE SIGNORA AMBRE CHIARINELLI (HAUMANA BIEN-ÊTRE)<br></br><infos>Sede legale</infos> : 200 Rue de l'Épinette, 74160 Présilly <br></br>Iscritta al Registro delle Imprese - <br></br><infos>SIRET</infos> : 853 233 047 000 10 <br></br><infos>Direttore responsabile della pubblicazione</infos> : Ambre CHIARINELLI <br></br><infos>Contatto</infos> : <email>contact@haumana-bien-etre.com</email> – <infos>Tel.</infos> : <phone>06 52 69 32 87</phone><br></br><strong>Altri collaboratori :</strong> WEBMASTER - <webmaster>Arthur Barraud</webmaster>"
+    },
+
+    "section2": {
+      "title": "2 - Hosting",
+      "website": "Sito web"
+    },
+
+    "section3": {
+      "title": "3 - Proprietà intellettuale",
+      "text": "<strong>SIGNORA AMBRE CHIARINELLI (HAUMANA BIEN-ÊTRE)</strong> è titolare dei diritti di proprietà intellettuale e detiene i diritti d’uso su tutti gli elementi accessibili sul sito, tra cui testi, immagini, grafica, loghi, video, struttura, icone e suoni.<br></br><br></br>Qualsiasi riproduzione, rappresentazione, modifica, pubblicazione o adattamento, totale o parziale, degli elementi del sito, con qualsiasi mezzo o procedimento, è vietata senza previa autorizzazione scritta di <strong>SIGNORA AMBRE CHIARINELLI (HAUMANA BIEN-ÊTRE)</strong>.<br></br><br></br>Qualsiasi utilizzo non autorizzato del sito o di uno qualsiasi dei suoi elementi sarà considerato una violazione dei diritti e perseguito legalmente."
+    },
+
+    "section4": {
+      "title": "4 - Dati personali / GDPR",
+      "p1": "I dati personali raccolti tramite questo sito (modulo di prenotazione, modulo di contatto, iscrizione alla newsletter) sono utilizzati esclusivamente da <strong>SIGNORA AMBRE CHIARINELLI (HAUMANA BIEN ÊTRE)</strong> per le seguenti finalità: gestione delle prenotazioni, comunicazione con l’utente e invio di newsletter (previo consenso).",
+      "p2": "In conformità al Regolamento Generale sulla Protezione dei Dati (GDPR) e alla normativa sulla privacy, l’utente ha diritto di accesso, rettifica, cancellazione, limitazione del trattamento, opposizione e portabilità dei dati. È possibile revocare il consenso in qualsiasi momento.",
+      "p3": "Per esercitare i tuoi diritti, contattaci a: <email>contact@haumana-bien-etre.com</email>.",
+      "p4": "Per maggiori informazioni sulla raccolta e il trattamento dei dati, consulta la nostra <privacy>Informativa sulla privacy</privacy>.",
+      "p5": "I dati personali sono conservati solo per il tempo necessario alle finalità per cui sono stati raccolti, salvo obblighi legali diversi."
+    },
+
+    "section5": {
+      "title": "5 - Cookie",
+      "p1": "La navigazione sul sito <website>https://www.haumana-bien-etre.com</website> può comportare l’installazione di cookie sul dispositivo dell’utente.",
+      "p2": "Un « cookie » è un piccolo file che registra informazioni relative alla navigazione dell’utente su un sito. I dati così ottenuti permettono, ad esempio, di facilitare la navigazione futura o di effettuare analisi statistiche.",
+      "introList": "I cookie utilizzati su questo sito sono i seguenti:",
+      "cookie1": "<strong>Cookie necessari</strong> : indispensabili per il corretto funzionamento del sito (navigazione, prenotazioni).",
+      "cookie2": "<strong>Cookie di analisi</strong> : consentono di misurare il traffico e migliorare l’esperienza utente (statistiche anonimizzate tramite Google Analytics).",
+      "cookie3": "<strong>Cookie pubblicitari</strong> (se applicabile) : utilizzati per personalizzare la pubblicità su altri siti.",
+      "p3": "È possibile accettare o rifiutare i cookie modificando le impostazioni del browser. Nessun cookie non essenziale verrà installato senza il tuo consenso. Al primo accesso, un banner informativo ti permette di esprimere le tue preferenze.",
+      "p4": "La durata massima di conservazione dei cookie è di 13 mesi dalla loro installazione.",
+      "p5": "Per maggiori informazioni sull’uso dei cookie, consulta la nostra <privacy>Informativa sulla privacy</privacy>."
+    },
+
+    "section6": {
+      "title": "6 - Responsabilità",
+      "p1": "<strong>SIGNORA AMBRE CHIARINELLI (HAUMANA BIEN-ÊTRE)</strong> non potrà essere ritenuta responsabile per danni diretti o indiretti causati al dispositivo dell’utente durante l’accesso al sito <website>https://www.haumana-bien-etre.com</website>.",
+      "p2": "<strong>SIGNORA AMBRE CHIARINELLI (HAUMANA BIEN-ÊTRE)</strong> declina ogni responsabilità per l’uso delle informazioni e dei contenuti presenti sul sito.",
+      "p3": "Nonostante la massima cura nella redazione e nell’aggiornamento dei contenuti, <strong>SIGNORA AMBRE CHIARINELLI (HAUMANA BIEN-ÊTRE)</strong> non può essere ritenuta responsabile per eventuali errori o omissioni. Il sito può essere sospeso o interrotto senza preavviso per manutenzione o problemi tecnici.",
+      "introList": "<strong>SIGNORA AMBRE CHIARINELLI (HAUMANA BIEN-ÊTRE)</strong> si impegna a garantire la sicurezza del sito. Tuttavia, non potrà essere ritenuta responsabile in caso di:",
+      "li1": "Forza maggiore (eventi naturali, catastrofi, scioperi, eventi legali o normativi imprevisti).",
+      "li2": "Guasti, malfunzionamenti o indisponibilità del server o della rete internet.",
+      "li3": "Accessi non autorizzati, attacchi informatici o azioni malevole di terzi.",
+      "li4": "Inserimento o installazione di dati indesiderati sul sito a sua insaputa.",
+      "p4": "Sono disponibili spazi interattivi (moduli di contatto, prenotazioni, ecc.). <strong>SIGNORA AMBRE CHIARINELLI (HAUMANA BIEN-ÊTRE)</strong> si riserva il diritto di eliminare, senza preavviso, qualsiasi contenuto che violi la normativa vigente.",
+      "p5": "Si riserva inoltre il diritto di intraprendere azioni civili e/o penali contro l’utente in caso di contenuti offensivi, diffamatori o illegali."
+    },
+
+    "section7": {
+      "title": "7 - Link esterni",
+      "p1": "Il sito <website>https://www.haumana-bien-etre.com</website> può contenere link verso siti gestiti da terzi. Tali link sono forniti a titolo informativo.",
+      "p2": "<strong>SIGNORA AMBRE CHIARINELLI (HAUMANA BIEN-ÊTRE)</strong> non ha alcun controllo su questi siti e non è responsabile dei loro contenuti o dell’uso che ne viene fatto.",
+      "p3": "La presenza di tali link non implica alcuna approvazione. Si consiglia di consultare le condizioni d’uso e le politiche privacy dei siti terzi."
+    },
+
+    "section8": {
+      "title": "8 - Legge applicabile e foro competente",
+      "text": "Le presenti note legali sono regolate dal diritto francese. Qualsiasi controversia è di competenza esclusiva dei tribunali di Parigi."
+    }
+  },
+  "PrivacyPolicy": {
+    "title": "Informativa sulla privacy",
+    "update": "Ultimo aggiornamento: Marzo 2026",
+
+    "section1": {
+      "title": "1 – Introduzione",
+      "p1": "Il sito <strong>Haumana Bien-Être (https://www.haumana-bien-etre.com)</strong> è di proprietà di <strong>SIGNORA AMBRE CHIARINELLI (HAUMANA BIEN-ÊTRE)</strong>, che è il titolare del trattamento dei tuoi dati personali.",
+      "p2": "Abbiamo adottato la presente Informativa sulla privacy, che descrive come trattiamo le informazioni raccolte da <strong>Haumana Bien-Être (https://www.haumana-bien-etre.com)</strong> e spiega perché raccogliamo determinati dati personali che ti riguardano. Pertanto, è necessario leggere questa informativa prima di utilizzare il sito web di <strong>Haumana Bien-Être (https://www.haumana-bien-etre.com)</strong>.",
+      "p3": "Ci prendiamo cura dei tuoi dati personali e ci impegniamo a garantirne riservatezza e sicurezza."
+    },
+
+    "section2": {
+      "title": "2 – Informazioni personali che raccogliamo",
+      "p1": "Quando visiti il sito <strong>Haumana Bien-Être (https://www.haumana-bien-etre.com)</strong>, raccogliamo automaticamente alcune informazioni sul tuo dispositivo: browser, indirizzo IP, fuso orario, cookie installati, pagine visitate, ecc.<br></br>Inoltre, durante la navigazione raccogliamo informazioni sulle singole pagine o prodotti visualizzati, sui siti o termini di ricerca che ti hanno indirizzato al sito e su come interagisci con esso. Queste informazioni raccolte automaticamente sono indicate come “informazioni sul dispositivo”.",
+      "p2": "Possiamo anche raccogliere dati personali che ci fornisci (nome, indirizzo, informazioni di pagamento, ecc.) durante la registrazione o l’ordine, al fine di poter eseguire il contratto."
+    },
+
+    "section3": {
+      "title": "3 – Perché trattiamo i tuoi dati?",
+      "p1": "La nostra massima priorità è la sicurezza dei dati dei clienti; pertanto trattiamo solo i dati minimi necessari per garantire il funzionamento del sito web.",
+      "p2": "I dati raccolti automaticamente sono utilizzati esclusivamente per individuare potenziali abusi e per generare informazioni statistiche anonime sull’uso del sito web. Tali informazioni statistiche non sono aggregate in modo da identificare singoli utenti.",
+      "p3": "Puoi visitare il sito senza rivelare chi sei o fornire informazioni identificabili. Tuttavia, se desideri utilizzare determinate funzionalità, ricevere newsletter o compilare moduli, potresti fornire dati personali come email, nome, cognome, città di residenza, organizzazione o numero di telefono. Puoi scegliere di non fornire i tuoi dati personali, ma potresti non poter usufruire di alcune funzionalità del sito. Ad esempio, non potrai ricevere la newsletter o contattarci direttamente tramite il sito. Gli utenti che non sanno quali informazioni sono obbligatorie possono contattarci a <email>contact@haumana-bien-etre.com</email>."
+    },
+
+    "section4": {
+      "title": "4 – I tuoi diritti",
+      "intro": "Se sei residente in Europa, hai i seguenti diritti:",
+      "li1": "Diritto di essere informato.",
+      "li2": "Diritto di accesso.",
+      "li3": "Diritto di rettifica.",
+      "li4": "Diritto alla cancellazione.",
+      "li5": "Diritto di limitare il trattamento.",
+      "li6": "Diritto alla portabilità dei dati.",
+      "li7": "Diritto di opposizione.",
+      "li8": "Diritti relativi a decisioni automatizzate e profilazione.",
+      "p1": "Per esercitare i tuoi diritti, contattaci a <email>contact@haumana-bien-etre.com</email>.",
+      "p2": "Se sei residente in Europa, trattiamo le tue informazioni per eseguire contratti con te (ad esempio ordini tramite il sito) o per perseguire i nostri legittimi interessi aziendali sopra indicati. Le informazioni possono essere trasferite fuori dall’Europa, incluso Canada e Stati Uniti."
+    },
+
+    "section5": {
+      "title": "5 – Link ad altri siti",
+      "p1": "Il nostro sito può contenere link verso altri siti non controllati o posseduti da noi. Non siamo responsabili dei contenuti o delle pratiche di privacy di tali siti. Ti invitiamo a prestare attenzione quando lasci il nostro sito e a leggere le informative sulla privacy di ogni sito che potrebbe raccogliere dati personali."
+    },
+
+    "section6": {
+      "title": "6 – Sicurezza delle informazioni",
+      "p1": "Proteggiamo le informazioni che ci fornisci su server sicuri, in un ambiente controllato, con misure amministrative, tecniche e fisiche ragionevoli. Tuttavia, nessuna trasmissione di dati via Internet o reti wireless può essere garantita completamente sicura."
+    },
+
+    "section7": {
+      "title": "7 – Divulgazione legale",
+      "p1": "Riveliamo informazioni raccolte se richiesto o consentito dalla legge, ad esempio per rispondere a citazioni in giudizio o procedimenti legali, o se riteniamo in buona fede che la divulgazione sia necessaria per proteggere i nostri diritti, la tua sicurezza o quella di altri, per prevenire frodi o rispondere a richieste governative."
+    },
+
+    "section8": {
+      "title": "8 – Modifiche alla politica",
+      "p1": "Ci riserviamo il diritto di modificare questa politica sulla privacy in qualsiasi momento. La versione vigente è quella pubblicata sul sito alla data indicata in cima alla pagina."
+    },
+
+    "section9": {
+      "title": "9 – Contatti",
+      "p1": "Per qualsiasi domanda riguardo alla presente Informativa o ai tuoi diritti sui dati personali, contattaci a <email>contact@haumana-bien-etre.com</email>."
+    }
+  },
+  "CGV": {
+    "title": "Condizioni Generali di Vendita",
+    "update": "Ultimo aggiornamento: Aprile 2026",
+
+    "s1": {
+      "title": "1. Identità del fornitore",
+      "p1": "Le presenti Condizioni Generali di Vendita (CGV) disciplinano i servizi offerti da:",
+      "p2": "<br></br><strong>HAUMANA BIEN-ÊTRE</strong><br></br><infos>Sede legale</infos>: 200 Rue de l'Épinette, 74160 Présilly<br></br><infos>SIRET</infos>: 853 233 047 000 10<br></br>Email: <email>contact@haumana-bien-etre.com</email>",
+      "p3": "<br></br>Di seguito denominato « il Fornitore ».",
+      "p4": "<br></br>E qualsiasi persona fisica o giuridica che effettua un acquisto o una prenotazione, di seguito denominata « il Cliente ».",
+      "p5": "<br></br>Il Cliente dichiara di essere una persona fisica maggiorenne che agisce per scopi personali o un professionista che agisce nell'ambito della propria attività."
+    },
+
+    "s2": {
+      "title": "2. Oggetto e campo di applicazione",
+      "p1": "Le presenti CGV hanno lo scopo di definire le condizioni con cui il Fornitore fornisce i propri servizi al Cliente, in particolare:",
+      "li1": "la prenotazione di prestazioni di benessere",
+      "li2": "l’accompagnamento in psicopraticia",
+      "li3": "servizi di trucco professionale",
+      "li4": "la vendita e l’uso di buoni regalo",
+      "li5": "l’uso del sito web e degli strumenti di prenotazione",
+      "p2": "Le CGV si applicano <strong>senza restrizioni o riserve</strong> a tutti i servizi forniti.",
+      "p3": "<br></br>Prevalgono su qualsiasi altro documento, salvo condizioni particolari accettate espressamente per iscritto.",
+      "p4": "<br></br>Il Cliente riconosce di aver preso visione delle CGV e di averle accettate <strong>prima di qualsiasi conferma di prenotazione o pagamento.</strong>"
+    },
+
+    "s3": {
+      "title": "3. Descrizione dei servizi",
+      "p1": "Il Fornitore propone in particolare:",
+      "li1": "massaggi di benessere, esclusivamente per donne e bambini",
+      "li2": "sessioni di accompagnamento in psicopraticia (non mediche)",
+      "li3": "servizi di trucco professionale",
+      "li4": "vendita di buoni regalo",
+      "p2": "I servizi offerti sono descritti con la massima accuratezza possibile. Tuttavia, fotografie, descrizioni o illustrazioni non hanno valore contrattuale.",
+      "warning": "⚠️ Importante",
+      "p3": "I servizi offerti sono:",
+      "li_1_1": "strettamente non medici",
+      "li_1_2": "non terapeutici nel senso medico",
+      "li_1_3": "non sessuali",
+      "p4": "Non sostituiscono in alcun caso:",
+      "li_2_1": "un follow-up medico",
+      "li_2_2": "un trattamento prescritto da un professionista sanitario",
+      "li_2_3": "una diagnosi medica o psicologica",
+      "p5": "Il Cliente è espressamente informato che il Fornitore non è né medico né professionista sanitario regolamentato."
+    },
+
+    "s4": {
+      "title": "4. Condizioni di accesso",
+      "sub1": {
+        "title": "4.1 Capacità giuridica",
+        "p1": "Il Cliente dichiara di essere legalmente in grado di contrattare secondo le leggi vigenti."
+      },
+      "sub2": {
+        "title": "4.2 Accesso dei minorenni",
+        "p1": "I minorenni possono usufruire dei servizi solo:",
+        "li1": "con un’autorizzazione scritta preventiva di un rappresentante legale",
+        "li2": "e in sua presenza obbligatoria per tutta la durata del servizio",
+        "p2": "Il Fornitore si riserva il diritto di rifiutare qualsiasi servizio in assenza di tali condizioni."
+      },
+      "sub3": {
+        "title": "4.3 Rifiuto del servizio",
+        "p1": "Il Fornitore si riserva il diritto di rifiutare o interrompere un servizio, senza rimborso, nei seguenti casi:",
+        "li1": "dubbio sullo stato di salute del Cliente",
+        "li2": "controindicazioni non dichiarate",
+        "li3": "comportamento inappropriato o irrispettoso",
+        "li4": "richiesta ambigua o a carattere sessuale",
+        "li5": "mancato rispetto delle norme igieniche o di sicurezza",
+        "p2": "Questo rifiuto non dà diritto a indennizzi."
+      }
+    },
+
+    "s5": {
+      "title": "5. Prenotazione",
+      "p1": "Le prenotazioni possono essere effettuate:",
+      "li1": "tramite il sito web",
+      "li2": "telefonicamente",
+      "li3": "tramite messaggio (SMS, social network, email)",
+      "p2": "Una prenotazione è considerata ferma e definitiva:",
+      "li1_1": "dopo il pagamento completo<br></br>O<br></br>",
+      "li1_2": "dopo conferma esplicita del Fornitore",
+      "p3": "Il Fornitore si riserva il diritto di annullare o rifiutare qualsiasi prenotazione in caso di:",
+      "li_2_1": "indisponibilità",
+      "li_2_2": "errore tecnico",
+      "li_2_3": "forza maggiore",
+      "li_2_4": "sospetto di frode",
+      "p4": "In tal caso, il Cliente sarà informato tempestivamente e rimborsato se necessario."
+    },
+
+    "s6": {
+      "title": "6. Prezzi",
+      "p1": "I prezzi sono indicati in euro (€), IVA inclusa.",
+      "p2": "<br></br>I prezzi applicabili sono quelli in vigore al momento della prenotazione.",
+      "p3": "<br></br>Il Fornitore si riserva il diritto di modificare i prezzi in qualsiasi momento, senza effetto retroattivo sulle prenotazioni già confermate.",
+      "p4": "<br></br>Eventuali costi aggiuntivi (spostamenti, servizi specifici, ecc.) sono indicati prima della conferma."
+    },
+
+    "s7": {
+      "title": "7. Pagamento – STRIPE, SUMUP E CONTANTI",
+      "p1": "Il pagamento delle prestazioni è dovuto per intero al momento della prenotazione, salvo accordo particolare espressamente concordato tra il Cliente e il Fornitore.",
+      "sub1": {
+        "title": "7.1 Modalità di pagamento accettate",
+        "p1": "I mezzi di pagamento accettati sono i seguenti:",
+        "li1": "Carta di credito tramite la piattaforma sicura Stripe",
+        "li2": "Carta di credito tramite SumUp",
+        "li3": "Pagamento in contanti (solo per prestazioni pagate in loco, escluso prenotazioni online)",
+        "p2": "Pagamento in contanti (solo per prestazioni pagate in loco, escluso prenotazioni online)",
+        "p3": "<br></br>I pagamenti in contanti non sono accettati per le prenotazioni effettuate tramite il sito web, salvo diversa indicazione esplicita del Fornitore."
+      },
+      "sub2": {
+        "title": "7.2 Sicurezza dei pagamenti",
+        "p1": "I pagamenti online sono completamente sicuri e gestiti da fornitori esterni di servizi di pagamento:",
+        "li1": "Stripe",
+        "li2": "SumUp",
+        "p2": "Questi fornitori rispettano le norme di sicurezza internazionali (in particolare PCI-DSS).",
+        "p3": "<br></br>Il Fornitore non ha, in alcun momento, accesso ai dati bancari del Cliente.",
+        "p4": "Il Fornitore non ha, in alcun momento, accesso ai dati bancari del Cliente.",
+        "p5": "<br></br>Il Cliente riconosce e accetta che:",
+        "li1_1": "la convalida del pagamento vale come accettazione della transazione",
+        "li1_2": "viene generata e conservata una prova di pagamento elettronica"
+      },
+      "sub3": {
+        "title": "7.3 Convalida del pagamento",
+        "p1": "La prenotazione è considerata definitiva solo dopo:",
+        "li1": "convalida del pagamento",
+        "li2": "conferma via email o messaggio",
+        "p2": "In caso di rifiuto del pagamento da parte dell’istituto bancario, la prenotazione viene automaticamente annullata.",
+        "p3": "<br></br>Il Fornitore non sarà responsabile delle conseguenze derivanti da un rifiuto del pagamento."
+      },
+      "sub4": {
+        "title": "7.4 Rifiuto del pagamento e prevenzione delle frodi",
+        "p1": "Il Fornitore si riserva il diritto di rifiutare qualsiasi ordine o prestazione in caso di:",
+        "li1": "pagamento rifiutato o incompleto",
+        "li2": "sospetta frode o uso improprio di un metodo di pagamento",
+        "li3": "incoerenza nelle informazioni fornite",
+        "li14": "precedente controversia con il Cliente",
+        "li5": "uso improprio del diritto di contestazione (chargeback)",
+        "p2": "Il Fornitore può inoltre richiedere:",
+        "li1_1": "pagamento anticipato completo",
+        "li1_2": "pagamento anticipato completo"
+      },
+      "sub5": {
+        "title": "7.5 Lotta contro le contestazioni abusive (chargebacks)",
+        "p1": "In caso di contestazione abusiva di un pagamento presso l’istituto bancario (chargeback), il Fornitore si riserva il diritto di:",
+        "li1": "sospendere o rifiutare qualsiasi futura prenotazione",
+        "li2": "intraprendere qualsiasi procedura necessaria per recuperare le somme dovute",
+        "li3": "trasmettere gli elementi di prova (prenotazione, scambi, presenza all’appuntamento)",
+        "p2": "Il Cliente è informato che qualsiasi prestazione prenotata e effettuata costituisce prova del servizio reso."
+      },
+      "sub6": {
+        "title": "7.6 Pagamento in loco",
+        "p1": "Per le prestazioni pagate in loco:",
+        "li1": "il pagamento è dovuto immediatamente dopo la prestazione",
+        "li2": "i pagamenti in contanti sono accettati entro i limiti previsti dalla legge applicabile",
+        "p2": "Il Fornitore si riserva il diritto di rifiutare un pagamento in contanti in caso di:",
+        "li1_1": "importo elevato",
+        "li1_2": "impossibilità di dare il resto",
+        "li1_3": "giustificato dubbio"
+      },
+      "sub7": {
+        "title": "7.7 Ritardo o mancato pagamento",
+        "p1": "In caso di mancato pagamento:",
+        "li1": "la prestazione può essere annullata",
+        "li2": "o rifiutata",
+        "p2": "Qualsiasi somma non pagata può essere soggetta a:",
+        "li1_1": "azione legale",
+        "li1_2": "recupero crediti"
+      }
+    },
+
+    "s8": {
+      "title": "8. Diritto di recesso",
+      "p1": "Conformemente all'<law>articolo L221-18 del Codice del Consumo</law>, il Cliente dispone di 14 giorni per esercitare il diritto di recesso.",
+      "p2": "<br></br>Questo diritto non si applica se:",
+      "li1": "il servizio è stato eseguito prima della scadenza del termine",
+      "li2": "il Cliente ha rinunciato espressamente al diritto di recesso"
+    },
+
+    "s9": {
+      "title": "9. Cancellazione - rinvio - no-show",
+      "p1": "<strong>Cancellazione da parte del Cliente</strong>",
+      "li1": "Oltre 48h prima: rimborso o rinvio gratuito",
+      "li2": "Tra 24h e 48h: 50% dell'importo dovuto",
+      "li3": "Meno di 24h: 100% dell'importo dovuto",
+      "li4": "Assenza (no-show): 100% dell'importo dovuto",
+      "p2": "<strong>Ritardo</strong>",
+      "p3": "Ogni ritardo del Cliente:",
+      "li_1_1": "comporta riduzione della durata del servizio",
+      "li_1_2": "non dà diritto a rimborsi o compensazioni",
+      "p4": "<strong>Cancellazione da parte del Fornitore</strong>",
+      "p5": "In caso di impedimento, il Fornitore proporrà:",
+      "li_2_1": "un rinvio<br></br>O<br></br>",
+      "li_2_2": "un rimborso completo"
+    },
+
+    "s10": {
+      "title": "10. Buoni regalo",
+      "p1": "I buoni regalo:",
+      "li1": "sono validi per 12 mesi dalla data di acquisto",
+      "li2": "non sono rimborsabili né scambiabili",
+      "li3": "non sono frazionabili salvo accordo eccezionale",
+      "p2": "Devono essere presentati il giorno del servizio.",
+      "p3": "<br></br>Il Fornitore declina ogni responsabilità in caso di:",
+      "li_1_1": "smarrimento",
+      "li_1_2": "furto",
+      "li_1_3": "uso fraudolento"
+    },
+
+    "s11": {
+      "title": "11. Controindicazioni mediche",
+      "p1": "Il Cliente si impegna a informare il Fornitore di qualsiasi condizione che possa influenzare il servizio, tra cui:",
+      "li1": "malattie",
+      "li2": "lesioni",
+      "li3": "gravidanza",
+      "li4": "allergie",
+      "li5": "trattamenti medici",
+      "p2": "Il Fornitore si riserva il diritto di rifiutare un servizio in caso di dubbio, senza obbligo di giustificazione medica dettagliata.",
+      "p3": "<br></br>La responsabilità del Fornitore non potrà essere coinvolta in caso di dichiarazioni incomplete o false."
+    },
+
+    "s12": {
+      "title": "12. Responsabilità",
+      "p1": "Il Fornitore è tenuto ad un obbligo di mezzi, non di risultato.",
+      "p2": "La sua responsabilità non potrà essere coinvolta in caso di:",
+      "li1": "omissione o falsa dichiarazione del Cliente",
+      "li2": "reazione fisica imprevedibile",
+      "li3": "incompatibilità con lo stato di salute del Cliente",
+      "li4": "uso improprio dei servizi o dei consigli",
+      "p3": "Non è fornita alcuna garanzia di risultato.",
+      "p4": "I servizi riguardano il benessere, i risultati possono variare tra individui."
+    },
+
+    "s13": {
+      "title": "13. Comportamento ed etica",
+      "p1": "Il Cliente si impegna a mantenere un comportamento rispettoso.",
+      "p2": "Ogni comportamento:",
+      "li1": "aggressivo",
+      "li2": "inappropriato",
+      "li3": "irrispettoso",
+      "li4": "a connotazione sessuale",
+      "p3": "porterà a:",
+      "li_1_1": "interruzione immediata del servizio",
+      "li_1_2": "pagamento integrale",
+      "li_1_3": "esclusione definitiva senza rimborso",
+      "p4": "Il Fornitore si riserva il diritto di intraprendere azioni legali se necessario."
+    },
+
+    "s14": {
+      "title": "14. Dati personali",
+      "p1": "I dati sono trattati conformemente al Regolamento Generale sulla Protezione dei Dati (GDPR).",
+      "p2": "<br></br>I dati raccolti sono utilizzati solo per:",
+      "li1": "gestione degli appuntamenti",
+      "li2": "relazioni con il Cliente",
+      "li3": "fatturazione",
+      "p3": "Il Cliente ha diritto di accesso, rettifica e cancellazione.",
+      "p5": "Vedere le <legal>Informazioni legali</legal> e la <privacy>Politica sulla privacy</privacy> per ulteriori dettagli."
+    },
+
+    "s15": {
+      "title": "15. Prova elettronica",
+      "p1": "I dati registrati dal Fornitore (email, prenotazioni, pagamenti) costituiscono prova valida.",
+      "p2": "Costituiscono prova giuridica con lo stesso valore di un documento scritto e firmato."
+    },
+
+    "s16": {
+      "title": "16. Forza maggiore",
+      "p1": "Il Fornitore non può essere ritenuto responsabile in caso di forza maggiore, tra cui:",
+      "li1": "malattia",
+      "li2": "incidente",
+      "li3": "catastrofe naturale",
+      "li4": "guasto tecnico",
+      "li5": "sciopero",
+      "li6": "pandemia",
+      "p2": "Questi eventi sospendono o annullano gli obblighi contrattuali senza indennizzo."
+    },
+
+    "s17": {
+      "title": "17. Legge applicabile",
+      "p1": "Le presenti CGV sono regolate e interpretate secondo la legge francese.",
+      "p2": "<br></br>Sono soggette a:",
+      "li1": "Codice del Consumo",
+      "li2": "Codice Civile",
+      "li3": "qualsiasi normativa applicabile ai servizi offerti",
+      "sub1": {
+        "title": "17.1 Applicazione ai consumatori",
+        "p1": "Le regole imperative del diritto francese relative alla protezione dei consumatori si applicano pienamente al Cliente.",
+        "p2": "<br></br>Nessuna clausola delle presenti CGV può privare il Cliente dei diritti previsti dalla legge francese."
+      },
+      "sub2": {
+        "title": "17.2 Interpretazione delle CGV",
+        "p1": "In caso di difficoltà interpretativa tra diverse versioni linguistiche delle CGV, prevale la versione francese."
+      },
+      "sub3": {
+        "title": "17.3 Validità parziale",
+        "p1": "Se una o più disposizioni delle CGV fossero dichiarate nulle o invalide da un tribunale, le altre rimarranno pienamente in vigore."
+      }
+    },
+    "s18": {
+      "title": "18. Controversie – Mediazione e giurisdizione competente",
+      "sub1": {
+        "title": "18.1 Ricerca di una soluzione amichevole",
+        "p1": "In caso di controversia, le parti si impegnano a cercare prioritariamente una soluzione amichevole.",
+        "p2": "Il Cliente è invitato a contattare il Fornitore:",
+        "li1": "via email",
+        "li2": "tramite il <form>modulo di contatto</form>",
+        "li3": "o tramite le informazioni indicate nelle note legali",
+        "p3": "al fine di trovare una soluzione rapida e adeguata nel più breve tempo possibile."
+      },
+      "sub2": {
+        "title": "18.2 Mediazione dei consumatori",
+        "p1": "Conformemente agli articoli L.612-1 e seguenti del Codice del Consumo, il Cliente consumatore ha il diritto di ricorrere gratuitamente a un mediatore dei consumatori per la risoluzione amichevole di una controversia.",
+        "p2": "Dopo un contatto scritto preliminare con il Fornitore rimasto senza risposta soddisfacente o in assenza di risposta entro un termine ragionevole, il Cliente può rivolgersi al mediatore competente."
+      },
+      "sub3": {
+        "title": "18.3 Giurisdizione competente",
+        "p1": "In assenza di risoluzione amichevole, qualsiasi controversia sarà portata davanti alle giurisdizioni francesi competenti conformemente alle norme di diritto comune.",
+        "p2": "Il Cliente consumatore può rivolgersi:",
+        "li1": "a una delle giurisdizioni territorialmente competenti ai sensi del Codice di procedura civile",
+        "li2": "oppure alla giurisdizione del luogo di residenza al momento della conclusione del contratto o del verificarsi del fatto dannoso"
+      },
+      "sub4": {
+        "title": "18.4 Casi specifici",
+        "p1": "Il Fornitore si riserva il diritto di intraprendere qualsiasi azione legale necessaria in caso di:",
+        "li1": "mancato pagamento",
+        "li2": "frode",
+        "li3": "tentativo di truffa",
+        "li4": "contestazione abusiva del pagamento (incluso procedimento di chargeback)"
+      }
+    },
+
+    "19": {
+      "title": "19. Accettazione delle condizioni generali di vendita (CGV)",
+      "p1": "Il Cliente riconosce espressamente:",
+      "li1": "di aver preso visione delle presenti CGV prima di qualsiasi prenotazione o pagamento",
+      "li2": "di averle lette attentamente nella loro interezza",
+      "li3": "di comprenderle pienamente",
+      "li4": "di accettarle senza riserva né restrizione",
+      "sub1": {
+        "title": "19.1 Valore contrattuale",
+        "p1": "Le presenti CGV costituiscono un contratto giuridicamente vincolante tra il Cliente e il Fornitore.",
+        "p2": "Ogni prenotazione, convalida dell’ordine o pagamento comporta:",
+        "li1": "l’accettazione piena e totale delle CGV",
+        "li2": "la loro applicazione immediata"
+      },
+      "sub2": {
+        "title": "19.2 Prova dell’accettazione",
+        "p1": "L’accettazione delle CGV può essere comprovata tramite:",
+        "li1": "una casella da spuntare durante la prenotazione online",
+        "li2": "un pagamento effettuato",
+        "li3": "o qualsiasi altra convalida elettronica",
+        "p2": "I dati registrati (timestamp, indirizzo IP, conferma dell’ordine) costituiscono prova dell’accettazione delle CGV."
+      },
+      "sub3": {
+        "title": "19.3 Opponibilità",
+        "p1": "Le CGV sono opponibili al Cliente dal momento della loro accettazione.",
+        "p2": "Il Fornitore si riserva il diritto di modificare le CGV in qualsiasi momento.",
+        "p3": "Le CGV applicabili sono quelle in vigore al momento della prenotazione."
       }
     }
   }

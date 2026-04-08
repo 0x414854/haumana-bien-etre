@@ -16,7 +16,7 @@
   z-index: 10;
   transition: all 0.2s ease;
   background: var(--primary-bg);
-  box-shadow: 0 0 5px var(--white);
+  /* box-shadow: 0 0 5px var(--white); */
 }
 
 .navScrolled {

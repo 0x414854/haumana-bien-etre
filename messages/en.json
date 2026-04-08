@@ -1,90 +1,103 @@
 {
   "Banner": {
-    "p": "✨ Caring massages for women, expectant mothers, babies, children and teenagers. A gentle space to take care of yourself at every stage of life. ✨"
+    "p": "✨ Caring massages for women, expectant mothers, babies, children, and teenagers. A gentle space to take care of yourself at every stage of life. ✨"
   },
   "Navbar": {
     "massage": "Massages",
     "massageSub": {
       "all": "All massages",
       "package": "Packages",
-      "world": "World massage",
-      "pregnant": "Pregnancy massage",
-      "babyTeen": "Baby and teen massage",
+      "women": "Women’s treatments",
+      "children": "Baby & children treatments",
       "corporate": "Corporate massage"
     },
     "makeup": "Professional makeup",
-    "schedule": "Opening hours & contact",
-    "quote": "Request a quote"
+    "psycho": "Psychopractitioner",
+    "schedule": "Schedule & contact",
+    "langs": {
+      "fr": "French",
+      "en": "English",
+      "it": "Italian"
+    }
   },
   "Hero": {
-    "h1": "Wellness massage for women, children and families in Présilly",
+    "h1": "Wellness massage for women, children, and families in Présilly",
     "cta": "Contact me",
-    "p_1": "At Haumana Bien-Être, I offer personalized wellness massages for women, children and families, through a psycho-corporal and energetic approach.",
-    "p_2": "Each relaxing massage session is designed to relieve muscle tension, reduce stress and promote deep relaxation of both body and mind. My professional massages are tailored to the needs of every woman, every child and every family, offering a true moment of relaxation, release and lasting well-being.",
-    "p_3": "Treat yourself to a stress-relief massage, a gentle massage for children, or a family wellness massage in a caring and safe environment.",
-    "span": "Through touch and words, I help everyone reconnect with their body, soothe their emotions and reveal their inner well-being."
+    "p_1": "At Haumana Bien-Être, I support women, children, and families in restoring balance, calm, and confidence through a holistic approach that connects body and emotions.",
+    "p_2": "As a psychopractitioner and wellness massage therapist, I offer sessions that combine therapeutic dialogue and touch to release physical tension linked to emotions, soothe the mind, and rebalance the body.",
+    "p_3": "My wellness massages for women, pregnant women, babies, children, and teenagers are designed as true spaces of release and reconnection.",
+    "p_4": "Each session allows you to listen to what your body expresses, let go of what weighs you down, and rediscover softness, lightness, and serenity in your daily life.",
+    "p_5": "Because body and mind are deeply connected, I support each person with care, kindness, and intuition to provide the most appropriate treatment in the present moment.",
+    "p_6": "A moment to pause, reconnect, and restore your inner balance.",
+    "p_7": "Words soothe… touch harmonizes.",
+    "span": "Through touch and words, I help everyone reconnect with their body, soothe their emotions, and reveal their inner well-being"
   },
   "About": {
-    "p": "Practitioner in psycho-corporal harmonization",
-    "note": "I support women and children in restoring balance to what has been disrupted through the body and emotions, using the power of words combined with wellness massage.",
+    "p": "Mind-body therapist",
+    "note": "I support women and children in rebalancing what has been disrupted through the body and emotions, thanks to the power of words combined with wellness massage.",
     "owner": "Ambre Chiarinelli"
   },
   "Description": {
     "h3_1": "A unique experience",
-    "p_1": "At Haumana Bien-Être, each session is a personalized pause where words and touch meet to restore balance between body and emotions. A moment to refocus, release and reconnect with your inner energy.",
+    "p_1": "At Haumana Bien-Être, each session is a tailored moment where words and touch come together to restore balance to body and emotions. A time to refocus, release, and reconnect with your inner energy.",
     "h3_2": "Attentive support",
-    "p_2": "Through caring listening and intuitive gestures, each treatment becomes a dialogue between body and mind. Everything is designed so you feel welcomed, understood and deeply soothed.",
+    "p_2": "Through caring listening and intuitive gestures, each treatment becomes a dialogue between body and mind. Everything is designed so you feel welcomed, understood, and deeply soothed.",
     "h3_3": "A cocoon of softness",
-    "p_3": "Inspired by nature and cultures around the world, the Haumana universe invites you on an inner journey. Soft lighting and delicate scents create a warm atmosphere, perfect for letting go."
+    "p_3": "Inspired by nature and cultures from around the world, the Haumana universe invites you on an inner journey. Soft lighting and delicate scents create a warm atmosphere, ideal for letting go."
   },
   "Benefits": {
-    "intro": "Discover our professional massage treatments and makeup services, dedicated to the well-being of women and babies. Whether you are looking for a moment of deep relaxation, maternity-adapted care, or natural makeup to enhance your beauty, we offer personalized services delivered with gentleness and expertise.",
-    "title_1": "Women’s Treatments",
-    "description_1": "Treat yourself to a moment of deep relaxation with our massages dedicated to women. Our treatments are designed to release tension, soothe stress and gently rebalance the body. Each massage is personalized to your needs for a complete and rejuvenating wellness experience.",
-    "cta_1": "Choose my women’s treatment",
-    "title_2": "Baby Treatment",
-    "description_2": "A gentle treatment dedicated to your baby’s well-being and comfort. Our baby massages promote relaxation, better sleep and strengthen the parent-child bond. A tender and safe moment, adapted to little ones and delivered with a respectful and caring approach.",
-    "cta_2": "Discover the baby treatment",
-    "title_3": "Wellness Packages",
-    "description_3": "Tailor-made packages to extend your relaxation experience. Enjoy a complete journey combining several treatments at a preferential rate. Perfect for a special moment or as an unforgettable wellness gift.",
-    "cta_3": "Choose my package",
-    "title_4": "Makeup",
-    "description_4": "Enhance your natural beauty with professional makeup tailored to every occasion. Natural makeup, event makeup or personalized beauty looks — we reveal your glow with elegance and refinement.",
-    "cta_4": "Book my makeup"
+    "intro": "Discover our massage treatments and professional makeup services, dedicated to the well-being of women and babies. Whether you are looking for deep relaxation, maternity care, or natural makeup to enhance your beauty, we offer personalized services delivered with care and expertise.",
+    "title_1": "Psychopractitioner",
+    "description_1": "What if your fatigue, tension, or emotions weren’t a problem… but a message from your body? Renaissance sessions help you understand what your body is expressing, reduce stress, and restore inner balance.",
+    "cta_1": "Choose my treatment",
+    "title_2": "Women’s treatments",
+    "description_2": "Treat yourself to a moment of deep relaxation with our massages dedicated to women. Our treatments are designed to release tension, soothe stress, and gently rebalance the body. Each massage is personalized for a complete and revitalizing experience.",
+    "cta_2": "Choose my women’s treatment",
+    "title_3": "Baby care",
+    "description_3": "A gentle treatment for your baby’s well-being and relaxation. Our baby massages promote relaxation, sleep, and strengthen the parent-child bond. A tender and reassuring moment, adapted to little ones and delivered with a respectful and caring approach.",
+    "cta_3": "Discover baby care",
+    "title_4": "Wellness packages",
+    "description_4": "Tailor-made packages to extend your relaxation time. Enjoy a complete experience combining several treatments at an attractive price. Perfect for a special moment or as an unforgettable wellness gift.",
+    "cta_4": "Choose my package",
+    "title_5": "Makeup",
+    "description_5": "Enhance your natural beauty with professional makeup tailored to every occasion. Natural, event, or personalized makeup—we reveal your glow with elegance and finesse.",
+    "cta_5": "Book my makeup"
   },
   "Reviews": {
     "h2": "What our clients say about us",
     "h3": "Discover how our clients in Présilly experience Haumana Bien-Être and enjoy our treatments"
   },
   "Cta": {
-    "h2": "Transform your day into a moment of softness",
-    "p": "Relaxing massage or tailored makeup, I am here to help you feel beautiful and relaxed. Easily book your session and let me take care of you.",
+    "h2": "Turn your day into a moment of softness",
+    "p": "Whether it’s a soothing massage or tailor-made makeup, I’m here to help you feel beautiful and relaxed. Book your session easily and let me take care of you.",
     "button": "Book now"
   },
   "Footer": {
     "brand": {
-      "description": "Haumana Bien-Être – Personalized wellness massages for women, children and families, combining a psycho-corporal approach with deep relaxation.",
+      "description": "Haumana Bien-Être – Personalized wellness massages for women, children, and families, combining a mind-body approach with deep relaxation.",
       "lang_1": "FR",
       "lang_2": "EN",
       "lang_3": "IT"
     },
     "services": {
       "h3": "Wellness Treatments",
-      "service_1": "Women’s Treatments",
-      "service_2": "Children’s Treatments",
-      "service_3": "Our Packages",
-      "service_4": "Professional makeup"
+      "service_1": "Psychopractitioner",
+      "service_2": "Women’s treatments",
+      "service_3": "Children’s treatments",
+      "service_4": "Our packages",
+      "service_5": "Professional makeup",
+      "service_6": "Corporate massages"
     },
     "links": {
-      "h3": "Legal Information",
+      "h3": "Legal information",
       "legal_notice": "Legal notice",
       "privacy_policy": "Privacy policy",
       "cgv": "Terms and conditions of sale"
     },
     "infos": {
       "h3": "Contact & Information",
-      "phone": "+33 6 60 98 86 23",
-      "mail": "ambre.haumanabienetre@gmail.com",
+      "phone": "+33 6 52 69 32 87",
+      "mail": "contact@haumana-bien-etre.com",
       "status": {
         "open": "Open",
         "closed": "Closed",
@@ -94,29 +107,1143 @@
       }
     }
   },
-  "BestCategory": {
-    "h2": "Featured Categories",
-    "cat_1": "Massages",
-    "cat_2": "Packages",
-    "cat_3": "Massages for Babies to Teens"
+  "ContactPage": {
+    "title": "Contact Haumana Bien-Être today",
+    "subtitle": "Contact us easily by phone, email, or via the form, find us on the map, and stay connected on our social media.",
+    "infos": {
+      "title": "Contact information",
+      "list": {
+        "phone": "Phone",
+        "mail": "Email",
+        "opening_hours": "Availability",
+        "hours": {
+          "monday": "Monday",
+          "monday_hours": "9am - 4pm",
+          "tuesday": "Tuesday",
+          "tuesday_hours": "9am - 4pm",
+          "wednesday": "Wednesday",
+          "wednesday_hours": "9am - 1pm",
+          "thursday": "Thursday",
+          "thursday_hours": "9am - 4pm",
+          "friday": "Friday",
+          "friday_hours": "9am - 4pm",
+          "saturday": "Saturday",
+          "saturday_hours": "Closed",
+          "sunday": "Sunday",
+          "sunday_hours": "Closed"
+        }
+      },
+      "socials_title": "Social media"
+    },
+    "form": {
+      "title": "Your wellness moment starts here",
+      "subtitle": "Contact me to book a relaxing massage or a makeup service."
+    }
+  },
+  "ContactForm": {
+    "firstName": "First name*",
+    "lastName": "Last name*",
+    "phone": "Phone*",
+    "email": "Email*",
+    "service": "Requested service*",
+    "selectService": "Select a service",
+    "message": "Your message",
+    "acceptPolicy": "I accept the privacy policy*",
+    "recontact": "I agree that my data may be used to contact me*",
+    "send": "Send",
+    "sending": "Sending...",
+    "errors": {
+      "required": "This field is required",
+      "email": "Invalid email",
+      "phone": "Invalid phone number",
+      "acceptPolicy": "You must accept the privacy policy",
+      "recontact": "You must agree to be contacted",
+      "fixErrors": "Please fix the errors before submitting"
+    },
+    "messages": {
+      "success_form_sent": "Your form has been successfully sent!",
+      "error_rate_limit": "Too many requests. Please try again later.",
+      "error_bot_detected": "Bot detected. Form blocked.",
+      "error_db": "An error occurred. Please try again later.",
+      "error_length": "Content too long"
+    }
   },
   "MassagesPage": {
-    "h1": "Massages",
+    "title": "Discover our massages",
+    "subtitle": "Choose your moment of relaxation",
+    "time": {
+      "30min": "30 minutes",
+      "45min": "45 minutes",
+      "1h": "1 hour",
+      "package_4_30": "3 x 30 minutes",
+      "package_3_45": "3 x 45 minutes",
+      "package_3_1h": "3 x 1 hour",
+      "package_4_1h": "4 x 1 hour"
+    },
     "filters": {
       "all": "All",
       "package": "Packages",
-      "world": "World Massages",
-      "prenatal": "Prenatal Massage",
-      "baby-to-teen": "Massage for Babies to Teens",
-      "corporate": "Corporate Massages"
+      "world": "World massages",
+      "prenatal": "Prenatal massage",
+      "baby-to-teen": "Baby to teen massages",
+      "corporate": "Corporate massages"
     }
   },
-  "MassageID": {
-    "back": "Back to Massages",
-    "addToCart": "Add to Cart",
-    "addedToCart": "Item added to cart ✓"
+  "PackagesPage": {
+    "title": "Our packages",
+    "description": {
+      "title": "One-month program",
+      "subtitle": "Treat yourself to a month of relaxation with one massage per week, choosing between 1 hour or 30 minutes, designed to release tension and stress while revitalizing body and mind.",
+      "steps": {
+        "1": "Define your personalized program",
+        "2": "Enjoy each session",
+        "3": "Feel the lasting benefits",
+        "list": {
+          "item_1_1": "A dedicated moment to discuss your needs and goals.",
+          "item_1_2": "Together, we choose the treatment plan best suited to you.",
+          "item_2_1": "Total relaxation: release tension and fatigue",
+          "item_2_2": "Renewed energy: regain vitality and serenity",
+          "item_2_3": "Personalized massage: tailored to your current needs",
+          "item_3_1": "Body-mind balance: a regular ritual for long-term benefits",
+          "item_3_2": "Overall well-being: a relaxed body, a calm mind, and renewed energy."
+        }
+      }
+    },
+    "package_name_1": "Essential Escape",
+    "package_time_1": "4 x 30 minutes",
+    "package_description_1": "A month to breathe and release tension",
+    "package_description_1_2": "With 4 sessions of 30-minute massages, enjoy a regular moment to relax key areas of the body and restore lightness and balance in your daily life.",
+    "discover": "Discover the package",
+    "package_name_2": "Lasting Harmony",
+    "package_time_2": "4 x 1 hour",
+    "package_description_2": "A month to take care of yourself.",
+    "package_description_2_2": "With 4 personalized one-hour massages, give your body the consistency it deserves and feel week after week a lasting sense of calm and renewed energy.",
+    "package_name_3": "Baby massage workshop",
+    "package_time_3": "3 x 45 minutes",
+    "package_description_3": "A month to strengthen the bond and soothe your baby.",
+    "package_description_3_2": "Through 3 sessions dedicated to relaxation and gentleness, support your baby in their first moments of well-being and share a unique bonding experience."
+  },
+  "WomenPage": {
+    "title": "Our treatments for women",
+    "description": {
+      "title": "One-month program",
+      "subtitle": "Each session is a unique moment, designed to offer you a true space for relaxation, listening, and reconnection—whether you are pregnant, a young mother, or simply a woman seeking long-term well-being.",
+      "steps": {
+        "1": "A caring exchange",
+        "2": "The treatment",
+        "3": "A gentle return",
+        "list": {
+          "item_1_1": "A moment to get to know you, understand your needs, and set the intention for your treatment.",
+          "item_2_1": "A relaxing and energizing massage tailored to your body and current energy, and/or a psychology session for deeper inner support.",
+          "item_3_1": "A discussion about your feelings and insights, leaving with your personalized integration guide.",
+          "item_3_2": "Bringing the subtle into the tangible."
+        }
+      }
+    },
+    "package_name_1": "The Essential",
+    "package_time_1": "30 minutes",
+    "package_description_1": "Treat yourself to a moment of softness and well-being.",
+    "package_description_1_2": "Each precise and enveloping movement guides you toward deep relaxation. Let tension fade away and enjoy a sense of serenity flowing through your entire body.",
+    "discover": "Discover the massage",
+    "package_name_2": "Haumana",
+    "package_time_2": "1 hour",
+    "package_description_2": "A tailor-made massage where touch and words come together.",
+    "package_description_2_2": "Each gesture and each word guides you toward deep relaxation, for a unique and comforting wellness experience.",
+    "package_name_3": "Mom-to-be",
+    "package_time_3": "1 hour",
+    "package_description_3": "A gentle moment for you and your baby.",
+    "package_description_3_2": "The Abhyanga mom-to-be massage is a soft and enveloping treatment that soothes the body, relieves tension, and nurtures the bond with your baby. From head to toe, every movement is designed to bring calm, comfort, and well-being, using warm Monoï oil adapted to your sensitive skin."
+  },
+  "BabyTeenPage": {
+    "title": "Our treatments for babies & children",
+    "description": {
+      "title": "How baby & children sessions work",
+      "subtitle": "Each treatment is a unique moment, filled with gentleness and care, designed to support the child’s development, emotions, and overall well-being.",
+      "steps": {
+        "1": "Time to connect",
+        "2": "Enjoy each session",
+        "3": "Feel the lasting effects",
+        "list": {
+          "item_1_1": "Each session begins with a discussion to better understand the child, their world, needs, emotions, and sensitivities.",
+          "item_1_2": "This listening time builds trust and allows the treatment to be fully adapted.",
+          "item_2_1": "The core of the session: a gentle, personalized massage with adapted energy work.",
+          "item_2_2": "Depending on age and needs, a moment of dialogue may help the child express emotions and feel soothed.",
+          "item_3_1": "After the session, a gentle transition back: a herbal tea for older children, or a cuddle for babies, along with a comforting gesture."
+        }
+      }
+    },
+    "package_name_1": "Mahana",
+    "package_time_1": "30 minutes",
+    "age_mahana": "3 to 8 years",
+    "package_description_1": "A gentle moment for little ones",
+    "package_description_1_2": "Mahana is a tailor-made massage where your child chooses the areas to be massaged: legs, back, arms, head, hands...",
+    "package_description_1_3": "Each movement brings calm and relaxation. Natural oils and soothing melodies create a soft sensory experience.",
+    "discover": "Discover the massage",
+    "package_name_2": "Aroha",
+    "age_aroha": "9 to 14 years",
+    "package_time_2": "45 minutes",
+    "package_description_2": "A relaxing journey for older children.",
+    "package_description_2_2": "Aroha is a deeper, tailor-made massage designed for ages 9 to 14, promoting relaxation, emotional balance, and inner calm.",
+    "package_description_2_3": "Your child chooses the areas to be massaged and enjoys a soothing sensory experience.",
+    "package_description_2_4": "A moment to reconnect, breathe, and unwind away from daily stress.",
+    "package_name_3": "Baby massage workshop",
+    "package_time_3": "3 x 45 minutes",
+    "package_description_3": "A month to strengthen the bond and soothe your baby.",
+    "package_description_3_2": "Through 3 sessions dedicated to relaxation and gentleness, support your baby’s well-being and share a special bonding moment."
+  },
+  "ID": {
+    "back": "Back to massages",
+    "backPsycho": "Back to sessions",
+    "addToCart": "Offer as a gift voucher",
+    "addedToCart": "Added to cart ✓",
+    "reservation": "Book the treatment",
+
+    "harmonie-durable": {
+      "name": "Lasting Harmony",
+      "description": [
+        "Treat yourself to a true moment of lasting well-being with our package of 4 one-hour massages, scheduled once a week over a month. Perfect for releasing built-up tension, calming the mind, and restoring deep harmony between body and soul.",
+        "Each session is fully tailored to your needs in the moment: back, legs, head, feet, hands, or abdomen. Week after week, you’ll experience a gradual sense of calm, improved sleep, and renewed energy.",
+        "This monthly package is a genuine wellness ritual designed to provide consistency and long-lasting results. Make an appointment with your serenity and transform each week into a moment of reconnection with yourself."
+      ],
+      "time": "4 x 1 hour",
+      "price": "295"
+    },
+
+    "parenthese-essentielle": {
+      "name": "Essential Escape",
+      "description": [
+        "Enjoy a weekly moment of relaxation with our package of 4 thirty-minute massages. Ideal for releasing tension, soothing both body and mind, and maintaining your well-being over time. Each session is fully customizable: choose the area you’d like to focus on based on your needs—back, feet, head, hands, legs, or abdomen.",
+        "This weekly ritual helps you restore balance, energy, and serenity, while creating a dedicated self-care moment just for you."
+      ],
+      "time": "4 x 30 minutes",
+      "price": "150"
+    },
+
+    "atelier-massage-bebe": {
+      "name": "Baby Massage Workshop",
+      "description": [
+        "Treat yourself and your baby to three one-hour sessions dedicated to relaxation, discovery, and connection. Inspired by Indian traditions and yoga, this baby massage workshop supports your child’s harmonious development while strengthening the parent-child bond.",
+        "Throughout the sessions, you’ll learn to recognize and respond to your baby’s comfort cues, while offering them a sense of calm and security in a deeply nurturing shared moment.",
+        "The techniques taught can also help relieve common discomforts such as colic, constipation, sleep disturbances, muscle tension, or teething.",
+        "A progressive 3-session package designed to guide both parent and baby through a true ritual of well-being, tenderness, and connection."
+      ],
+      "time": "3 x 45 minutes",
+      "price": "190"
+    },
+
+    "l-essentiel": {
+      "name": "The Essential",
+      "description": [
+        "Let yourself drift into deep relaxation, guided by precise movements that invite complete release. Each gesture, gentle and enveloping, leads you into a state of serenity, dissolving accumulated tension. Enjoy this soothing pause and allow relaxation to flow harmoniously through every part of your body."
+      ],
+      "time": "30 minutes",
+      "price": "45"
+    },
+
+    "haumana": {
+      "name": "Haumana",
+      "description": [
+        "With careful attention to your needs and preferences, this personalized massage is designed to offer you an exceptional experience of relaxation and well-being. Each movement is thoughtfully adapted to meet your expectations and provide a unique sensory journey. Fully enjoy the benefits of this tailor-made massage and treat yourself to a moment of absolute relaxation."
+      ],
+      "time": "1 hour",
+      "price": "85"
+    },
+
+    "future-maman": {
+      "name": "Mom-to-Be",
+      "description": [
+        "The Abhyanga Mom-to-Be massage is a gentle, enveloping treatment that promotes relaxation, well-being, and harmony with your baby. From soft strokes to light stretches, every movement is designed to relieve the body and calm the mind. Warm Monoï oil from Tahiti, suitable for sensitive skin, brings comfort and soothing warmth. Enjoy a unique moment of serenity from the fourth month of pregnancy."
+      ],
+      "time": "1 hour",
+      "price": "85"
+    },
+
+    "mahana": {
+      "name": "Mahana",
+      "description": [
+        "Give your child a moment of gentleness and relaxation, where they can discover the benefits of touch freely. To respect their wishes and needs, they choose the areas to be massaged: legs, back, arms, head, or hands. Each movement is designed to bring calm and serenity, creating a true bubble of relaxation.",
+        "The natural, delicately scented oils awaken the senses while nourishing the skin. During the session, soft and soothing melodies fill the air, enhancing the dreamy and peaceful atmosphere.",
+        "A special moment where your child can reconnect with themselves, away from the noise and stress of daily life."
+      ],
+      "time": "30 minutes",
+      "price": "45",
+      "age": "3 to 8 years"
+    },
+
+    "aroha": {
+      "name": "Aroha",
+      "description": [
+        "Give your child a moment of gentleness and relaxation, where they can discover the benefits of touch freely. To respect their wishes and needs, they choose the areas to be massaged: legs, back, arms, head, or hands. Each movement is designed to bring calm and serenity, creating a true bubble of relaxation.",
+        "The natural, delicately scented oils awaken the senses while nourishing the skin. During the session, soft and soothing melodies fill the air, enhancing the dreamy and peaceful atmosphere.",
+        "A special moment where your child can reconnect with themselves, away from the noise and stress of daily life."
+      ],
+      "time": "45 minutes",
+      "price": "65",
+      "age": "9 to 14 years"
+    },
+
+    "maquillage-de-jour-et-de-soiree": {
+      "name": "Day & Evening Makeup",
+      "description": [
+        "Two approaches, one intention: to enhance your beauty with elegance.",
+        "Makeup is an art that reveals your natural beauty while respecting your personality and the occasion. Whether fresh and radiant for daytime or more intense and sophisticated for the evening, each look is designed to enhance your features with precision and elegance.",
+        "Using professional techniques and products tailored to your skin, makeup brightens the complexion, enhances the eyes, and balances facial features for a natural, harmonious, and long-lasting result.",
+        "✨ Each makeup look is fully personalized to suit your face, style, and occasion—so you feel beautiful, confident, and completely yourself."
+      ],
+      "time": "45 minutes",
+      "price": "50"
+    },
+
+    "maquillage-mariage": {
+      "name": "Bridal Makeup",
+      "description": [
+        "For one of the most beautiful days of your life, your makeup should be natural, radiant, and perfectly aligned with your vision. Every detail matters so you can feel beautiful, confident, and serene throughout the day.",
+        "The service is divided into two stages:",
+        "1. Trial session – A dedicated moment to define your style, test shades, and perfect your look.",
+        "2. Wedding day – I travel to you to enhance your beauty in a calm and gentle atmosphere, with makeup that lasts all day and withstands emotions and photography.",
+        "✨ To enjoy this complete experience and ensure a flawless result from trial to your big day, contact me now to plan your bespoke bridal makeup."
+      ],
+      "time": "2 hours",
+      "price": "150"
+    },
+
+    "maquillage-shooting-photo": {
+      "name": "Photoshoot Makeup",
+      "description": [
+        "During a photoshoot, every detail matters. Makeup must be perfectly adapted to lighting, the camera, and the visual style to enhance your features while ensuring a harmonious and photogenic result.",
+        "Using professional techniques and studio-adapted products, makeup defines your features, brightens the complexion, and enhances the eyes—whether the look is natural or more sophisticated depending on the concept.",
+        "In collaboration with a professional photographer, we offer a complete experience where beauty and photography come together to create elegant, authentic images that reflect your personality.",
+        "✨ To enjoy this full experience and achieve a flawless result from makeup to photography, contact me now to plan your personalized session."
+      ],
+      "time": "1 hour",
+      "price": "65"
+    },
+
+    "transformation": {
+      "name": "Transformation",
+      "title": "A deep journey for lasting change.",
+      "description": [
+        "A complete program to sustainably transform your emotional and physical balance.",
+        "Here, we go deeper: we release, soothe, and transform at the core.",
+        "For you if you feel tired, emotionally overwhelmed, or under pressure, with physical tension and a need to breathe and reset.",
+        "This journey helps release accumulated tension, calm emotions, and support a true process of inner transformation."
+      ],
+      "list": {
+        "1": "8 personalized sessions tailored to your needs",
+        "2": "Deep work on body and emotions",
+        "3": "Support over several weeks",
+        "4": "Personalized follow-up between sessions",
+        "5": "A symbolic closing ritual to honor your journey"
+      }
+    },
+
+    "eveil": {
+      "name": "Awakening",
+      "title": "A first step to reconnect with yourself",
+      "description": [
+        "A short program to release initial tension, soothe your emotions, and begin listening to your body.",
+        "This journey helps you better understand the connection between your emotions and your body, gently initiating a process of rebalancing.",
+        "For you if you feel it’s time to reconnect with yourself, better understand what you’re going through, and bring lasting calm to your body and mind."
+      ],
+      "list": {
+        "1": "8 personalized sessions tailored to your needs",
+        "2": "Deep work on body and emotions",
+        "3": "Support over several weeks"
+      }
+    }
+  },
+  "CartPage": {
+    "h1": "Your Cart",
+    "empty_p": "Your cart is empty..."
+  },
+  "StepsComponents": {
+    "descriptionPackages": {
+      "title": "One-Month Program",
+      "subtitle": "Treat yourself to a month of relaxation with one massage per week, choosing between 1 hour or 30 minutes, designed to release tension and stress while revitalizing both body and mind.",
+      "steps": {
+        "1": "Designing your personalized program",
+        "2": "Enjoy each session",
+        "3": "Experience lasting benefits",
+        "list": {
+          "item_1_1": "A dedicated moment to discuss your needs and goals.",
+          "item_1_2": "Together, we choose the treatment plan best suited to you.",
+          "item_2_1": "Deep relaxation: release tension and fatigue",
+          "item_2_2": "Renewed energy: regain vitality and serenity",
+          "item_2_3": "Personalized massage: tailored to your needs in the moment",
+          "item_3_1": "Body–mind balance: a regular ritual for long-term benefits",
+          "item_3_2": "Overall well-being: a relaxed body, a calm mind, and restored energy."
+        }
+      }
+    },
+
+    "descriptionWomen": {
+      "title": "How Women’s Treatments Work",
+      "subtitle": "Each session is a unique moment, designed to offer you a true space for relaxation, listening, and reconnection with yourself—whether you are pregnant, a young mother, or simply a woman seeking long-term well-being.",
+      "steps": {
+        "1": "A caring exchange",
+        "2": "The treatment",
+        "3": "A gentle return",
+        "list": {
+          "item_1_1": "A moment to get to know you, understand your needs, and set the intention for your treatment.",
+          "item_2_1": "A relaxing and energizing massage tailored to your body and your current energy, and/or a psychology session for deeper inner support.",
+          "item_3_1": "A discussion about your feelings and insights, with a personalized integration guide to take home.",
+          "item_3_2": "Bringing the subtle into the tangible."
+        }
+      }
+    },
+
+    "descriptionBaby": {
+      "title": "How Baby & Children’s Treatments Work",
+      "subtitle": "Each treatment is a unique moment, filled with gentleness and care, designed to support the child’s development, emotions, and overall well-being.",
+      "steps": {
+        "1": "Connection time",
+        "2": "Enjoy each session",
+        "3": "Experience lasting benefits",
+        "list": {
+          "item_1_1": "Each session begins with a discussion to better understand the child, their world, current needs, emotions, and sensitivities.",
+          "item_1_2": "This listening time builds trust and allows the treatment to be perfectly tailored.",
+          "item_2_1": "The heart of the session: a gentle, personalized massage with adapted energy work.",
+          "item_2_2": "Depending on age and needs, a moment of dialogue may be offered to help the child express emotions and feel soothed.",
+          "item_3_1": "After the session, a gentle transition back: a herbal tea for older children, or a cuddle or quiet moment with their parent for babies, along with a small comforting gesture (such as a treat for older children)."
+        }
+      }
+    },
+    "makeup": {
+      "title": "How a Bespoke Makeup Session Works",
+      "steps": {
+        "1": "Define your style",
+        "2": "The perfect makeup",
+        "3": "Shine with confidence",
+        "list": {
+          "item_1_1": "We begin by defining what truly suits you: your preferences, your personality, and the occasion you’re celebrating.",
+          "item_2_1": "Precise techniques and carefully selected shades to enhance your features—whether natural or more sophisticated.",
+          "item_3_1": "The final result reveals the best version of you: makeup that enhances your features and gives you confidence and elegance, ready to shine in every moment."
+        }
+      }
+    },
+
+    "MakeUpPage": {
+      "title": "Professional Makeup – The Art of Enhancing Your Beauty",
+      "subtitle": "Reveal your beauty with bespoke makeup: every gesture and every shade is chosen to enhance your features and reflect your style and personality.",
+
+      "tag": {
+        "1": "Day & Evening Makeup",
+        "2": "Photoshoot Makeup",
+        "3": "Bridal Makeup"
+      },
+
+      "wedding": {
+        "name": "Bridal Makeup",
+        "tag": "2 steps",
+        "time": "2 hours",
+        "price": "150.00 €",
+        "description": "Elegant, long-lasting bridal makeup designed to enhance your natural beauty on your wedding day. Created using professional high-definition products, it ensures a radiant complexion and flawless makeup that lasts throughout the day and photographs beautifully."
+      },
+
+      "daily": {
+        "name": "Day & Evening Makeup",
+        "time": "45 minutes",
+        "price": "50.00 €",
+        "description": "Makeup is an art that adapts to your needs, your personality, and the occasion. While daytime makeup focuses on freshness and simplicity, evening makeup embraces intensity and glamour."
+      },
+
+      "shooting": {
+        "name": "Photoshoot Makeup",
+        "time": "1 hour",
+        "price": "65.00 €",
+        "description": "For a photoshoot, every detail matters. Your makeup and hair must enhance your features while aligning perfectly with the style and theme of the images. Working with professionals ensures a flawless result—natural or sophisticated—that withstands studio lighting and camera angles."
+      },
+
+      "photoNote": {
+        "note": "I collaborate with a talented photographer to offer you a complete and memorable experience. Together, we combine the art of beauty and photography to create images that capture your essence and your style."
+      },
+
+      "discover": "Discover"
+    }
+  },
+  "PsychoPage": {
+    "intro": {
+      "title": "Emotional & Body Rebalancing Support",
+      "subtitle": "For women and/or mothers who feel exhausted and want to reconnect with themselves, find peace, and bring harmony back into their lives and families.",
+
+      "block1": {
+        "p1": "There comes a time in a woman’s life when the body slows down, emotions become more intense, and a deep need to reconnect with oneself arises.",
+        "p2": "Stress, mental load, emotional fatigue, physical tension, loss of direction… These sensations are not random. They are often messengers of an inner imbalance or a need to be heard that has been ignored for too long."
+      },
+
+      "block2": {
+        "p1": "Behind these signs lies an invitation: to slow down, return to yourself, and reconnect with your body.",
+        "p2": "It is to support these transitional phases that I created the Renaissance programs."
+      },
+
+      "block3": {
+        "p1": "Based on the RÉSONANCE Method, these programs offer a gentle and holistic approach that connects words, body, and emotions.",
+        "p2": "They allow you to:"
+      },
+
+      "benefits": {
+        "1": "Soothe stress and emotions",
+        "2": "Release mental load",
+        "3": "Let go of physical tension",
+        "4": "Restore inner balance"
+      },
+
+      "conclusion": "A space to release, feel, understand… and gently reconnect with yourself.",
+      "cta": "Discover the programs"
+    },
+
+    "tagBanner": {
+      "title": "Discover our programs",
+      "tag": {
+        "women": "Renaissance Woman",
+        "mom": "Renaissance Mother",
+        "pma": "Renaissance Fertility",
+        "born": "Renaissance Postnatal"
+      }
+    },
+
+    "method": {
+      "title": "An approach based on my RÉSONANCE Method",
+      "intro": "Each Renaissance program is built on a shared approach:",
+      "final_p": "This approach works deeply on the body, emotions, and your connection to yourself.",
+
+      "1": {
+        "title": "Listening to the body’s messages",
+        "content": "Understanding the emotions expressed through the body, identifying what tension, fatigue, or blockages reveal about your emotional experience."
+      },
+
+      "2": {
+        "title": "Understanding what the body expresses",
+        "content": "Listening to tension and pain as messages, giving meaning to sensations, and gradually releasing what has built up over time."
+      },
+
+      "3": {
+        "title": "Soothing the nervous system",
+        "content": "Regulating the nervous system to ease stress and emotional overload, allowing the body to return to a state of safety and relaxation."
+      },
+
+      "4": {
+        "title": "Releasing tension through touch",
+        "content": "Rebalancing the body through touch to release physical and emotional tension, encouraging deep relaxation."
+      },
+
+      "5": {
+        "title": "Restoring inner balance",
+        "content": "Reconnecting with yourself, regaining emotional stability, and experiencing daily life with more ease and lightness."
+      }
+    },
+
+    "offer": {
+      "title": "Our programs",
+      "discover": "Discover",
+      "buy": "Book now",
+
+      "1": {
+        "name": "Transformation",
+        "price": "€816",
+        "description": "A deep, transformative journey designed to sustainably restore your emotional and physical balance. This program helps release accumulated tension, soothe emotions, and support a true process of inner transformation. Sessions are spaced over time to allow the body and emotions to gently integrate lasting change.",
+        "tag": "Best seller",
+        "list": {
+          "1": "8 personalized sessions tailored to your needs",
+          "2": "Deep work on body and emotions",
+          "3": "Support over several weeks",
+          "4": "Personalized follow-up between sessions",
+          "5": "A symbolic closing ritual to honor your journey"
+        }
+      },
+
+      "2": {
+        "name": "Awakening",
+        "price": "€272",
+        "description": "A first step toward listening to your body and beginning to release physical and emotional tension. This program helps you better understand the connection between your emotions and your body, gently initiating a rebalancing process.",
+        "list": {
+          "1": "3 personalized support sessions",
+          "2": "Psycho-body assessment",
+          "3": "Combined talk & touch approach"
+        }
+      }
+    },
+
+    "clients": {
+      "title": "Our programs",
+
+      "women": {
+        "name": "Renaissance Woman",
+        "title": "Reconnect with yourself and restore balance",
+        "intro": "This program is for women who experience:",
+        "points": [
+          "persistent emotional fatigue",
+          "physical tension or pain linked to stress",
+          "loss of energy or direction",
+          "a feeling of being disconnected from themselves"
+        ],
+        "text": "Renaissance Woman is a space to slow down, release what weighs on you, and rebalance both body and emotions.",
+        "result": "Regain energy, clarity, and inner stability through a journey combining listening, body awareness, and therapeutic touch.",
+        "cta": "I want to reconnect with myself"
+      },
+
+      "mom": {
+        "name": "Renaissance Mother",
+        "title": "Soothe the mother to transform the bond",
+        "intro": "This program is for women who experience:",
+        "points": [
+          "persistent emotional fatigue",
+          "physical tension or pain linked to stress",
+          "loss of energy or direction",
+          "a feeling of being disconnected from themselves"
+        ],
+        "text": "Renaissance Mother offers a space to slow down, release pressure, and restore harmony within yourself and your relationship with your child.",
+        "result": "Find calm, clarity, and emotional balance to nurture a more peaceful daily life and a deeper connection.",
+        "cta": "Bring peace to my daily life"
+      },
+
+      "pma": {
+        "name": "Renaissance Fertility",
+        "title": "Restore trust in your body",
+        "intro": "This program is for women who experience:",
+        "points": [
+          "persistent emotional fatigue",
+          "physical tension or pain linked to stress",
+          "loss of energy or direction",
+          "a feeling of being disconnected from themselves"
+        ],
+        "text": "A gentle and supportive space to reconnect with your body, release emotional tension, and regain trust during your fertility journey.",
+        "result": "Feel more grounded, supported, and aligned with your body throughout your journey.",
+        "cta": "Reconnect with my body"
+      },
+
+      "postNatal": {
+        "name": "Renaissance Postnatal",
+        "title": "Soothe the mother to transform the bond",
+        "intro": "This program is for women who experience:",
+        "points": [
+          "persistent emotional fatigue",
+          "physical tension or pain linked to stress",
+          "loss of energy or direction",
+          "a feeling of being disconnected from themselves"
+        ],
+        "text": "A nurturing space to support you after birth, helping you reconnect with your body and emotions while adjusting to this new chapter.",
+        "result": "Restore energy, emotional balance, and a sense of grounding after childbirth.",
+        "cta": "Reconnect after birth"
+      }
+    },
+
+    "finalCta": {
+      "title": "Taking care of yourself is not a luxury",
+      "description": "If you feel called to this support but aren’t sure which option is right for you, simply reach out—together, we’ll find what best suits your needs.",
+      "cta": "Write to me here to talk about it"
+    }
   },
   "SimilarServices": {
-    "h2": "Similar Services"
+    "h2": "Similar services"
+  },
+
+  "LegalNotices": {
+    "title": "Legal Notice",
+    "update": "Last updated: March 2026",
+
+    "section1": {
+      "title": "1 - Website Publisher",
+      "p1": "In accordance with <law>Article 6 of Law No. 2004-575 of June 21, 2004</law> on confidence in the digital economy, users of the website <site>https://haumana-bien-etre.com/</site> are informed of the identity of the various parties involved in its creation and maintenance:",
+      "p2": "<strong>HAUMANA BIEN-ÊTRE</strong> – SOLE PROPRIETORSHIP, MRS AMBRE CHIARINELLI (HAUMANA BIEN-ÊTRE)<br></br><infos>Registered office</infos>: 200 Rue de l'Épinette, 74160 Présilly, France<br></br>Registered with the Trade and Companies Register<br></br><infos>SIRET</infos>: 853 233 047 000 10<br></br><infos>Publication Director</infos>: Ambre CHIARINELLI<br></br><infos>Contact</infos>: <email>contact@haumana-bien-etre.com</email> – <infos>Phone</infos>: <phone>+33 6 52 69 32 87</phone><br></br><strong>Other contributors:</strong> WEBMASTER – <webmaster>Arthur Barraud</webmaster>"
+    },
+
+    "section2": {
+      "title": "2 - Hosting Provider",
+      "website": "Website"
+    },
+
+    "section3": {
+      "title": "3 - Intellectual Property",
+      "text": "<strong>MRS AMBRE CHIARINELLI (HAUMANA BIEN-ÊTRE)</strong> owns the intellectual property rights and holds usage rights over all elements accessible on the website, including but not limited to texts, images, graphics, logos, videos, architecture, icons, and sounds.<br></br><br></br>Any reproduction, representation, modification, publication, or adaptation of all or part of the website elements, regardless of the means or process used, is prohibited without prior written authorization from <strong>MRS AMBRE CHIARINELLI (HAUMANA BIEN-ÊTRE)</strong>.<br></br><br></br>Any unauthorized use of the website or any of its elements will be considered an infringement and may result in legal action."
+    },
+
+    "section4": {
+      "title": "4 - Personal Data / GDPR",
+      "p1": "Personal data collected via this website (booking forms, contact forms, newsletter subscriptions) is used exclusively by <strong>MRS AMBRE CHIARINELLI (HAUMANA BIEN-ÊTRE)</strong> for the following purposes: managing bookings, communicating with users, and sending newsletters (where consent has been given).",
+      "p2": "In accordance with the General Data Protection Regulation (GDPR) and the French Data Protection Act, you have the right to access, rectify, delete, restrict processing, object to processing, and request data portability. You may withdraw your consent at any time.",
+      "p3": "To exercise your rights, please contact us at: <email>contact@haumana-bien-etre.com</email>.",
+      "p4": "For more information on how your data is collected and processed, please refer to our <privacy>Privacy Policy</privacy>.",
+      "p5": "Personal data is retained only for as long as necessary for the purposes for which it was collected, unless otherwise required by law or regulation."
+    },
+
+    "section5": {
+      "title": "5 - Cookies",
+      "p1": "Browsing the website <website>https://www.haumana-bien-etre.com</website> may result in the installation of cookie(s) on the user's device.",
+      "p2": "A \"cookie\" is a small file that records information relating to a user's browsing activity on a website. The data obtained is used, for example, to facilitate future navigation or to measure website traffic.",
+      "introList": "The cookies used on this website include:",
+      "cookie1": "<strong>Essential cookies</strong>: necessary for the proper functioning of the website (navigation, bookings).",
+      "cookie2": "<strong>Analytics cookies</strong>: used to measure traffic and improve user experience (anonymous statistics via Google Analytics).",
+      "cookie3": "<strong>Advertising cookies</strong> (if applicable): used to personalize ads on other websites.",
+      "p3": "You can accept or refuse cookies by adjusting your browser settings. No non-essential cookies will be placed without your consent. Upon your first visit, a banner allows you to manage your preferences.",
+      "p4": "Cookies are stored for a maximum duration of 13 months from their placement on your device.",
+      "p5": "For more details on how cookies are used, please refer to our <privacy>Privacy Policy</privacy>."
+    },
+
+    "section6": {
+      "title": "6 - Liability",
+      "p1": "<strong>MRS AMBRE CHIARINELLI (HAUMANA BIEN-ÊTRE)</strong> shall not be held liable for any direct or indirect damage caused to the user's equipment when accessing the website <website>https://www.haumana-bien-etre.com</website>.",
+      "p2": "<strong>MRS AMBRE CHIARINELLI (HAUMANA BIEN-ÊTRE)</strong> declines all responsibility for the use that may be made of the information and content present on the website.",
+      "p3": "Despite all efforts made to ensure the accuracy and updating of the content, <strong>MRS AMBRE CHIARINELLI (HAUMANA BIEN-ÊTRE)</strong> cannot be held responsible for any errors or omissions. The website may be suspended or interrupted without notice for maintenance or technical reasons.",
+      "introList": "<strong>MRS AMBRE CHIARINELLI (HAUMANA BIEN-ÊTRE)</strong> undertakes to secure the website as best as possible. However, liability cannot be incurred in the event of:",
+      "li1": "Force majeure (natural events, disasters, strikes, unforeseen legal or regulatory incidents).",
+      "li2": "Failure, malfunction, or unavailability of the server or internet network.",
+      "li3": "Intrusion, hacking, or malicious actions by third parties affecting the website or data.",
+      "li4": "Unauthorized import or installation of unwanted data on the website.",
+      "p4": "Interactive areas (contact forms, bookings, etc.) are available to users. <strong>MRS AMBRE CHIARINELLI (HAUMANA BIEN-ÊTRE)</strong> reserves the right to remove, without prior notice, any content that violates applicable French legislation, particularly in relation to data protection.",
+      "p5": "Where applicable, <strong>MRS AMBRE CHIARINELLI (HAUMANA BIEN-ÊTRE)</strong> also reserves the right to hold users civilly and/or criminally liable, particularly in the event of racist, abusive, defamatory, or pornographic content, regardless of the medium used (text, images, etc.)."
+    },
+
+    "section7": {
+      "title": "7 - External Links",
+      "p1": "The website <website>https://www.haumana-bien-etre.com</website> may contain hyperlinks redirecting to third-party websites. These links are provided for informational purposes only.",
+      "p2": "<strong>MRS AMBRE CHIARINELLI (HAUMANA BIEN-ÊTRE)</strong> has no control over the content, accuracy, legality, or availability of these external websites and cannot be held liable for any direct or indirect damage resulting from access to or use of such third-party resources.",
+      "p3": "The inclusion of such links does not imply any endorsement or association with the operators of these websites. Users are encouraged to review the terms of use and privacy policies of each third-party website before browsing or interacting with them."
+    },
+
+    "section8": {
+      "title": "8 - Governing Law and Jurisdiction",
+      "text": "These legal notices are governed by French law. Any dispute relating to the use of this website shall fall under the exclusive jurisdiction of the courts of Paris."
+    }
+  },
+  "PrivacyPolicy": {
+    "title": "Privacy Policy",
+    "update": "Last updated: March 2026",
+
+    "section1": {
+      "title": "1 – Introduction",
+      "p1": "The website <strong>Haumana Bien-Être (https://www.haumana-bien-etre.com)</strong> is owned by <strong>MRS AMBRE CHIARINELLI (HAUMANA BIEN-ÊTRE)</strong>, who is the data controller of your personal data.",
+      "p2": "We have adopted this Privacy Policy, which outlines how we process the information collected by <strong>Haumana Bien-Être (https://www.haumana-bien-etre.com)</strong> and explains why we must collect certain personal data about you. Therefore, you should read this Privacy Policy before using the <strong>Haumana Bien-Être (https://www.haumana-bien-etre.com)</strong> website.",
+      "p3": "We take your personal data seriously and are committed to ensuring its confidentiality and security."
+    },
+
+    "section2": {
+      "title": "2 – Personal Information We Collect",
+
+      "p1": "When you visit the <strong>Haumana Bien-Être (https://www.haumana-bien-etre.com)</strong> website, we automatically collect certain information about your device, including your web browser, IP address, time zone, and installed cookies, as well as information about the pages you view.<br></br>Additionally, as you browse the website, we collect information about the individual pages or services you view, the websites or search terms that referred you to the website, and how you interact with the website. We refer to this automatically collected information as \"Device Information\".",
+
+      "p2": "We may also collect the personal data you provide to us (such as name, address, payment information, etc.) when you register or place an order, in order to fulfill the contract."
+    },
+
+    "section3": {
+      "title": "3 – Why Do We Process Your Data?",
+
+      "p1": "Our top priority is the security of customer data, and as such, we only process minimal user data, strictly to the extent necessary to maintain the website.",
+
+      "p2": "Automatically collected data is used solely to identify potential cases of abuse and to establish anonymized statistical information regarding website usage. This statistical information is not otherwise aggregated in a way that would identify any particular user.",
+
+      "p3": "You can visit the website without telling us who you are or revealing any information that could identify you as a specific individual. However, if you wish to use certain features of the website, receive our newsletter, or provide other details by filling out a form, you may provide us with personal data such as your email address, first name, last name, city of residence, organization, or phone number. You may choose not to provide your personal data, but this may prevent you from taking advantage of certain features of the website. For example, you may not be able to receive our newsletter or contact us directly through the website. Users who are unsure about which information is mandatory are welcome to contact us at <email>contact@haumana-bien-etre.com</email>."
+    },
+
+    "section4": {
+      "title": "4 – Your Rights",
+
+      "intro": "If you are a European resident, you have the following rights:",
+
+      "li1": "The right to be informed.",
+      "li2": "The right of access.",
+      "li3": "The right to rectification.",
+      "li4": "The right to erasure.",
+      "li5": "The right to restrict processing.",
+      "li6": "The right to data portability.",
+      "li7": "The right to object.",
+      "li8": "Rights related to automated decision-making and profiling.",
+
+      "p1": "To exercise your rights, please contact us at <email>contact@haumana-bien-etre.com</email>.",
+
+      "p2": "Additionally, if you are a European resident, we note that we process your information in order to fulfill contracts we might have with you (for example, if you place an order through the Site), or otherwise to pursue our legitimate business interests listed above. Furthermore, please note that your information may be transferred outside of Europe, including to Canada and the United States."
+    },
+
+    "section5": {
+      "title": "5 – Links to Other Websites",
+
+      "p1": "Our website may contain links to other websites that are not owned or controlled by us. Please be aware that we are not responsible for such other websites or the privacy practices of third parties. We encourage you to be aware when you leave our website and to read the privacy statements of each website that may collect personal information."
+    },
+
+    "section6": {
+      "title": "6 – Information Security",
+      "p1": "We secure the information you provide on computer servers in a controlled, secure environment, protected against unauthorized access, use, or disclosure. We maintain reasonable administrative, technical, and physical safeguards to protect against unauthorized access, use, modification, and disclosure of personal data under our control and custody. However, no data transmission over the Internet or wireless network can be guaranteed."
+    },
+
+    "section7": {
+      "title": "7 – Legal Disclosure",
+      "p1": "We will disclose any information we collect, use, or receive if required or permitted by law, such as to comply with a subpoena or similar legal process, and when we believe in good faith that disclosure is necessary to protect our rights, your safety or the safety of others, investigate fraud, or respond to a government request."
+    },
+
+    "section8": {
+      "title": "8 – Changes to This Policy",
+      "p1": "We reserve the right to modify this Privacy Policy at any time. The version in force is the one published on the website as of the date indicated at the top of the page."
+    },
+
+    "section9": {
+      "title": "9 – Contact",
+      "p1": "If you would like to contact us to better understand this Policy or wish to contact us regarding any matter relating to individual rights and your personal information, please contact us at <email>contact@haumana-bien-etre.com</email>."
+    }
+  },
+  "CGV": {
+    "title": "Terms and Conditions of Sale",
+    "update": "Last updated: April 2026",
+
+    "s1": {
+      "title": "1. Service Provider Identity",
+      "p1": "These Terms and Conditions of Sale (T&Cs) govern the services offered by:",
+      "p2": "<br></br><strong>HAUMANA BIEN-ÊTRE</strong><br></br><infos>Registered office</infos>: 200 Rue de l'Épinette, 74160 Présilly, France<br></br><infos>SIRET</infos>: 853 233 047 000 10<br></br>Email: <email>contact@haumana-bien-etre.com</email>",
+      "p3": "<br></br>Hereinafter referred to as the “Service Provider”.",
+      "p4": "<br></br>And any individual or legal entity making a purchase or reservation, hereinafter referred to as the “Client”.",
+      "p5": "<br></br>The Client declares that they are a legal adult acting for personal purposes, or a professional acting within the scope of their business activity."
+    },
+
+    "s2": {
+      "title": "2. Purpose and Scope",
+      "p1": "These T&Cs define the conditions under which the Service Provider delivers services to the Client, including:",
+      "li1": "booking of wellness services",
+      "li2": "psychopractitioner support sessions",
+      "li3": "professional makeup services",
+      "li4": "sale and use of gift vouchers",
+      "li5": "use of the website and booking tools",
+      "p2": "These T&Cs apply <strong>without restriction or reservation</strong> to all services provided.",
+      "p3": "<br></br>They prevail over any other document unless specific conditions are expressly agreed in writing.",
+      "p4": "<br></br>The Client acknowledges having read and accepted these T&Cs <strong>prior to any booking confirmation or payment.</strong>"
+    },
+
+    "s3": {
+      "title": "3. Description of Services",
+      "p1": "The Service Provider offers, in particular:",
+      "li1": "wellness massages exclusively for women and children",
+      "li2": "psychopractitioner support sessions (non-medical)",
+      "li3": "professional makeup services",
+      "li4": "sale of gift vouchers",
+      "p2": "Services are described as accurately as possible. However, photographs, descriptions, and illustrations are not contractually binding.",
+      "warning": "⚠️ Important",
+      "p3": "The services provided are:",
+      "li_1_1": "strictly non-medical",
+      "li_1_2": "non-therapeutic in a medical sense",
+      "li_1_3": "non-sexual",
+      "p4": "They do not replace:",
+      "li_2_1": "medical supervision",
+      "li_2_2": "treatment prescribed by a healthcare professional",
+      "li_2_3": "medical or psychological diagnosis",
+      "p5": "The Client is expressly informed that the Service Provider is neither a doctor nor a regulated healthcare professional."
+    },
+
+    "s4": {
+      "title": "4. Access Conditions",
+      "sub1": {
+        "title": "4.1 Legal Capacity",
+        "p1": "The Client declares that they have the legal capacity to enter into a contract under applicable laws."
+      },
+      "sub2": {
+        "title": "4.2 Access for Minors",
+        "p1": "Minors may only access services:",
+        "li1": "with prior written authorization from a legal guardian",
+        "li2": "and with the mandatory presence of the guardian throughout the session",
+        "p2": "The Service Provider reserves the right to refuse services if these conditions are not met."
+      },
+      "sub3": {
+        "title": "4.3 Refusal of Service",
+        "p1": "The Service Provider reserves the right to refuse or interrupt a service without refund in the following cases:",
+        "li1": "doubt regarding the Client’s health condition",
+        "li2": "undeclared contraindications",
+        "li3": "inappropriate or disrespectful behavior",
+        "li4": "ambiguous or sexual requests",
+        "li5": "failure to comply with hygiene or safety rules",
+        "p2": "Such refusal shall not give rise to any compensation."
+      }
+    },
+
+    "s5": {
+      "title": "5. Booking",
+      "p1": "Bookings may be made:",
+      "li1": "via the website",
+      "li2": "by phone",
+      "li3": "via message (SMS, social media, email)",
+      "p2": "A booking is considered final and binding:",
+      "li1_1": "after full payment<br></br>OR<br></br>",
+      "li1_2": "after explicit confirmation by the Service Provider",
+      "p3": "The Service Provider reserves the right to cancel or refuse any booking in case of:",
+      "li_2_1": "unavailability",
+      "li_2_2": "technical error",
+      "li_2_3": "force majeure",
+      "li_2_4": "suspected fraud",
+      "p4": "In such cases, the Client will be informed as soon as possible and refunded if necessary."
+    },
+
+    "s6": {
+      "title": "6. Pricing",
+      "p1": "Prices are indicated in euros (€), all taxes included (VAT included).",
+      "p2": "<br></br>Applicable prices are those in effect at the time of booking.",
+      "p3": "<br></br>The Service Provider reserves the right to modify prices at any time without affecting already confirmed bookings.",
+      "p4": "<br></br>Any additional fees (travel, specific services, etc.) are specified prior to validation."
+    },
+
+    "s7": {
+      "title": "7. Payment – STRIPE, SUMUP AND CASH",
+      "p1": "Full payment is required at the time of booking, unless otherwise expressly agreed between the Client and the Service Provider.",
+
+      "sub1": {
+        "title": "7.1 Accepted Payment Methods",
+        "p1": "Accepted payment methods are:",
+        "li1": "Credit/debit card via the secure Stripe platform",
+        "li2": "Credit/debit card via SumUp",
+        "li3": "Cash (only for on-site payments, excluding online bookings)",
+        "p3": "<br></br>Cash payments are not accepted for online bookings unless explicitly stated otherwise by the Service Provider."
+      },
+
+      "sub2": {
+        "title": "7.2 Payment Security",
+        "p1": "Online payments are fully secure and processed by third-party providers:",
+        "li1": "Stripe",
+        "li2": "SumUp",
+        "p2": "These providers comply with international security standards (including PCI-DSS).",
+        "p3": "<br></br>The Service Provider does not have access to the Client’s banking details at any time.",
+        "p5": "<br></br>The Client acknowledges that:",
+        "li1_1": "payment validation constitutes acceptance of the transaction",
+        "li1_2": "electronic proof of payment is generated and stored"
+      },
+
+      "sub3": {
+        "title": "7.3 Payment Validation",
+        "p1": "A booking is considered confirmed only after:",
+        "li1": "payment validation",
+        "li2": "confirmation via email or message",
+        "p2": "If payment is refused by the bank, the booking is automatically canceled.",
+        "p3": "<br></br>The Service Provider cannot be held responsible for consequences related to payment refusal."
+      },
+
+      "sub4": {
+        "title": "7.4 Payment Refusal and Fraud Prevention",
+        "p1": "The Service Provider reserves the right to refuse any booking or service in case of:",
+        "li1": "refused or incomplete payment",
+        "li2": "suspected fraud or misuse of a payment method",
+        "li3": "inconsistent information provided",
+        "li14": "previous dispute with the Client",
+        "li5": "abusive use of chargeback rights",
+        "p2": "The Service Provider may also require:",
+        "li1_1": "full advance payment"
+      },
+
+      "sub5": {
+        "title": "7.5 Chargeback Abuse",
+        "p1": "In the event of abusive chargebacks, the Service Provider reserves the right to:",
+        "li1": "suspend or refuse future bookings",
+        "li2": "initiate legal action to recover amounts due",
+        "li3": "provide evidence (booking, communications, attendance)",
+        "p2": "The Client acknowledges that any booked and completed service constitutes proof of service delivery."
+      },
+
+      "sub6": {
+        "title": "7.6 On-Site Payment",
+        "p1": "For services paid on-site:",
+        "li1": "payment is due immediately after the service",
+        "li2": "cash payments are accepted within legal limits",
+        "p2": "The Service Provider may refuse cash payments in case of:",
+        "li1_1": "high amount",
+        "li1_2": "inability to provide change",
+        "li1_3": "legitimate doubt"
+      },
+
+      "sub7": {
+        "title": "7.7 Late or Non-Payment",
+        "p1": "In case of non-payment:",
+        "li1": "the service may be canceled",
+        "li2": "or refused",
+        "p2": "Any unpaid amount may result in:",
+        "li1_1": "legal action",
+        "li1_2": "debt recovery procedures"
+      }
+    },
+
+    "s8": {
+      "title": "8. Right of Withdrawal",
+      "p1": "In accordance with <law>Article L221-18 of the French Consumer Code</law>, the Client has a 14-day right of withdrawal.",
+      "p2": "<br></br>This right does not apply if:",
+      "li1": "the service has been fully performed before the end of the period",
+      "li2": "the Client has expressly waived their right of withdrawal"
+    },
+
+    "s9": {
+      "title": "9. Cancellation – Rescheduling – No-show",
+      "p1": "<strong>Cancellation by the Client</strong>",
+      "li1": "More than 48 hours before: free refund or rescheduling",
+      "li2": "Between 24 and 48 hours: 50% due",
+      "li3": "Less than 24 hours: 100% due",
+      "li4": "No-show: 100% due",
+      "p2": "<strong>Delay</strong>",
+      "p3": "Any delay by the Client:",
+      "li_1_1": "results in a shortened session",
+      "li_1_2": "does not entitle to any refund or compensation",
+      "p4": "<strong>Cancellation by the Service Provider</strong>",
+      "p5": "In case of inability to provide the service:",
+      "li_2_1": "rescheduling<br></br>OR<br></br>",
+      "li_2_2": "full refund"
+    },
+
+    "s10": {
+      "title": "10. Gift Vouchers",
+      "p1": "Gift vouchers:",
+      "li1": "are valid for 12 months from the purchase date",
+      "li2": "are non-refundable and non-exchangeable",
+      "li3": "cannot be split unless exceptionally agreed",
+      "p2": "They must be presented on the day of the service.",
+      "p3": "<br></br>The Service Provider is not responsible for:",
+      "li_1_1": "loss",
+      "li_1_2": "theft",
+      "li_1_3": "fraudulent use"
+    },
+
+    "s11": {
+      "title": "11. Medical Contraindications",
+      "p1": "The Client agrees to inform the Service Provider of any condition that may impact the service, including:",
+      "li1": "illness",
+      "li2": "injury",
+      "li3": "pregnancy",
+      "li4": "allergies",
+      "li5": "medical treatments",
+      "p2": "The Service Provider reserves the right to refuse a service in case of doubt.",
+      "p3": "<br></br>The Service Provider cannot be held liable in case of incomplete or false declarations."
+    },
+
+    "s12": {
+      "title": "12. Liability",
+      "p1": "The Service Provider is bound by an obligation of means, not of result.",
+      "p2": "Liability cannot be engaged in case of:",
+      "li1": "omission or false declaration by the Client",
+      "li2": "unpredictable physical reaction",
+      "li3": "incompatibility with the Client’s health condition",
+      "li4": "misuse of services or advice",
+      "p3": "No guarantee of results is provided.",
+      "p4": "As services relate to well-being, results may vary between individuals."
+    },
+
+    "s13": {
+      "title": "13. Conduct and Ethics",
+      "p1": "The Client agrees to behave respectfully.",
+      "p2": "Any behavior that is:",
+      "li1": "aggressive",
+      "li2": "inappropriate",
+      "li3": "disrespectful",
+      "li4": "of a sexual nature",
+      "p3": "will result in:",
+      "li_1_1": "immediate termination of the service",
+      "li_1_2": "full payment due",
+      "li_1_3": "permanent exclusion without refund",
+      "p4": "Legal action may be taken if necessary."
+    },
+
+    "s14": {
+      "title": "14. Personal Data",
+      "p1": "Data is processed in accordance with the General Data Protection Regulation (GDPR).",
+      "p2": "<br></br>Collected data is used solely for:",
+      "li1": "appointment management",
+      "li2": "customer relationship",
+      "li3": "billing",
+      "p3": "The Client has rights of access, rectification, and deletion.",
+      "p5": "See the <legal>Legal Notice</legal> and <privacy>Privacy Policy</privacy> for more details."
+    },
+
+    "s15": {
+      "title": "15. Electronic Evidence",
+      "p1": "Data recorded by the Service Provider (emails, bookings, payments) constitutes valid evidence.",
+      "p2": "It has the same legal value as a signed written document."
+    },
+
+    "s16": {
+      "title": "16. Force Majeure",
+      "p1": "The Service Provider shall not be held liable in cases of force majeure, including:",
+      "li1": "illness",
+      "li2": "accident",
+      "li3": "natural disaster",
+      "li4": "technical failure",
+      "li5": "strike",
+      "li6": "pandemic",
+      "p2": "Such events suspend or cancel contractual obligations without compensation."
+    },
+
+    "s17": {
+      "title": "17. Governing Law",
+      "p1": "These Terms and Conditions are governed by French law.",
+      "p2": "<br></br>They are subject in particular to:",
+      "li1": "the French Consumer Code",
+      "li2": "the Civil Code",
+      "li3": "and all applicable regulations",
+
+      "sub1": {
+        "title": "17.1 Consumer Protection",
+        "p1": "Mandatory French consumer protection laws fully apply.",
+        "p2": "<br></br>No provision of these T&Cs may deprive the Client of legal rights."
+      },
+
+      "sub2": {
+        "title": "17.2 Interpretation",
+        "p1": "In case of discrepancy between language versions, the French version shall prevail."
+      },
+
+      "sub3": {
+        "title": "17.3 Severability",
+        "p1": "If any provision is declared invalid, the remaining provisions remain in force."
+      }
+    },
+
+    "s18": {
+      "title": "18. Disputes – Mediation and Jurisdiction",
+
+      "sub1": {
+        "title": "18.1 Amicable Resolution",
+        "p1": "In case of dispute, parties agree to seek an amicable solution first.",
+        "p2": "The Client is invited to contact the Service Provider:",
+        "li1": "by email",
+        "li2": "via the <form>contact form</form>",
+        "li3": "or via the details in the legal notice"
+      },
+
+      "sub2": {
+        "title": "18.2 Consumer Mediation",
+        "p1": "In accordance with French law, the Client may use a consumer mediator free of charge."
+      },
+
+      "sub3": {
+        "title": "18.3 Jurisdiction",
+        "p1": "Failing amicable resolution, disputes fall under French courts."
+      },
+
+      "sub4": {
+        "title": "18.4 Specific Cases",
+        "p1": "Legal action may be taken in cases of:",
+        "li1": "non-payment",
+        "li2": "fraud",
+        "li3": "attempted scam",
+        "li4": "abusive chargeback"
+      }
+    },
+
+    "19": {
+      "title": "19. Acceptance of Terms",
+
+      "p1": "The Client expressly acknowledges:",
+      "li1": "having read these T&Cs before booking or payment",
+      "li2": "having understood them fully",
+      "li3": "accepting them without reservation",
+
+      "sub1": {
+        "title": "19.1 Contractual Value",
+        "p1": "These T&Cs form a legally binding contract.",
+        "p2": "Any booking or payment implies full acceptance."
+      },
+
+      "sub2": {
+        "title": "19.2 Proof of Acceptance",
+        "p1": "Acceptance may be demonstrated by:",
+        "li1": "checkbox validation",
+        "li2": "payment",
+        "li3": "any electronic validation"
+      },
+
+      "sub3": {
+        "title": "19.3 Enforceability",
+        "p1": "These T&Cs apply from the moment of acceptance.",
+        "p2": "They may be modified at any time.",
+        "p3": "The applicable version is the one in force at the time of booking."
+      }
+    }
   }
 }
