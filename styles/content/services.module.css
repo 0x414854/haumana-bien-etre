@@ -446,7 +446,7 @@
 
 @media (min-width: 384px) {
   .servicesSection {
-    top: 130px;
+    top: 100px;
     padding-top: 3rem;
   }
   .serviceTitle {
@@ -462,6 +462,12 @@
     -webkit-box-orient: vertical;
     text-overflow: none;
     overflow: hidden;
+  }
+}
+@media (min-width: 393px) {
+  .servicesSection {
+    top: 90px;
+    padding-top: 3rem;
   }
 }
 @media (min-width: 590px) {

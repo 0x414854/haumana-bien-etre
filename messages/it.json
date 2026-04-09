@@ -562,6 +562,7 @@
       "description": "Durante uno shooting fotografico, ogni dettaglio conta. Il trucco e l’acconciatura devono valorizzare il tuo viso armonizzandosi con lo stile e il tema delle immagini. Affidarsi a professionisti garantisce un risultato impeccabile, naturale o sofisticato, capace di resistere alle luci dello studio e agli obiettivi della macchina fotografica."
     },
     "photoNote": {
+      "tag": "Fotografa",
       "note": "Collaboro con una fotografa di talento per offrirti un’esperienza completa e memorabile. Insieme uniamo l’arte della bellezza e quella della fotografia per creare immagini che catturano la tua essenza e il tuo stile."
     },
     "discover": "Scopri"
@@ -1009,7 +1010,7 @@
         "li5": "uso improprio del diritto di contestazione (chargeback)",
         "p2": "Il Fornitore può inoltre richiedere:",
         "li1_1": "pagamento anticipato completo",
-        "li1_2": "pagamento anticipato completo"
+        "li1_2": "oppure rifiutare eventuali future prenotazioni"
       },
       "sub5": {
         "title": "7.5 Lotta contro le contestazioni abusive (chargebacks)",

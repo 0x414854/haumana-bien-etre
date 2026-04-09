@@ -520,46 +520,46 @@
           "item_3_1": "The final result reveals the best version of you: makeup that enhances your features and gives you confidence and elegance, ready to shine in every moment."
         }
       }
+    }
+  },
+  "MakeUpPage": {
+    "title": "Professional Makeup – The Art of Enhancing Your Beauty",
+    "subtitle": "Reveal your beauty with bespoke makeup: every gesture and every shade is chosen to enhance your features and reflect your style and personality.",
+
+    "tag": {
+      "1": "Day & Evening Makeup",
+      "2": "Photoshoot Makeup",
+      "3": "Bridal Makeup"
     },
 
-    "MakeUpPage": {
-      "title": "Professional Makeup – The Art of Enhancing Your Beauty",
-      "subtitle": "Reveal your beauty with bespoke makeup: every gesture and every shade is chosen to enhance your features and reflect your style and personality.",
+    "wedding": {
+      "name": "Bridal Makeup",
+      "tag": "2 steps",
+      "time": "2 hours",
+      "price": "150.00 €",
+      "description": "Elegant, long-lasting bridal makeup designed to enhance your natural beauty on your wedding day. Created using professional high-definition products, it ensures a radiant complexion and flawless makeup that lasts throughout the day and photographs beautifully."
+    },
 
-      "tag": {
-        "1": "Day & Evening Makeup",
-        "2": "Photoshoot Makeup",
-        "3": "Bridal Makeup"
-      },
+    "daily": {
+      "name": "Day & Evening Makeup",
+      "time": "45 minutes",
+      "price": "50.00 €",
+      "description": "Makeup is an art that adapts to your needs, your personality, and the occasion. While daytime makeup focuses on freshness and simplicity, evening makeup embraces intensity and glamour."
+    },
 
-      "wedding": {
-        "name": "Bridal Makeup",
-        "tag": "2 steps",
-        "time": "2 hours",
-        "price": "150.00 €",
-        "description": "Elegant, long-lasting bridal makeup designed to enhance your natural beauty on your wedding day. Created using professional high-definition products, it ensures a radiant complexion and flawless makeup that lasts throughout the day and photographs beautifully."
-      },
+    "shooting": {
+      "name": "Photoshoot Makeup",
+      "time": "1 hour",
+      "price": "65.00 €",
+      "description": "For a photoshoot, every detail matters. Your makeup and hair must enhance your features while aligning perfectly with the style and theme of the images. Working with professionals ensures a flawless result—natural or sophisticated—that withstands studio lighting and camera angles."
+    },
 
-      "daily": {
-        "name": "Day & Evening Makeup",
-        "time": "45 minutes",
-        "price": "50.00 €",
-        "description": "Makeup is an art that adapts to your needs, your personality, and the occasion. While daytime makeup focuses on freshness and simplicity, evening makeup embraces intensity and glamour."
-      },
+    "photoNote": {
+      "tag": "Photographer",
+      "note": "I collaborate with a talented photographer to offer you a complete and memorable experience. Together, we combine the art of beauty and photography to create images that capture your essence and your style."
+    },
 
-      "shooting": {
-        "name": "Photoshoot Makeup",
-        "time": "1 hour",
-        "price": "65.00 €",
-        "description": "For a photoshoot, every detail matters. Your makeup and hair must enhance your features while aligning perfectly with the style and theme of the images. Working with professionals ensures a flawless result—natural or sophisticated—that withstands studio lighting and camera angles."
-      },
-
-      "photoNote": {
-        "note": "I collaborate with a talented photographer to offer you a complete and memorable experience. Together, we combine the art of beauty and photography to create images that capture your essence and your style."
-      },
-
-      "discover": "Discover"
-    }
+    "discover": "Discover"
   },
   "PsychoPage": {
     "intro": {
@@ -982,23 +982,25 @@
 
       "sub1": {
         "title": "7.1 Accepted Payment Methods",
-        "p1": "Accepted payment methods are:",
+        "p1": "The following payment methods are accepted:",
         "li1": "Credit/debit card via the secure Stripe platform",
         "li2": "Credit/debit card via SumUp",
-        "li3": "Cash (only for on-site payments, excluding online bookings)",
-        "p3": "<br></br>Cash payments are not accepted for online bookings unless explicitly stated otherwise by the Service Provider."
+        "li3": "Cash payment (only for services paid on-site, excluding bookings made online)",
+        "p2": "Cash payment (only for services paid on-site, excluding bookings made online)",
+        "p3": "<br></br>Cash payments are not accepted for bookings made via the website, unless explicitly stated otherwise by the Service Provider."
       },
 
       "sub2": {
         "title": "7.2 Payment Security",
-        "p1": "Online payments are fully secure and processed by third-party providers:",
+        "p1": "Payments made online are fully secured and processed by external payment providers:",
         "li1": "Stripe",
         "li2": "SumUp",
-        "p2": "These providers comply with international security standards (including PCI-DSS).",
+        "p2": "These providers comply with international security standards (notably PCI-DSS).",
         "p3": "<br></br>The Service Provider does not have access to the Client’s banking details at any time.",
-        "p5": "<br></br>The Client acknowledges that:",
-        "li1_1": "payment validation constitutes acceptance of the transaction",
-        "li1_2": "electronic proof of payment is generated and stored"
+        "p4": "The Service Provider does not have access to the Client’s banking details at any time.",
+        "p5": "<br></br>The Client acknowledges and agrees that:",
+        "li1_1": "validation of the payment constitutes acceptance of the transaction",
+        "li1_2": "electronic proof of payment is generated and retained"
       },
 
       "sub3": {
@@ -1019,7 +1021,8 @@
         "li14": "previous dispute with the Client",
         "li5": "abusive use of chargeback rights",
         "p2": "The Service Provider may also require:",
-        "li1_1": "full advance payment"
+        "li1_1": "full advance payment",
+        "li1_2": "or decline any future reservations"
       },
 
       "sub5": {
@@ -1193,17 +1196,22 @@
         "p2": "The Client is invited to contact the Service Provider:",
         "li1": "by email",
         "li2": "via the <form>contact form</form>",
-        "li3": "or via the details in the legal notice"
+        "li3": "or via the details in the legal notice",
+        "p3": "in order to find a quick and appropriate solution as soon as possible."
       },
 
       "sub2": {
         "title": "18.2 Consumer Mediation",
-        "p1": "In accordance with French law, the Client may use a consumer mediator free of charge."
+        "p1": "In accordance with French law, the Client may use a consumer mediator free of charge.",
+        "p2": "After a prior written request to the Service Provider that has not received a satisfactory response, or in the absence of a response within a reasonable period, the Client may refer the matter to the competent mediator."
       },
 
       "sub3": {
-        "title": "18.3 Jurisdiction",
-        "p1": "Failing amicable resolution, disputes fall under French courts."
+        "title": "18.3 Competent Jurisdiction",
+        "p1": "In the absence of an amicable resolution, any dispute shall be brought before the competent French courts in accordance with the applicable rules of law.",
+        "p2": "The consumer Client may bring proceedings before:",
+        "li1": "either one of the courts with territorial jurisdiction under the Code of Civil Procedure",
+        "li2": "or the court of the place where they resided at the time of the conclusion of the contract or the occurrence of the harmful event"
       },
 
       "sub4": {
@@ -1223,19 +1231,23 @@
       "li1": "having read these T&Cs before booking or payment",
       "li2": "having understood them fully",
       "li3": "accepting them without reservation",
+      "li4": "accept them without reservation or restriction",
 
       "sub1": {
         "title": "19.1 Contractual Value",
-        "p1": "These T&Cs form a legally binding contract.",
-        "p2": "Any booking or payment implies full acceptance."
+        "p1": "These General Terms and Conditions constitute a legally binding contract between the Client and the Service Provider.",
+        "p2": "Any booking, order validation, or payment entails:",
+        "li1": "full and unconditional acceptance of the General Terms and Conditions",
+        "li2": "their immediate application"
       },
 
       "sub2": {
         "title": "19.2 Proof of Acceptance",
-        "p1": "Acceptance may be demonstrated by:",
-        "li1": "checkbox validation",
-        "li2": "payment",
-        "li3": "any electronic validation"
+        "p1": "Acceptance of the General Terms and Conditions may be evidenced by:",
+        "li1": "a checkbox ticked during the online booking process",
+        "li2": "a payment made",
+        "li3": "or any electronic validation",
+        "p2": "The recorded data (timestamp, IP address, order confirmation) constitute proof of acceptance of the General Terms and Conditions."
       },
 
       "sub3": {

@@ -46,7 +46,7 @@ export default function MakeUpPage() {
       type: "note",
       image: "/logo/logoInstantBienNaitre.svg",
       alt: "Logo photographe partenaire Instant Bien Être - Haumana Bien-être - Présilly",
-      tag: "Photographe",
+      tag: t("photoNote.tag"),
       text: t("photoNote.note"),
       link: "https://www.instantbiennaitrephotographie.com",
     },
