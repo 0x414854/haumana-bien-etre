@@ -127,6 +127,38 @@
   font-size: var(--fs-12);
 }
 
+@media (min-width: 580px) {
+  .massageImage {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  /* forfaits */
+  .forfaits .massageImage {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  /* soins femme */
+  .soins_femme .massageImage {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  /* bébé */
+  .soins_bébé_enfants .massageImage {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+  }
+}
+
 @media (min-width: 768px) {
   .massagesPageContainer {
     gap: 2rem;
@@ -197,7 +229,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
   }
   /* positions */
   .massage1 {
@@ -236,18 +268,18 @@
     align-items: center;
     justify-content: center;
   }
-  .massageImage {
+  /* .massageImage {
     width: 100%;
-  }
-  .massageCard:nth-child(1) .card .massageImage {
+  } */
+  /* .massageCard:nth-child(1) .card .massageImage {
     width: 60%;
-  }
-  .massageCard:nth-child(2) .card .massageImage {
+  } */
+  /* .massageCard:nth-child(2) .card .massageImage {
     width: 100%;
-  }
-  .massageCard:nth-child(5) .card .massageImage {
+  } */
+  /* .massageCard:nth-child(5) .card .massageImage {
     width: 60%;
-  }
+  } */
 
   .category,
   .duration,
@@ -259,14 +291,15 @@
   }
 }
 @media (min-width: 912px) {
-  .massageCard:nth-child(1) .card .massageImage {
-    width: 50%;
+  .massageImage {
+    width: 350px;
+    height: 350px;
   }
-  .massageCard:nth-child(2) .card .massageImage {
-    width: 100%;
-  }
-  .massageCard:nth-child(5) .card .massageImage {
-    width: 50%;
+  .forfaits .massageImage,
+  .soins_femme .massageImage,
+  .soins_bébé_enfants .massageImage {
+    width: 350px;
+    height: 350px;
   }
 }
 @media (min-width: 1024px) {
@@ -309,21 +342,6 @@
   .massagesGrid.filtered .massageCard {
     width: 48%;
     height: 400px;
-  }
-  .massagesGrid.filtered .massageCard:nth-child(3) {
-    width: 100%;
-  }
-  .massageCard:nth-child(1) .card .massageImage {
-    width: 100%;
-  }
-  .massageCard:nth-child(2) .card .massageImage {
-    width: 50%;
-  }
-  .massageCard:nth-child(5) .card .massageImage {
-    width: 100%;
-  }
-  .massageCard:nth-child(8) .card .massageImage {
-    width: 50%;
   }
 
   /* positions */

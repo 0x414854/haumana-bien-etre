@@ -17,6 +17,7 @@ import InstaLogoHover from "@/public/icons/instagram_hover.svg";
 import WhatsappLogo from "@/public/icons/whatsapp.svg";
 import WhatsappLogoHover from "@/public/icons/whatsapp_hover.svg";
 import ContactForm from "@/app/components/content/form/contactForm";
+import Cta from "@/app/components/content/homepage/cta";
 
 export default function ContactPage() {
   const t = useTranslations("ContactPage");
@@ -255,6 +256,7 @@ export default function ContactPage() {
           <ContactForm />
         </motion.section>
       </section>
+      <Cta />
     </main>
   );
 }

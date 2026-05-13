@@ -1,6 +1,7 @@
 - Ajouter animation sur 'PROGRESS ROUND (Reviews)'
 - Faire traduction de massages en entreprise (page)
 - Changer title et metadescription
+- traduction bouton'retirer' dans le panier => ajout dans la page
 
   UPDATE :
 

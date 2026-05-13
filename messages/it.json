@@ -1230,5 +1230,24 @@
         "p3": "Le CGV applicabili sono quelle in vigore al momento della prenotazione."
       }
     }
+  },
+  "CorpoMassages": {
+    "title": "Soluzioni di Benessere per la tua Azienda",
+    "subtitle": "Offri ai tuoi collaboratori esperienze uniche di relax e performance sostenibile.",
+    "ctaButton": "Richiedi un preventivo per la tua azienda →",
+    "sectionTitle": "I Nostri Servizi Premium",
+    "features": {
+      "title_1": "Massaggio in azienda",
+      "description_1": "Sessioni di relax direttamente in ufficio per ridurre lo stress e aumentare la produttività.",
+      "title_2": "Workshop & Coaching",
+      "description_2": "Workshop personalizzati per migliorare il benessere e la coesione del team.",
+      "title_3": "Eventi su misura",
+      "description_3": "Esperienze premium per i tuoi seminari, team building o conferenze."
+    },
+    "cta": {
+      "title": "Pronto a offrire un’esperienza di benessere ai tuoi team?",
+      "text": "Contattaci subito per un supporto personalizzato.",
+      "button": "Richiedi un preventivo per la tua azienda →"
+    }
   }
 }

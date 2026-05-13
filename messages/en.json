@@ -1257,5 +1257,24 @@
         "p3": "The applicable version is the one in force at the time of booking."
       }
     }
+  },
+  "CorpoMassages": {
+    "title": "Well-being Solutions for Your Company",
+    "subtitle": "Offer your employees unique experiences of relaxation and sustainable performance.",
+    "ctaButton": "Request a quote for your company →",
+    "sectionTitle": "Our Premium Services",
+    "features": {
+      "title_1": "Workplace Massage",
+      "description_1": "Relaxation sessions directly at the office to reduce stress and increase productivity.",
+      "title_2": "Workshops & Coaching",
+      "description_2": "Customized workshops to improve well-being and team cohesion.",
+      "title_3": "Tailor-made Events",
+      "description_3": "Premium experiences for your seminars, team-building sessions, or conferences."
+    },
+    "cta": {
+      "title": "Ready to offer a well-being experience to your teams?",
+      "text": "Contact us now for personalized support.",
+      "button": "Request a quote for your company →"
+    }
   }
 }

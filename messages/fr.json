@@ -1183,5 +1183,24 @@
         "p3": "Les CGV applicables sont celles en vigueur au moment de la réservation."
       }
     }
+  },
+  "CorpoMassages": {
+    "title": "Solutions Bien-être pour votre Entreprise",
+    "subtitle": "Offrez à vos collaborateurs des expériences uniques de détente et de performance durable.",
+    "ctaButton": "Demandez un devis pour votre entreprise →",
+    "sectionTitle": "Nos Services Premium",
+    "features": {
+      "title_1": "Massage en entreprise",
+      "description_1": "Des séances de relaxation directement au bureau pour réduire le stress et augmenter la productivité.",
+      "title_2": "Ateliers & Coaching",
+      "description_2": "Des ateliers personnalisés pour améliorer le bien-être et la cohésion de vos équipes.",
+      "title_3": "Événements sur-mesure",
+      "description_3": "Des expériences premium pour vos séminaires, team-building ou conférences."
+    },
+    "cta": {
+      "title": "Prêt à offrir une expérience bien-être à vos équipes ?",
+      "text": "Contactez-nous dès maintenant pour un accompagnement personnalisé.",
+      "button": "Demandez un devis pour votre entreprise →"
+    }
   }
 }

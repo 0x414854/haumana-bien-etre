@@ -15,9 +15,9 @@ export default function Services() {
       title: t("title_1"),
       description: t("description_1"),
       cta: t("cta_1"),
-      image: "/images/services/services_1.png",
-      alt: "Massage relaxant",
-      href: "/massages/soins-femme",
+      image: "/images/pma.png",
+      alt: "Psychopracticienne - Bien-être Femmes Présilly",
+      href: "/psychopracticienne",
     },
     {
       title: t("title_2"),
@@ -156,12 +156,14 @@ export default function Services() {
                   className={className}
                   onClick={() => updateCarousel(i)}
                 >
-                  <Image
-                    src={service.image}
-                    width={350}
-                    height={450}
-                    alt={service.alt}
-                  />
+                  <Link href={service.href}>
+                    <Image
+                      src={service.image}
+                      width={350}
+                      height={450}
+                      alt={service.alt}
+                    />
+                  </Link>
                 </div>
               );
             })}

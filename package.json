@@ -15,12 +15,15 @@
     "@vercel/speed-insights": "^1.2.0",
     "framer-motion": "^12.23.22",
     "gsap": "^3.13.0",
-    "next": "15.5.9",
+    "intl-messageformat": "^11.2.5",
+    "motion": "^12.38.0",
+    "next": "^16.2.4",
     "next-intl": "^4.3.9",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "resend": "^6.1.2",
     "simplex-noise": "^4.0.3",
-    "stripe": "^20.4.1"
+    "stripe": "^20.4.1",
+    "use-intl": "^4.11.2"
   }
 }

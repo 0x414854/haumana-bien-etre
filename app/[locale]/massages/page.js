@@ -169,7 +169,11 @@ export default function MassagesPage() {
         </ul>
       </div>
       <ul
-        className={`${styles.massagesGrid} ${isFiltered ? styles.filtered : ""}`}
+        className={`
+    ${styles.massagesGrid} 
+    ${isFiltered ? styles.filtered : ""} 
+    ${styles[activeFilter]}
+  `}
       >
         {filteredMassages.map((massage) => (
           <li
