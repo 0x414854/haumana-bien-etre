@@ -14,9 +14,11 @@
 }
 .title {
   font-size: var(--fs-16);
+  color: var(--white);
 }
 .subtitle {
   font-size: var(--fs-12);
+  color: var(--white);
 }
 .reviewsContainer {
   list-style: none;
@@ -27,6 +29,7 @@
   gap: 2rem;
 }
 .reviewCard {
+  background: var(--white);
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -92,7 +95,7 @@
   position: absolute;
   width: calc(var(--size) - var(--thickness) * 2);
   height: calc(var(--size) - var(--thickness) * 2);
-  background: var(--primary-bg); /* couleur fond section */
+  background: var(--white); /* couleur fond section */
   border-radius: 50%;
 }
 

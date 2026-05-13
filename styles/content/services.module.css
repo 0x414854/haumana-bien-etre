@@ -312,6 +312,8 @@
 .serviceDescription {
   display: -webkit-box;
   /* color: #6d6f7a; */
+  color: var(--white);
+
   font-size: var(--fs-1);
   margin-bottom: 30px;
   line-clamp: 4;
