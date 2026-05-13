@@ -111,7 +111,7 @@
   .card {
     position: sticky;
     top: 14vh;
-    height: var(--card-height);
+    height: auto;
     margin-top: calc(var(--index) * var(--card-top-offset));
     /* animation: scale-card linear forwards;
     animation-timeline: view();
@@ -286,6 +286,6 @@
 }
 @media (min-width: 1440px) {
   :root {
-    --card-height: 66vh;
+    --card-height: 76vh;
   }
 }
