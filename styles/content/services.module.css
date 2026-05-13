@@ -526,7 +526,7 @@
     font-size: var(--fs-12);
   }
 }
-@media (min-width: 1280px) and (max-height: 800px) {
+@media (min-width: 1280px) and (min-height: 800px) {
   .scrollSection {
     height: 300vh;
   }
@@ -558,7 +558,7 @@
     font-size: var(--fs-13);
   }
 }
-@media (min-width: 1440px) and (max-height: 800px) {
+@media (min-width: 1440px) and (min-height: 800px) {
   .servicesSection {
     top: 90px;
   }
