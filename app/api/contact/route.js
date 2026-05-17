@@ -4,7 +4,7 @@ import { Resend } from "resend";
 
 const supabase = createClient(
   process.env.SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_ROLE_KEY
+  process.env.SUPABASE_SERVICE_ROLE_KEY,
 );
 
 const resend = new Resend(process.env.RESEND_API_KEY);
@@ -39,7 +39,7 @@ export async function POST(req) {
           success: false,
           code: "error_rate_limit",
         },
-        { status: 429 }
+        { status: 429 },
       );
     }
 
@@ -47,7 +47,7 @@ export async function POST(req) {
     if (body.website) {
       return Response.json(
         { success: false, code: "error_bot_detected" },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
@@ -59,7 +59,7 @@ export async function POST(req) {
     ) {
       return Response.json(
         { success: false, code: "error_length" },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
@@ -84,8 +84,8 @@ export async function POST(req) {
 
     // 2️⃣ Envoyer email via Resend
     await resend.emails.send({
-      from: "Site Haumana <onboarding@resend.dev>", // à changer après vérification domaine
-      to: "ath.tes@proton.me",
+      from: "Site Haumana <website@haumana-bien-etre.com>", // à changer après vérification domaine
+      to: "contact@haumana-bien-etre.com",
       subject: `Nouvelle demande de contact - ${body.firstName} ${body.lastName}`,
       html: contactRequestTemplate({
         firstName: body.firstName,
@@ -108,7 +108,7 @@ export async function POST(req) {
         success: false,
         code: "error_db",
       },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }
