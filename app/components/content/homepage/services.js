@@ -49,7 +49,7 @@ export default function Services() {
       cta: t("cta_5"),
       image: "/images/services/services_5.png",
       alt: "Maquillage",
-      href: "/maquillage",
+      href: "/maquillage-professionnel",
     },
   ];
   const sectionRef = useRef(null);
