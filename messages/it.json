@@ -679,8 +679,8 @@
           "una perdita di energia o punti di riferimento",
           "la sensazione di non essere più davvero connesse a sé stesse"
         ],
-        "text": "Rinascita Donna è uno spazio per rallentare, lasciare andare ciò che pesa e riequilibrare corpo ed emozioni.",
-        "result": "Ritrovare energia, chiarezza e stabilità interiore grazie a un percorso che unisce ascolto, corpo e tocco.",
+        "text": "Rinascita Donna è uno spazio per rallentare, lasciare andare ciò che pesa e riequilibrare il corpo e le emozioni attraverso un approccio dolce e globale.",
+        "result": "Ritrovare energia, chiarezza e stabilità interiore grazie a un accompagnamento che aiuta a riconnettersi profondamente a sé stesse e a ristabilire un equilibrio duraturo.",
         "cta": "Voglio ritrovarmi"
       },
 
@@ -690,12 +690,12 @@
         "intro": "Questo percorso è pensato per donne che sentono:",
         "points": [
           "una stanchezza emotiva persistente",
-          "tensioni o dolori legati allo stress",
-          "una perdita di energia o punti di riferimento",
-          "la sensazione di non essere più davvero connesse a sé stesse"
+          "irritabilità o perdita di pazienza",
+          "un sovraccarico mentale costante",
+          "incomprensioni con il proprio bambino"
         ],
-        "text": "Rinascita Mamma è uno spazio per rallentare, lasciare andare ciò che pesa e riequilibrare corpo ed emozioni.",
-        "result": "Ritrovare energia, chiarezza e stabilità interiore per vivere il quotidiano con più serenità.",
+        "text": "Rinascita Mamma è uno spazio per respirare, ritrovare il proprio equilibrio emotivo e ricreare una relazione più serena con sé stesse e con il proprio bambino.",
+        "result": "Ritrovare più dolcezza, stabilità interiore e un legame familiare più fluido grazie a un accompagnamento centrato sull’ascolto, il corpo e le emozioni.",
         "cta": "Calmare la mia quotidianità"
       },
 
@@ -704,13 +704,13 @@
         "title": "Ritrovare fiducia nel proprio corpo",
         "intro": "Questo percorso è pensato per donne che sentono:",
         "points": [
-          "una stanchezza emotiva persistente",
-          "tensioni o dolori legati allo stress",
-          "una perdita di energia o punti di riferimento",
-          "la sensazione di non essere più davvero connesse a sé stesse"
+          "una pressione interiore costante",
+          "una perdita di fiducia nel proprio corpo",
+          "una profonda stanchezza emotiva",
+          "un senso di solitudine durante il percorso"
         ],
-        "text": "Rinascita PMA è uno spazio per rallentare, lasciare andare ciò che pesa e riequilibrare corpo ed emozioni.",
-        "result": "Ritrovare fiducia, stabilità e connessione profonda con il proprio corpo.",
+        "text": "Rinascita PMA è uno spazio per allentare la pressione emotiva, riconnettersi al proprio corpo e vivere questo percorso con più dolcezza e sostegno interiore.",
+        "result": "Ritrovare calma, fiducia e stabilità emotiva grazie a un accompagnamento benevolo centrato sull’ascolto, il corpo e le emozioni.",
         "cta": "Ritrovare fiducia nel mio corpo"
       },
 
@@ -719,13 +719,13 @@
         "title": "Riconnettersi a sé dopo la nascita",
         "intro": "Questo percorso è pensato per donne che sentono:",
         "points": [
-          "una stanchezza emotiva persistente",
-          "tensioni o dolori legati allo stress",
-          "una perdita di energia o punti di riferimento",
-          "la sensazione di non essere più davvero connesse a sé stesse"
+          "una grande stanchezza fisica ed emotiva",
+          "una sensazione di perdita d’identità",
+          "dolori corporei persistenti",
+          "ipersensibilità emotiva"
         ],
-        "text": "Rinascita Post-Natale è uno spazio per rallentare, lasciare andare ciò che pesa e riequilibrare corpo ed emozioni.",
-        "result": "Ritrovare energia, equilibrio e connessione dopo la nascita.",
+        "text": "Rinascita Post-Natale è uno spazio per fermarsi, sciogliere le tensioni accumulate e riconnettersi al proprio corpo dopo il parto.",
+        "result": "Ritrovare energia, dolcezza e stabilità interiore grazie a un accompagnamento che sostiene il recupero fisico ed emotivo dopo la nascita.",
         "cta": "Riconnettermi dopo la nascita"
       }
     },

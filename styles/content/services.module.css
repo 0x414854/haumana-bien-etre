@@ -526,12 +526,12 @@
     font-size: var(--fs-12);
   }
 }
-@media (min-width: 1280px) and (min-height: 800px) {
+@media (min-width: 1280px) {
   .scrollSection {
     height: 300vh;
   }
   .servicesSection {
-    top: 90px;
+    top: 75px;
   }
   .card.left-1 {
     transform: translateX(-220px) scale(1) translateZ(-100px);
@@ -558,9 +558,9 @@
     font-size: var(--fs-13);
   }
 }
-@media (min-width: 1440px) and (min-height: 800px) {
+@media (min-width: 1440px) {
   .servicesSection {
-    top: 90px;
+    top: 69px;
   }
   .serviceInfo {
     flex-direction: column;

@@ -677,8 +677,8 @@
           "loss of energy or direction",
           "a feeling of being disconnected from themselves"
         ],
-        "text": "Renaissance Woman is a space to slow down, release what weighs on you, and rebalance both body and emotions.",
-        "result": "Regain energy, clarity, and inner stability through a journey combining listening, body awareness, and therapeutic touch.",
+        "text": "Renaissance Woman is a space to slow down, release what feels heavy, and rebalance the body and emotions through a gentle and holistic approach.",
+        "result": "Regain energy, clarity, and inner stability through an accompaniment that helps you reconnect deeply with yourself and restore a lasting balance.",
         "cta": "I want to reconnect with myself"
       },
 
@@ -688,12 +688,12 @@
         "intro": "This program is for women who experience:",
         "points": [
           "persistent emotional fatigue",
-          "physical tension or pain linked to stress",
-          "loss of energy or direction",
-          "a feeling of being disconnected from themselves"
+          "irritability or a loss of patience",
+          "constant mental overload",
+          "misunderstandings with their child"
         ],
-        "text": "Renaissance Mother offers a space to slow down, release pressure, and restore harmony within yourself and your relationship with your child.",
-        "result": "Find calm, clarity, and emotional balance to nurture a more peaceful daily life and a deeper connection.",
+        "text": "Renaissance Mother is a space to breathe, regain emotional balance, and rebuild a more peaceful relationship with yourself and your child.",
+        "result": "Rediscover softness, inner stability, and a more fluid family bond through an accompaniment focused on listening, the body, and emotions.",
         "cta": "Bring peace to my daily life"
       },
 
@@ -702,28 +702,28 @@
         "title": "Restore trust in your body",
         "intro": "This program is for women who experience:",
         "points": [
-          "persistent emotional fatigue",
-          "physical tension or pain linked to stress",
-          "loss of energy or direction",
-          "a feeling of being disconnected from themselves"
+          "constant internal pressure",
+          "a loss of confidence in their body",
+          "deep emotional fatigue",
+          "a feeling of loneliness throughout the journey"
         ],
-        "text": "A gentle and supportive space to reconnect with your body, release emotional tension, and regain trust during your fertility journey.",
-        "result": "Feel more grounded, supported, and aligned with your body throughout your journey.",
+        "text": "Renaissance Fertility is a space to release emotional pressure, reconnect with your body, and go through this journey with more softness and inner support.",
+        "result": "Find calm, trust, and emotional stability through a caring accompaniment centered on listening, the body, and emotions.",
         "cta": "Reconnect with my body"
       },
 
       "postNatal": {
-        "name": "Renaissance Postnatal",
+        "name": "Renaissance Post-Natal",
         "title": "Soothe the mother to transform the bond",
         "intro": "This program is for women who experience:",
         "points": [
-          "persistent emotional fatigue",
-          "physical tension or pain linked to stress",
-          "loss of energy or direction",
-          "a feeling of being disconnected from themselves"
+          "great physical and emotional fatigue",
+          "a feeling of lost identity",
+          "persistent body pain",
+          "emotional hypersensitivity"
         ],
-        "text": "A nurturing space to support you after birth, helping you reconnect with your body and emotions while adjusting to this new chapter.",
-        "result": "Restore energy, emotional balance, and a sense of grounding after childbirth.",
+        "text": "Renaissance Post-Natal is a space to settle, release accumulated tension, and reconnect with your body after childbirth.",
+        "result": "Regain energy, softness, and inner stability through an accompaniment that supports physical and emotional recovery after birth.",
         "cta": "Reconnect after birth"
       }
     },

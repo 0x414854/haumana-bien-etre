@@ -642,8 +642,8 @@
           "une perte d’énergie ou de repères",
           "une sensation de ne plus être vraiment connectée à elles-mêmes"
         ],
-        "text": "Renaissance Femme est un espace pour ralentir, déposer ce qui pèse et réharmoniser le corps et les émotions.",
-        "result": "Retrouver énergie, clarté et stabilité intérieure grâce à un accompagnement mêlant écoute, compréhension du corps et toucher.",
+        "text": "Renaissance Femme est un espace pour ralentir, déposer ce qui pèse et réharmoniser le corps et les émotions à travers une approche douce et globale.",
+        "result": "Retrouver énergie, clarté et stabilité intérieure grâce à un accompagnement qui aide à se reconnecter à soi en profondeur et à rétablir un équilibre durable.",
         "cta": "Je veux me retrouver"
       },
       "mom": {
@@ -652,12 +652,12 @@
         "intro": "Cet accompagnement s’adresse aux femmes qui ressentent :",
         "points": [
           "une fatigue émotionnelle persistante",
-          "des tensions ou douleurs corporelles liées au stress",
-          "une perte d’énergie ou de repères",
-          "une sensation de ne plus être vraiment connectée à elles-mêmes"
+          "de l’irritabilité ou une perte de patience",
+          "une surcharge mentale permanente",
+          "des incompréhensions avec leur enfant"
         ],
-        "text": "Renaissance Femme est un espace pour ralentir, déposer ce qui pèse et réharmoniser le corps et les émotions.",
-        "result": "Retrouver énergie, clarté et stabilité intérieure grâce à un accompagnement mêlant écoute, compréhension du corps et toucher.",
+        "text": "Renaissance Maman est un espace pour souffler, retrouver son équilibre émotionnel et recréer une relation plus apaisée avec soi-même et son enfant.",
+        "result": "Retrouver plus de douceur, de stabilité intérieure et un lien familial plus fluide grâce à un accompagnement centré sur l’écoute, le corps et les émotions.",
         "cta": "Apaiser mon quotidien"
       },
       "pma": {
@@ -665,13 +665,13 @@
         "title": "Apaiser la mère pour transformer le lien",
         "intro": "Cet accompagnement s’adresse aux femmes qui ressentent :",
         "points": [
-          "une fatigue émotionnelle persistante",
-          "des tensions ou douleurs corporelles liées au stress",
-          "une perte d’énergie ou de repères",
-          "une sensation de ne plus être vraiment connectée à elles-mêmes"
+          "une pression intérieure constante",
+          "une perte de confiance dans leur corps",
+          "une fatigue émotionnelle profonde",
+          "un sentiment de solitude dans le parcours"
         ],
-        "text": "Renaissance Femme est un espace pour ralentir, déposer ce qui pèse et réharmoniser le corps et les émotions.",
-        "result": "Retrouver énergie, clarté et stabilité intérieure grâce à un accompagnement mêlant écoute, compréhension du corps et toucher.",
+        "text": "Renaissance PMA est un espace pour relâcher la pression émotionnelle, se reconnecter à son corps et vivre ce parcours avec plus de douceur et de soutien intérieur.",
+        "result": "Retrouver apaisement, confiance et stabilité émotionnelle grâce à un accompagnement bienveillant centré sur l’écoute, le corps et les émotions.",
         "cta": "Retrouver confiance en mon corps"
       },
       "postNatal": {
@@ -679,13 +679,13 @@
         "title": "Apaiser la mère pour transformer le lien",
         "intro": "Cet accompagnement s’adresse aux femmes qui ressentent :",
         "points": [
-          "une fatigue émotionnelle persistante",
-          "des tensions ou douleurs corporelles liées au stress",
-          "une perte d’énergie ou de repères",
-          "une sensation de ne plus être vraiment connectée à elles-mêmes"
+          "une grande fatigue physique et émotionnelle",
+          "une sensation de perte d’identité",
+          "des douleurs corporelles persistantes",
+          "une hypersensibilité émotionnelle"
         ],
-        "text": "Renaissance Femme est un espace pour ralentir, déposer ce qui pèse et réharmoniser le corps et les émotions.",
-        "result": "Retrouver énergie, clarté et stabilité intérieure grâce à un accompagnement mêlant écoute, compréhension du corps et toucher.",
+        "text": "Renaissance Post-Natal est un espace pour se déposer, relâcher les tensions accumulées et se reconnecter à son corps après l’accouchement.",
+        "result": "Retrouver énergie, douceur et stabilité intérieure grâce à un accompagnement qui soutient la récupération physique et émotionnelle après la naissance.",
         "cta": "Me reconnecter après la naissance"
       }
     },
