@@ -32,46 +32,52 @@ const dmSans = DM_Sans({
 });
 
 export const metadata = {
-  title: "Haumana Bien-être - Présilly", // TODO: Change this
+  title:
+    "Haumana Bien-être | Psychopraticienne, Massages & Maquillage à Présilly (74) France",
+
   description:
-    "A modern, ready-to-use Next.js boilerplate with built-in i18n support, clear structure for styles and components, and essential tools preconfigured to kickstart your web projects quickly.", // TODO: Change this
-  icons: [{ url: "/favicon.ico", sizes: "48x48", type: "image/x-icon" }], // TODO: Change this
+    "Haumana Bien-être à Présilly (Haute-Savoie) propose un accompagnement en psychopraticienne, des soins bien-être, massages et prestations maquillage. Un espace dédié à l’harmonie du corps et des émotions pour retrouver équilibre, apaisement et confiance en soi.",
+
+  icons: [{ url: "/favicon.ico", sizes: "48x48", type: "image/x-icon" }],
+
   keywords: [
-    // TODO: Change All keywords
-    "KeyWord_1",
-    "KeyWord_2",
-    "KeyWord_3",
-    "KeyWord_4",
-    "KeyWord_5",
-    "KeyWord_6",
-    "KeyWord_7",
-    "KeyWord_8",
-    "KeyWord_9",
-    "KeyWord_10",
+    "psychopraticienne Présilly",
+    "psychopraticienne Haute-Savoie",
+    "massage bien-être Présilly",
+    "massage 74",
+    "soins énergétiques Haute-Savoie",
+    "bien-être femme",
+    "accompagnement émotionnel",
+    "relaxation et détente",
+    "maquillage professionnel Haute-Savoie",
+    "maquillage événementiel 74",
   ],
-  authors: [{ name: "0x414854 – Arthur BARRAUD" }], // TODO: Change this
+
+  authors: [{ name: "Haumana Bien-être" }],
+
   openGraph: {
-    title: "NextJS Starter - 0x414854", // TODO: Change this
+    title: "Haumana Bien-être | Psychopraticienne & Massages à Présilly (74)",
     description:
-      "A modern, ready-to-use Next.js boilerplate with built-in i18n support, clear structure for styles and components, and essential tools preconfigured to kickstart your web projects quickly.", // TODO: Change this
-    url: "https://viceversa-atelier.com", // TODO: Change this
-    siteName: "NextJS Starter - 0x414854", // TODO: Change this
+      "Accompagnement psychopratique, massages bien-être et maquillage à Présilly en Haute-Savoie. Un espace dédié à l’apaisement, la reconnexion à soi et l’harmonie du corps et des émotions.",
+    url: "https://haumana-bien-etre.fr",
+    siteName: "Haumana Bien-être",
     images: [
       {
-        url: "/ogImage.png", // TODO: Add 'ogImage.png (1200 x 630) in 'public' folder
+        url: "/ogImage.png",
         width: 1200,
         height: 630,
-        alt: "Aperçu portfolio", // TODO: Change this
+        alt: "Haumana Bien-être - Présilly",
       },
     ],
-    locale: "fr_FR", // TODO: Change this
+    locale: "fr_FR",
     type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "NextJS Starter - 0x414854", // TODO: Change this
+    title: "Haumana Bien-être | Présilly (74)",
     description:
-      "A modern, ready-to-use Next.js boilerplate with built-in i18n support, clear structure for styles and components, and essential tools preconfigured to kickstart your web projects quickly.", // TODO: Change this
+      "Psychopraticienne, massages bien-être et maquillage à Présilly. Un accompagnement pour retrouver équilibre et sérénité.",
     images: ["/ogImage.png"],
   },
 };
