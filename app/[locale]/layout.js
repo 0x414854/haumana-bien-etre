@@ -38,7 +38,7 @@ export const metadata = {
   description:
     "Haumana Bien-être à Présilly (Haute-Savoie) propose un accompagnement en psychopraticienne, des soins bien-être, massages et prestations maquillage. Un espace dédié à l’harmonie du corps et des émotions pour retrouver équilibre, apaisement et confiance en soi.",
 
-  icons: [{ url: "/favicon.ico", sizes: "48x48", type: "image/x-icon" }],
+  icons: [{ url: "/logo.ico", sizes: "256x256", type: "image/x-icon" }],
 
   keywords: [
     "psychopraticienne Présilly",
