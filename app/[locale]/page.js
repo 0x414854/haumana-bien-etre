@@ -10,6 +10,7 @@ import Cta from "@/app/components/content/homepage/cta";
 import HeroVideo from "@/app/components/content/homepage/heroVideo";
 import ScrollHero from "../components/content/introScroll";
 
+import MosaicImage from "../components/content/mosaic";
 export default function Home() {
   return (
     <main className={styles.homePage}>
@@ -18,6 +19,7 @@ export default function Home() {
       {/* <Banner />
       <Header /> */}
       <Hero />
+      {/* <MosaicImage /> */}
       <Intro />
       <About />
       <Services />

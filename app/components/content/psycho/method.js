@@ -84,6 +84,7 @@ export default function Method() {
                 width={80}
                 height={80}
                 alt="Icon check - Haumana Bien-ètre - Présilly"
+                loading="eager"
               />
               <h3 className={styles.cardTitle}>{item.title}</h3>
               <p className={styles.text}>{item.content}</p>
