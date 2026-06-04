@@ -48,7 +48,7 @@
   overflow: hidden;
 }
 .imageWrapper {
-  background-image: url(../..//public//images//hero.webp);
+  background-image: url(../..//public//images//mosaic//30.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -238,6 +238,9 @@
 @media (min-width: 1280px) {
   .heroContainer {
     height: 86vh;
+  }
+  .imageWrapper {
+    background-image: url(../..//public//images//mosaic//30.JPG);
   }
   .imageWrapper h1 {
     text-align: center;

@@ -14,10 +14,6 @@ import MosaicImage from "../components/content/mosaic";
 export default function Home() {
   return (
     <main className={styles.homePage}>
-      {/* <HeroVideo /> */}
-      {/* <ScrollHero /> */}
-      {/* <Banner />
-      <Header /> */}
       <Hero />
       {/* <MosaicImage /> */}
       <Intro />

@@ -215,7 +215,7 @@ export default function ContactForm() {
             name="firstName"
             value={formData.firstName}
             onChange={handleChange}
-            placeholder="Arthur"
+            placeholder="Ambre"
             className={errors.firstName ? styles.errorInput : ""}
           />
           {errors.firstName && (
@@ -231,7 +231,7 @@ export default function ContactForm() {
             name="lastName"
             value={formData.lastName}
             onChange={handleChange}
-            placeholder="Barraud"
+            placeholder="Chiarinelli"
             className={errors.lastName ? styles.errorInput : ""}
           />
           {errors.lastName && (
