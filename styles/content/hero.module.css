@@ -48,7 +48,7 @@
   overflow: hidden;
 }
 .imageWrapper {
-  background-image: url(../../public/images/mosaic/30.jpg);
+  background-image: url("/images/mosaic/30.jpg");
   /* background-image: url(../..//public//images//mosaic//30.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
@@ -241,7 +241,7 @@
     height: 86vh;
   }
   .imageWrapper {
-    background-image: url(../../public/images/mosaic/30.jpg);
+    background-image: url("/images/mosaic/30.jpg");
   }
   .imageWrapper h1 {
     text-align: center;
