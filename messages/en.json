@@ -67,6 +67,11 @@
     "h2": "What our clients say about us",
     "h3": "Discover how our clients in Présilly experience Haumana Bien-Être and enjoy our treatments"
   },
+  "Gallery": {
+    "title": "Discover our gallery",
+    "subtitle": "Explore a space designed to encourage relaxation, mindful listening, and renewal through psychotherapy and wellness massages.",
+    "cta": "Explore our gallery"
+  },
   "Cta": {
     "h2": "Turn your day into a moment of softness",
     "p": "Whether it’s a soothing massage or tailor-made makeup, I’m here to help you feel beautiful and relaxed. Book your session easily and let me take care of you.",
@@ -733,6 +738,10 @@
       "description": "If you feel called to this support but aren’t sure which option is right for you, simply reach out—together, we’ll find what best suits your needs.",
       "cta": "Write to me here to talk about it"
     }
+  },
+  "GaleryPage": {
+    "title": "Explore our gallery",
+    "subtitle": "Discover the practice, treatment spaces, and the soothing atmosphere dedicated to psychotherapy, emotional support, and wellness massages."
   },
   "SimilarServices": {
     "h2": "Similar services"

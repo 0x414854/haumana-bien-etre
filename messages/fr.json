@@ -67,6 +67,11 @@
     "h2": "Ce que nos clients disent de nous",
     "h3": "Découvrez comment nos clients à Présilly vivent l’expérience Haumana Bien-être et profitent de nos soins"
   },
+  "Gallery": {
+    "title": "Découvrez notre galerie",
+    "subtitle": "Explorez en images un lieu pensé pour favoriser la détente, l'écoute et le ressourcement à travers la psychopratique et les massages bien-être.",
+    "cta": "Explorez notre galerie"
+  },
   "Cta": {
     "h2": "Transformez votre journée en moment de douceur",
     "p": "Massage apaisant ou maquillage sur-mesure, je suis là pour vous faire sentir belle et détendue. Réservez facilement votre séance et laissez-moi prendre soin de vous.",
@@ -694,6 +699,10 @@
       "description": "Si tu ressens l’appel de cet accompagnement mais que tu ne sais pas quelle formule est la plus juste pour toi, écris-moi simplement : nous pourrons voir ensemble ce qui correspond le mieux à tes besoins.",
       "cta": "Écris-moi ici pour en parler"
     }
+  },
+  "GaleryPage": {
+    "title": "Découvrez notre galerie",
+    "subtitle": "Découvrez en images le cabinet, les espaces de soins et l'ambiance apaisante dédiée à la psychothérapie, à l'accompagnement émotionnel et aux massages bien-être."
   },
   "SimilarServices": {
     "h2": "Services similaires"

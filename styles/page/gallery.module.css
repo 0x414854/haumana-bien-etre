@@ -1,0 +1,218 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 280px; */
+  padding: 60px 20px;
+  background: #f8f5f1;
+  text-align: center;
+}
+
+.heroContent {
+  width: 90%;
+}
+
+.heroContent h1 {
+  margin: 0 0 20px;
+  font-size: var(--fs-16);
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: var(--black);
+}
+
+.heroContent p {
+  margin: 0 auto;
+  font-size: var(--fs-1);
+  color: #6d665f;
+}
+
+.gallerySection {
+  width: 100%;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.image {
+  object-fit: cover;
+
+  transition:
+    transform 0.7s ease,
+    filter 0.5s ease;
+}
+
+.card::after {
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.15));
+
+  opacity: 0;
+
+  transition: 0.4s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+.card:hover .image {
+  transform: scale(1.07);
+}
+
+.card:hover::after {
+  opacity: 1;
+}
+
+/* Images légèrement différentes */
+
+/* .gallery .card:nth-child(2),
+.gallery .card:nth-child(5) {
+  aspect-ratio: 1 / 1;
+} */
+
+/* =========================
+   LIGHTBOX
+========================= */
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fade 0.25s;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.lightboxImage {
+  position: relative;
+
+  width: 100%;
+  height: 80vh;
+
+  border-radius: 25px;
+
+  overflow: hidden;
+}
+
+.fullImage {
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* =========================
+   TABLETTE
+========================= */
+
+@media (min-width: 480px) {
+  /* .hero {
+     min-height: 340px; 
+
+    padding: 80px 30px;
+  } */
+
+  .gallerySection {
+    padding: 0 30px;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 22px;
+  }
+}
+
+/* =========================
+   TABLETTE LARGE
+========================= */
+
+@media (min-width: 768px) {
+  .heroContent h1 {
+    font-size: var(--fs-2);
+  }
+
+  .heroContent p {
+    font-size: var(--fs-11);
+  }
+
+  .gallerySection {
+    width: 90%;
+    margin: 90px auto;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* =========================
+   DESKTOP
+========================= */
+
+@media (min-width: 1024px) {
+  .heroContent h1 {
+    font-size: var(--fs-24);
+  }
+
+  .heroContent p {
+    font-size: var(--fs-12);
+  }
+  .gallery {
+    gap: 1.5rem;
+  }
+
+  .card {
+    border-radius: 24px;
+  }
+}
+
+/* =========================
+   GRAND ECRAN
+========================= */
+
+@media (min-width: 1280px) {
+  .heroContent h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1440px) {
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

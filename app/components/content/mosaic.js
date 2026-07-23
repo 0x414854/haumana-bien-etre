@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function MosaicImage() {
   const images = Array.from(
     { length: 12 },
-    (_, i) => `/images/mosaic/${i + 1}.JPG`,
+    (_, i) => `/images/mosaic/${i + 1}.jpg`,
   );
   const layout = images.map((img, i) => ({
     src: img,
@@ -39,7 +39,7 @@ export default function MosaicImage() {
       <div className={styles.videoWrapper}>
         <video
           className={styles.video}
-          src="/videos/hero.mp4"
+          src="/public/videos/hero.mp4"
           autoPlay
           muted
           loop

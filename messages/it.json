@@ -67,6 +67,11 @@
     "h2": "Cosa dicono i nostri clienti",
     "h3": "Scopri come i nostri clienti a Présilly vivono l’esperienza Haumana Benessere"
   },
+  "Gallery": {
+    "title": "Scopri la nostra galleria",
+    "subtitle": "Esplora un luogo pensato per favorire il rilassamento, l’ascolto e il benessere attraverso la psicoterapia e i massaggi benessere.",
+    "cta": "Esplora la nostra galleria"
+  },
   "Cta": {
     "h2": "Trasforma la tua giornata in un momento di dolcezza",
     "p": "Massaggio rilassante o trucco su misura, sono qui per farti sentire bella e rilassata. Prenota facilmente la tua seduta e lasciati coccolare.",
@@ -735,6 +740,10 @@
       "description": "Se senti il richiamo di questo percorso ma non sai quale sia quello più adatto a te, scrivimi: insieme troveremo ciò che risponde meglio ai tuoi bisogni.",
       "cta": "Scrivimi qui per parlarne"
     }
+  },
+  "GaleryPage": {
+    "title": "Esplora la nostra galleria",
+    "subtitle": "Scopri lo studio, gli spazi dedicati ai trattamenti e l’atmosfera rilassante pensata per la psicoterapia, il supporto emotivo e i massaggi benessere."
   },
   "SimilarServices": {
     "h2": "Servizi simili"

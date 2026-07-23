@@ -1,0 +1,183 @@
+.gallerySection {
+  padding: 60px 20px;
+  background: var(--white);
+  overflow: hidden;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto 2rem;
+  text-align: center;
+  gap: 1rem;
+}
+
+.title {
+  font-size: var(--fs-18);
+  text-align: center;
+  color: var(--black);
+}
+.subtitle {
+  font-size: var(--fs-12);
+  color: var(--grey);
+  text-align: center;
+}
+
+/* CAROUSEL */
+
+.carousel {
+  display: flex;
+
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 1rem;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  position: relative;
+
+  flex: 0 0 85%;
+
+  height: 350px;
+
+  border-radius: 25px;
+
+  overflow: hidden;
+
+  scroll-snap-align: center;
+}
+
+.image {
+  object-fit: cover;
+
+  transition: transform 0.7s ease;
+}
+
+.card::after {
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.25));
+}
+
+.card:hover .image {
+  transform: scale(1.08);
+}
+
+/* BOUTON */
+
+.button {
+  display: flex;
+
+  width: max-content;
+
+  margin: 40px auto 0;
+
+  padding: 15px 35px;
+  border: 1px solid transparent;
+  border-radius: 50px;
+
+  background: var(--accent);
+
+  color: var(--white);
+
+  text-decoration: none;
+
+  font-size: 0.95rem;
+
+  letter-spacing: 0.5px;
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+
+  border: 1px solid var(--accent);
+  background: var(--white);
+  color: var(--accent);
+}
+
+/* TABLETTE */
+
+@media (min-width: 600px) {
+  .gallerySection {
+    padding: 60px 20px;
+  }
+
+  .title {
+    font-size: var(--fs-22);
+  }
+  .subtitle,
+  .button {
+    font-size: var(--fs-11);
+  }
+
+  .carousel {
+    justify-content: center;
+
+    overflow: hidden;
+  }
+
+  .card {
+    flex: 1;
+
+    max-width: 400px;
+
+    height: 420px;
+  }
+}
+
+/* DESKTOP */
+
+@media (min-width: 1024px) {
+  .gallerySection {
+    padding: 80px 60px;
+  }
+
+  .title {
+    font-size: var(--fs-26);
+  }
+  .subtitle,
+  .button {
+    font-size: var(--fs-12);
+  }
+  .carousel {
+    gap: 1rem;
+  }
+
+  .card {
+    height: 500px;
+
+    border-radius: 30px;
+  }
+}
+@media (min-width: 1280px) {
+  .title {
+    font-size: var(--fs-3);
+  }
+  .subtitle,
+  .button {
+    font-size: var(--fs-13);
+  }
+  .carousel {
+    gap: 1rem;
+  }
+
+  .card {
+    height: 500px;
+
+    border-radius: 30px;
+  }
+}

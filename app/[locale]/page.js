@@ -11,6 +11,7 @@ import HeroVideo from "@/app/components/content/homepage/heroVideo";
 import ScrollHero from "../components/content/introScroll";
 
 import MosaicImage from "../components/content/mosaic";
+import Gallery from "../components/content/homepage/gallery";
 export default function Home() {
   return (
     <main className={styles.homePage}>
@@ -20,6 +21,7 @@ export default function Home() {
       <About />
       <Services />
       <Reviews />
+      <Gallery />
       <Cta />
     </main>
   );
