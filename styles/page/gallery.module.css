@@ -208,7 +208,7 @@
 
 @media (min-width: 1280px) {
   .heroContent h1 {
-    font-size: 3rem;
+    font-size: var(--fs-3);
   }
 }
 @media (min-width: 1440px) {
