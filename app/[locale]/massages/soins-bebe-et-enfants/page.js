@@ -5,6 +5,7 @@ import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import Steps from "@/app/components/content/steps";
+import Gallery from "@/app/components/content/homepage/gallery";
 
 export default function BabyTeenPage() {
   const t = useTranslations("BabyTeenPage");
@@ -110,6 +111,7 @@ export default function BabyTeenPage() {
             ))}
           </div>
         </section>
+        <Gallery />
       </section>
     </main>
   );

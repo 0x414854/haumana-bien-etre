@@ -33,24 +33,24 @@ export default function PackagesPage() {
 
   const packages = [
     {
-      id: "harmonie-durable",
+      id: "parenthese-essentielle",
       name: t("package_name_1"),
       time: t("package_time_1"),
       intro: t("package_description_1"),
       description: t("package_description_1_2"),
       discover: t("discover"),
       image: "/images/massages/forfaits.png",
-      alt: "Forfait 1 mois 4 x 30 minutes - Haumana Bien-être",
+      alt: "Massages du monde L'Essentiel - Haumana Bien-être",
     },
     {
-      id: "parenthese-essentielle",
+      id: "harmonie-durable",
       name: t("package_name_2"),
       time: t("package_time_2"),
       intro: t("package_description_2"),
       description: t("package_description_2_2"),
       discover: t("discover"),
       image: "/images/massages/forfaits.png",
-      alt: "Massages du monde L'Essentiel - Haumana Bien-être",
+      alt: "Forfait 1 mois 4 x 30 minutes - Haumana Bien-être",
     },
     {
       id: "atelier-massage-bebe",
@@ -63,6 +63,12 @@ export default function PackagesPage() {
       alt: "Massages du monde L'Essentiel - Haumana Bien-être",
     },
   ];
+  console.log(
+    packages.map((pack) => ({
+      name: pack.name,
+      id: pack.id,
+    })),
+  );
 
   return (
     <main className={styles.pageSection}>

@@ -1,69 +1,179 @@
 .gallerySection {
-  padding: 60px 20px;
-  background: var(--white);
+  width: 100%;
   overflow: hidden;
+  margin: 0 0 4rem 0;
 }
 
-.titleContainer {
+/* ========================================
+   MOBILE
+   < 768px
+======================================== */
+
+.mobileCarousel {
+  position: relative;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobileCard {
+  position: absolute;
   width: 90%;
-  margin: 0 auto 2rem;
-  text-align: center;
-  gap: 1rem;
+  border-radius: 25px;
+  overflow: hidden;
+
+  opacity: 0;
+  transform: translateX(25px) scale(0.98);
+
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+
+  pointer-events: none;
 }
 
-.title {
-  font-size: var(--fs-18);
-  text-align: center;
-  color: var(--black);
-}
-.subtitle {
-  font-size: var(--fs-12);
-  color: var(--grey);
-  text-align: center;
+.mobileCard.active {
+  position: relative;
+  opacity: 1;
+  transform: translateX(0) scale(1);
+  z-index: 2;
 }
 
-/* CAROUSEL */
+.mobileCard::after {
+  content: "";
+  position: absolute;
+  inset: 0;
 
-.carousel {
+  background: linear-gradient(to bottom, transparent 60%, rgba(0, 0, 0, 0.25));
+
+  pointer-events: none;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+
+  transition: transform 1.2s ease;
+}
+
+.mobileCard.active .image {
+  transform: scale(1.03);
+}
+
+/* ========================================
+   INDICATEURS
+======================================== */
+
+.pagination {
+  position: absolute;
+  z-index: 10;
+
+  bottom: 18px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
   display: flex;
-
-  gap: 1rem;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  padding-bottom: 1rem;
+  gap: 7px;
 }
 
-.carousel::-webkit-scrollbar {
-  display: none;
+.dot {
+  width: 7px;
+  height: 7px;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.5);
+
+  transition:
+    width 0.4s ease,
+    background 0.4s ease;
+}
+
+.activeDot {
+  width: 22px;
+
+  border-radius: 10px;
+
+  background: white;
+}
+
+/* ========================================
+   TABLETTE
+   768px → 1279px
+======================================== */
+
+.tabletCarousel {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.tabletCard {
+  position: relative;
+  width: calc(45% - 0.5rem);
+  border-radius: 25px;
+  overflow: hidden;
+  animation: tabletImageIn 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.tabletImage {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.tabletCard::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(to bottom, transparent 60%, rgba(0, 0, 0, 0.25));
+
+  pointer-events: none;
+}
+
+@keyframes tabletImageIn {
+  from {
+    opacity: 0;
+    transform: translateX(25px) scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+/* ========================================
+   DESKTOP
+   1280px+
+======================================== */
+
+.desktopCarousel {
+  width: 96%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0 auto;
 }
 
 .card {
   position: relative;
-
-  flex: 0 0 85%;
-
-  height: 350px;
-
-  border-radius: 25px;
-
+  flex: 1;
   overflow: hidden;
-
-  scroll-snap-align: center;
-}
-
-.image {
-  object-fit: cover;
-
-  transition: transform 0.7s ease;
+  border-radius: 30px;
 }
 
 .card::after {
   content: "";
-
   position: absolute;
-
   inset: 0;
 
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.25));
@@ -73,111 +183,38 @@
   transform: scale(1.08);
 }
 
-/* BOUTON */
+/* ========================================
+   MOBILE
+======================================== */
 
-.button {
-  display: flex;
-
-  width: max-content;
-
-  margin: 40px auto 0;
-
-  padding: 15px 35px;
-  border: 1px solid transparent;
-  border-radius: 50px;
-
-  background: var(--accent);
-
-  color: var(--white);
-
-  text-decoration: none;
-
-  font-size: 0.95rem;
-
-  letter-spacing: 0.5px;
-
-  transition:
-    transform 0.3s ease,
-    background 0.3s ease;
+@media (max-width: 767px) {
+  .tabletCarousel,
+  .desktopCarousel {
+    display: none;
+  }
 }
+/* ========================================
+   TABLETTE
+======================================== */
 
-.button:hover {
-  transform: translateY(-3px);
-
-  border: 1px solid var(--accent);
-  background: var(--white);
-  color: var(--accent);
-}
-
-/* TABLETTE */
-
-@media (min-width: 600px) {
-  .gallerySection {
-    padding: 60px 20px;
-  }
-
-  .title {
-    font-size: var(--fs-22);
-  }
-  .subtitle,
-  .button {
-    font-size: var(--fs-11);
-  }
-
-  .carousel {
-    justify-content: center;
-
-    overflow: hidden;
-  }
-
-  .card {
-    flex: 1;
-
-    max-width: 400px;
-
-    height: 420px;
+@media (min-width: 768px) and (max-width: 1279px) {
+  .mobileCarousel,
+  .desktopCarousel {
+    display: none;
   }
 }
 
-/* DESKTOP */
+/* ========================================
+   DESKTOP
+======================================== */
 
-@media (min-width: 1024px) {
-  .gallerySection {
-    padding: 80px 60px;
-  }
-
-  .title {
-    font-size: var(--fs-26);
-  }
-  .subtitle,
-  .button {
-    font-size: var(--fs-12);
-  }
-  .carousel {
-    gap: 1rem;
-  }
-
-  .card {
-    height: 500px;
-
-    border-radius: 30px;
-  }
-}
 @media (min-width: 1280px) {
-  .title {
-    font-size: var(--fs-3);
+  .mobileCarousel,
+  .tabletCarousel {
+    display: none;
   }
-  .subtitle,
-  .button {
-    font-size: var(--fs-13);
-  }
-  .carousel {
+
+  .desktopCarousel {
     gap: 1rem;
-  }
-
-  .card {
-    height: 500px;
-
-    border-radius: 30px;
   }
 }

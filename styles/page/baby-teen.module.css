@@ -125,7 +125,7 @@
   justify-content: center;
   gap: 2rem;
   width: 90%;
-  margin: 4rem auto;
+  margin: 1rem auto 2rem auto;
 }
 .packageCard {
   position: relative;
@@ -325,7 +325,7 @@
   }
   .packages {
     width: 96%;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     align-items: baseline;
   }
   .packageCard {
