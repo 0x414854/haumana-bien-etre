@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import Steps from "@/app/components/content/steps";
 import Gallery from "@/app/components/content/homepage/gallery";
+import { childrenGallery } from "@/lib/data/galleries";
 
 export default function BabyTeenPage() {
   const t = useTranslations("BabyTeenPage");
@@ -111,7 +112,7 @@ export default function BabyTeenPage() {
             ))}
           </div>
         </section>
-        <Gallery />
+        <Gallery images={childrenGallery} />
       </section>
     </main>
   );

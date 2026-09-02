@@ -6,6 +6,8 @@ import { useTranslations } from "next-intl";
 import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import Steps from "@/app/components/content/steps";
+import Gallery from "@/app/components/content/homepage/gallery";
+import { womenGallery } from "@/lib/data/galleries";
 
 export default function WomenTreatmentsPage() {
   const t = useTranslations("WomenPage");
@@ -105,6 +107,7 @@ export default function WomenTreatmentsPage() {
             ))}
           </div>
         </section>
+        <Gallery images={womenGallery} />
       </section>
     </main>
   );

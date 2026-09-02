@@ -3,37 +3,8 @@
 import styles from "@/styles/content/gallery.module.css";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { useTranslations } from "use-intl";
 
-const images = [
-  {
-    src: "/images/mosaic/1.jpg",
-    alt: "Cabinet de soins",
-    width: 1536,
-    height: 2040,
-  },
-  {
-    src: "/images/mosaic/2.jpg",
-    alt: "Espace détente",
-    width: 416,
-    height: 800,
-  },
-  {
-    src: "/images/mosaic/3.jpg",
-    alt: "Massage bien-être",
-    width: 2048,
-    height: 2720,
-  },
-  // {
-  //   src: "/images/mosaic/4.jpg",
-  //   alt: "Massage bien-être",
-  //   width: 1200,
-  //   height: 800,
-  // },
-];
-
-export default function Gallery() {
-  const t = useTranslations("Gallery");
+export default function Gallery({ images }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -42,13 +13,8 @@ export default function Gallery() {
     }, 4500);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [images.length]);
 
-  // Pour la tablette :
-  // 1 + 2
-  // 2 + 3
-  // 3 + 4
-  // 4 + 1
   const tabletImages = [
     images[currentIndex],
     images[(currentIndex + 1) % images.length],

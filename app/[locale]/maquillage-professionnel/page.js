@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
+import Gallery from "@/app/components/content/homepage/gallery";
+import { makeupGallery } from "@/lib/data/galleries";
 
 import Steps from "@/app/components/content/steps";
 
@@ -156,6 +158,7 @@ export default function MakeUpPage() {
           })}
         </ul>
       </section>
+      <Gallery images={makeupGallery} />
     </main>
   );
 }
