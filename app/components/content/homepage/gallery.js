@@ -10,7 +10,7 @@ export default function Gallery({ images }) {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((current) => (current + 1) % images.length);
-    }, 4500);
+    }, 2000);
 
     return () => clearInterval(interval);
   }, [images.length]);
