@@ -11,10 +11,20 @@ import HeroVideo from "@/app/components/content/homepage/heroVideo";
 import ScrollHero from "../components/content/introScroll";
 
 import MosaicImage from "../components/content/mosaic";
+
+// Ajouter page success ppur payment
+// Ajouter Logo SoinDispo avec le lien qui renvoie vers le site
 export default function Home() {
   return (
     <main className={styles.homePage}>
       <Hero />
+      {/* <iframe
+        src="https://soindispo.com/praticien?slug=ambre-chiarinelli"
+        width="100%"
+        height="720"
+        styles="border:1px solid #e1e8ed;border-radius:12px"
+        title="Réserver avec Ambre Chiarinelli"
+      ></iframe> */}
       {/* <MosaicImage /> */}
       <Intro />
       <About />

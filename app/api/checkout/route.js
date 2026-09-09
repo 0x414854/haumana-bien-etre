@@ -32,9 +32,15 @@ export async function POST(req) {
       payment_method_types: ["card"],
       line_items,
       mode: "payment",
-      success_url: `${baseUrl}/success`,
+      success_url: `${baseUrl}/success?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${baseUrl}/panier`,
       billing_address_collection: "required",
+      phone_number_collection: {
+        enabled: true,
+      },
+      metadata: {
+        locale: locale || "fr",
+      },
     });
 
     return Response.json({ url: session.url });
