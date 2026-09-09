@@ -49,16 +49,18 @@ VÉRIFICATION DU PAIEMENT
 
   if (loading) {
     return (
-      <main className={styles.successPage}>
-        {" "}
-        <section className={styles.stateContainer}>
+      <Suspense fallback={<p>Vérification de votre paiement...</p>}>
+        <main className={styles.successPage}>
           {" "}
-          <div className={styles.loader} />
-          <h1>Vérification du paiement</h1>
-          <p>Nous vérifions la confirmation de votre paiement.</p>
-          <span className={styles.loadingText}>Veuillez patienter...</span>
-        </section>
-      </main>
+          <section className={styles.stateContainer}>
+            {" "}
+            <div className={styles.loader} />
+            <h1>Vérification du paiement</h1>
+            <p>Nous vérifions la confirmation de votre paiement.</p>
+            <span className={styles.loadingText}>Veuillez patienter...</span>
+          </section>
+        </main>
+      </Suspense>
     );
   }
 
@@ -68,20 +70,22 @@ ERREUR
 
   if (error) {
     return (
-      <main className={styles.successPage}>
-        <section className={`${styles.stateContainer} ${styles.errorState}`}>
-          {" "}
-          <div className={styles.errorIcon}>!</div>
-          <h1>Une erreur est survenue</h1>
-          <p>
-            Nous n'avons pas pu récupérer les informations de votre commande.
-          </p>
-          <div className={styles.errorMessage}>{error}</div>
-          <a href="/" className={styles.backButton}>
-            Retour à l'accueil
-          </a>
-        </section>
-      </main>
+      <Suspense fallback={<p>Vérification de votre paiement...</p>}>
+        <main className={styles.successPage}>
+          <section className={`${styles.stateContainer} ${styles.errorState}`}>
+            {" "}
+            <div className={styles.errorIcon}>!</div>
+            <h1>Une erreur est survenue</h1>
+            <p>
+              Nous n'avons pas pu récupérer les informations de votre commande.
+            </p>
+            <div className={styles.errorMessage}>{error}</div>
+            <a href="/" className={styles.backButton}>
+              Retour à l'accueil
+            </a>
+          </section>
+        </main>
+      </Suspense>
     );
   }
 
@@ -90,97 +94,99 @@ SUCCÈS
 ========================= */
 
   return (
-    <main className={styles.successPage}>
-      {" "}
-      <div className={styles.container}>
+    <Suspense fallback={<p>Vérification de votre paiement...</p>}>
+      <main className={styles.successPage}>
         {" "}
-        <section className={styles.confirmation}>
+        <div className={styles.container}>
           {" "}
-          <div className={styles.successIcon}>✓</div>
-          <h1>Paiement confirmé</h1>
-          <p className={styles.subtitle}>
-            Merci {order.customer?.name || ""} !
-            <br />
-            Votre paiement a bien été reçu.
-          </p>
-        </section>
-        {/* =========================
+          <section className={styles.confirmation}>
+            {" "}
+            <div className={styles.successIcon}>✓</div>
+            <h1>Paiement confirmé</h1>
+            <p className={styles.subtitle}>
+              Merci {order.customer?.name || ""} !
+              <br />
+              Votre paiement a bien été reçu.
+            </p>
+          </section>
+          {/* =========================
         INFORMATIONS COMMANDE
     ========================= */}
-        <section className={styles.card}>
-          <div className={styles.cardHeader}>
-            <h2>Informations de la commande</h2>
+          <section className={styles.card}>
+            <div className={styles.cardHeader}>
+              <h2>Informations de la commande</h2>
 
-            <span className={styles.status}>{order.paymentStatus}</span>
-          </div>
-
-          <div className={styles.orderInfo}>
-            <div>
-              <span>Numéro de commande</span>
-
-              <strong className={styles.orderId}>{order.sessionId}</strong>
+              <span className={styles.status}>{order.paymentStatus}</span>
             </div>
 
-            <div>
-              <span>Total</span>
+            <div className={styles.orderInfo}>
+              <div>
+                <span>Numéro de commande</span>
 
-              <strong>{(order.amountTotal / 100).toFixed(2)} €</strong>
+                <strong className={styles.orderId}>{order.sessionId}</strong>
+              </div>
+
+              <div>
+                <span>Total</span>
+
+                <strong>{(order.amountTotal / 100).toFixed(2)} €</strong>
+              </div>
             </div>
-          </div>
-        </section>
-        {/* =========================
+          </section>
+          {/* =========================
         PRODUITS
     ========================= */}
-        <section className={styles.card}>
-          <h2>Votre commande</h2>
+          <section className={styles.card}>
+            <h2>Votre commande</h2>
 
-          <div className={styles.products}>
-            {order.items?.map((item) => (
-              <article className={styles.product} key={item.id}>
-                {item.image && <img src={item.image} alt={item.name} />}
+            <div className={styles.products}>
+              {order.items?.map((item) => (
+                <article className={styles.product} key={item.id}>
+                  {item.image && <img src={item.image} alt={item.name} />}
 
-                <div className={styles.productInfo}>
-                  <h3>{item.name}</h3>
+                  <div className={styles.productInfo}>
+                    <h3>{item.name}</h3>
 
-                  <span>Quantité : {item.quantity}</span>
-                </div>
+                    <span>Quantité : {item.quantity}</span>
+                  </div>
 
-                <strong className={styles.price}>
-                  {(item.amountTotal / 100).toFixed(2)} €
-                </strong>
-              </article>
-            ))}
-          </div>
-        </section>
-        {/* =========================
+                  <strong className={styles.price}>
+                    {(item.amountTotal / 100).toFixed(2)} €
+                  </strong>
+                </article>
+              ))}
+            </div>
+          </section>
+          {/* =========================
         CLIENT
     ========================= */}
-        <section className={styles.card}>
-          <h2>Informations client</h2>
+          <section className={styles.card}>
+            <h2>Informations client</h2>
 
-          <div className={styles.customerInfo}>
-            <div>
-              <span>Nom</span>
-
-              <strong>{order.customer?.name}</strong>
-            </div>
-
-            <div>
-              <span>Email</span>
-
-              <strong>{order.customer?.email}</strong>
-            </div>
-
-            {order.customer?.phone && (
+            <div className={styles.customerInfo}>
               <div>
-                <span>Téléphone</span>
+                <span>Nom</span>
 
-                <strong>{order.customer.phone}</strong>
+                <strong>{order.customer?.name}</strong>
               </div>
-            )}
-          </div>
-        </section>
-      </div>
-    </main>
+
+              <div>
+                <span>Email</span>
+
+                <strong>{order.customer?.email}</strong>
+              </div>
+
+              {order.customer?.phone && (
+                <div>
+                  <span>Téléphone</span>
+
+                  <strong>{order.customer.phone}</strong>
+                </div>
+              )}
+            </div>
+          </section>
+        </div>
+      </main>
+    </Suspense>
   );
 }
