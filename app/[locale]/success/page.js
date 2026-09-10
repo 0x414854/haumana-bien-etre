@@ -3,6 +3,7 @@
 import styles from "@/styles/page/success.module.css";
 import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
+import { Suspense } from "react";
 
 export default function SuccessPage() {
   const searchParams = useSearchParams();
