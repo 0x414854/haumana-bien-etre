@@ -29,7 +29,7 @@ export default function Copyright() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Arthur Barraud
+          Simplitech - Arthur BARRAUD
         </Link>
       </motion.div>
     </section>

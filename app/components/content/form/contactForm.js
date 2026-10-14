@@ -280,6 +280,7 @@ export default function ContactForm() {
           value={formData.service}
           onChange={handleChange}
           className={errors.service ? styles.errorInput : ""}
+          required
         >
           <option value="">{t("selectService")}</option>
           {services.map((group, i) => (
